@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Blade of Disaster",
+			"name": "Fulla del desastre",
 			"source": "TCE",
 			"page": 106,
 			"otherSources": [
@@ -40,9 +40,9 @@
 				}
 			],
 			"entries": [
-				"You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes {@damage 4d12} force damage. This attack scores a critical hit if the number on the {@dice d20} is 18 or higher. On a critical hit, the blade deals an extra {@damage 8d12} force damage (for a total of {@damage 12d12} force damage).",
-				"As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to two melee spell attacks with it again.",
-				"The blade can harmlessly pass through any barrier, including a {@spell wall of force}."
+				"Crees una esquerda planar en forma de fulla d'aproximadament 3 peus de llargada en un espai desocupat que puguis veure dins del rang. La fulla dura fins que el conjur acabi. En llençar el conjur, pots fer que fins a dos atacs de conjur cos a cos amb la fulla, cadascun contra una criatura diferent o un objecte o estructura situats fins a 5 peus de la fulla. Si impacta, l'objectiu rep {@damage 4d12} de dany per força. Aquest atac és crític si el resultat en el dau és 18 o superior. En cas de crític, la fulla infligeix {@damage 8d12} de dany per força addicional (total de {@damage 12d12} de dany per força).",
+				"Com a acció addicional en el teu torn, pots moure la fulla fins a 30 peus a un espai desocupat que puguis veure i després realitzar fins a dos atacs de conjur cos a cos de nou.",
+				"La fulla pot travessar qualsevol barrera, o fins i tot un {@spell wall of force}, sense rebre cap dany."
 			],
 			"damageInflict": [
 				"force"
@@ -59,7 +59,7 @@
 			]
 		},
 		{
-			"name": "Booming Blade",
+			"name": "Fulla explosiva",
 			"source": "TCE",
 			"page": 106,
 			"otherSources": [
@@ -86,7 +86,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon worth at least 1 sp",
+					"text": "una arma cos a cos amb valor d'almenys 1 pp",
 					"cost": 10
 				}
 			},
@@ -100,8 +100,16 @@
 				}
 			],
 			"entries": [
-				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes {@damage 1d8} thunder damage, and the spell ends.",
-				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} thunder damage to the target on a hit, and the damage the target takes for moving increases to {@damage 2d8}. Both damage rolls increase by 1d8 at 11th level ({@damage 2d8} and {@damage 3d8}) and again at 17th level ({@damage 3d8} and {@damage 4d8})."
+				"Brandes l'arma emprada per al llançament del conjur i hi realitzes un atac cos a cos contra una criatura situada fins a 5 peus de tu. Si impacta, l'objectiu rep els efectes normals de l'atac amb arma i després queda envoltat en una energia explosiva fins al començament del teu següent torn. Si l'objectiu es mou voluntàriament 5 peus o més abans del teu següent torn, rep {@damage 1d8} de dany per tro, i el conjur acaba"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "En nivells superiors",
+					"entries": [
+						"El dany del conjur augmenta en arribar a certs nivells: a nivell 5, l'atac cos a cos infligeix {@damage 1d8} de dany per tro addicional si impacta i el dany que rep l'objectiu si es mou és {@damage 2d8}, a nivell 11 augmenten {@damage 1d8} ambdós danys ({@damage 2d8} i {@damage 3d8}), i a nivell 17({@damage 3d8} i {@damage 4d8})."
+					]
+				}
 			],
 			"scalingLevelDice": [
 				{
@@ -134,7 +142,7 @@
 			]
 		},
 		{
-			"name": "Dream of the Blue Veil",
+			"name": "Somni del vel blau",
 			"source": "TCE",
 			"page": 106,
 			"level": 7,
@@ -155,7 +163,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a magic item or a willing creature from the destination world"
+				"m": "un objecte màgic o una criatura voluntària del món de destinació"
 			},
 			"duration": [
 				{
@@ -167,9 +175,9 @@
 				}
 			],
 			"entries": [
-				"You and up to eight willing creatures within range fall {@condition unconscious} for the spell's duration and experience visions of another world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If the spell reaches its full duration, the visions conclude with each of you encountering and pulling back a mysterious blue curtain. The spell then ends with you mentally and physically transported to the world that was in the visions.",
-				"To cast this spell, you must have a magic item that originated on the world you wish to reach, and you must be aware of the world's existence, even if you don't know the world's name. Your destination in the other world is a safe location within 1 mile of where the magic item was created. Alternatively, you can cast the spell if one of the affected creatures was born on the other world, which causes your destination to be a safe location within 1 mile of where that creature was born.",
-				"The spell ends early on a creature if that creature takes any damage, and the creature isn't transported. If you take any damage, the spell ends for you and all the other creatures, with none of you being transported."
+				"Tu i fins a vuit criatures voluntàries dins del rang quedeu {@condition unconscious} fins que el conjur acabi. Experimenteu visions d'un altre món del Pla Material, com Oerth, Toril, Krynn o Eberron. Si el conjur arriba a la seva màxima duració, les visions inclouen una escena en què tots vosaltres trobeu i misteriós vel blau i el descorreu. En fer-ho, el conjur acaba i tots us transporteu físicament i mentalment al món de les visions.",
+				"Per llençar aquest conjur gas de tenir un objecte màgic que s'hagi originat en el món on vols viatjar i n'has de ser conscient de l'existència, encara que no en sàpigues el nom. La vostra destinació en aquell món és un lloc segur que es trobi a 1 milla o menys del lloc on es va crear l'objecte màgic. Com a alternativa, pots llençar aquest conjur si una de les criatures voluntàries pertany a aquell món, fet que provoca que aparegueu en un lloc segur a 1 milla o menys del lloc on va néixer.",
+				"EL conjur acabar per a una criatura si rep dany i, per tant, no es teletransportarà. Si tu reps dany, el conjur acaba per a tothom i ningú es teletransporta."
 			],
 			"conditionInflict": [
 				"unconscious"
@@ -181,7 +189,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Green-Flame Blade",
+			"name": "Fulla de flama verda",
 			"source": "TCE",
 			"page": 107,
 			"otherSources": [
@@ -208,7 +216,7 @@
 			"components": {
 				"s": true,
 				"m": {
-					"text": "a melee weapon worth at least 1 sp",
+					"text": "una arma cos a cos amb valor d'almenys 1 pp",
 					"cost": 10
 				}
 			},
@@ -218,8 +226,16 @@
 				}
 			],
 			"entries": [
-				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.",
-				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} fire damage to the target on a hit, and the fire damage to the second creature increases to {@damage 1d8} + your spellcasting ability modifier. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and 17th level ({@damage 3d8} and {@damage 3d8})."
+				"Brandes l'arma emprada per al llançament del conjur i hi realitzes un atac cos a cos contra una criatura situada fins a 5 peus de tu. Si impacta, l'objectiu rep els efectes normals de l'atac amb arma i pots fer que un foc verd salti d'aquest objectiu a una altra criatura de la teva elecció que puguis veure fins a 5 meus d'ell. La segona criatura rep dany per foc igual al teu modificador per aptitud màgica."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "En nivells superiors",
+					"entries": [
+						"El dany del conjur augmenta en arribar a certs nivells: a nivell 5, l'atac cos a cos infligeix {@damage 1d8} de dany per foc addicional si impacta i el dany que rep la segona criatura augmenta {@damage 1d8} + el teu modificador d'aptitud màgica, a nivell 11 augmenten {@damage 1d8} ambdós danys ({@damage 2d8} i {@damage 2d8}), i a nivell 17 ({@damage 3d8} i {@damage 3d8})."
+					]
+				}
 			],
 			"scalingLevelDice": [
 				{
@@ -254,7 +270,7 @@
 			]
 		},
 		{
-			"name": "Intellect Fortress",
+			"name": "Fortalesa de l'intel·lecte",
 			"source": "TCE",
 			"page": 107,
 			"level": 3,
@@ -286,14 +302,14 @@
 				}
 			],
 			"entries": [
-				"For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws."
+				"Fins que el conjur acabi, tu o una criatura voluntària que puguis veure dins del rang guanya resistència al dany psíquic i avantatge en les tirades de salvació d'Intel·ligència, Saviesa i Carisma."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, pots escollir com a objectiu una criatura addicional per cada nivell per sobre de 3. En el moment d'escollir-la com a objectiu, cada criatura ha d'estar a 30 peus o menys de la resta de criatures."
 					]
 				}
 			],
@@ -306,7 +322,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Lightning Lure",
+			"name": "Atracció del llampec",
 			"source": "TCE",
 			"page": 107,
 			"otherSources": [
@@ -339,8 +355,15 @@
 				}
 			],
 			"entries": [
-				"You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take {@damage 1d8} lightning damage if it is within 5 feet of you.",
-				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+				"Crees un fuet d'energia del llamp que colpeja una criatura de la teva elecció que puguis veure dins del rang. L'objectiu ha de realitzar una tirada de salvació de Força. Si la falla, és arrossegat fins a 10 peus en línia recta cap a tu i després rep {@damage 1d8} de dany per llamp si es troba fins a 5 peus de tu."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "En nivells superiors",
+					"entries": [
+						"El dany del conjur augmenta {@dice 1d8} en arribar a nivell 5 ({@damage 2d8}), a nivell 11 ({@damage 3d8}), i a nivell 17({@damage 4d8})."					]
+				}
 			],
 			"scalingLevelDice": {
 				"label": "lightning damage",
@@ -367,7 +390,7 @@
 			]
 		},
 		{
-			"name": "Mind Sliver",
+			"name": "Estella mental",
 			"source": "TCE",
 			"page": 108,
 			"level": 0,
@@ -398,8 +421,15 @@
 				}
 			],
 			"entries": [
-				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take {@damage 1d6} psychic damage and subtract {@dice 1d4} from the next saving throw it makes before the end of your next turn.",
-				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"Introdueixes una estella desorientadora d'energia psíquica dins la ment d'una criatura que puguis veure dins del rang. La criatura ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, rep {@damage 1d6} de dany psíquic i resta {@dice 1d4} a la següent tirada de salvació que realitzi abans del teu pròxim torn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "En nivells superiors",
+					"entries": [
+						"El dany del conjur augmenta {@dice 1d6} en arribar a nivell 5 ({@damage 2d6}), a nivell 11 ({@damage 3d6}), i a nivell 17({@damage 4d6})."					]
+				}
 			],
 			"scalingLevelDice": {
 				"label": "psychic damage",
@@ -426,7 +456,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Spirit Shroud",
+			"name": "Mortalla espiritual",
 			"source": "TCE",
 			"page": 108,
 			"level": 3,
@@ -458,16 +488,19 @@
 				}
 			],
 			"entries": [
-				"You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable.",
-				"Until the spell ends, any attack you make deals {@damage 1d8} extra damage when you hit a creature within 10 feet of you. This damage is radiant, necrotic, or cold (your choice when you cast the spell). Any creature that takes this damage can't regain hit points until the start of your next turn.",
-				"In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn."
+				"Invoques esperits de criatures mortes, que voletegen al teu voltant fins que el conjur acabi. Els esperits són intangibles i invulnerables,",
+
+				"VEURE PERFIL DE LA CRIATURA",
+				
+				"Fins que el conjur acabi, qualsevol atac que facis causa {@damage 1d8} de dany addicional a una criatura que estigui a 10 peus o menys de tu. Aquest és un dany per fred, radiant o necròtic (a la teva elecció quan llences el conjur). Qualsevol criatura que rebi el dany no pot recuperar punts de vida fins al final del teu pròxim torn.",
+				"A més a més, qualsevol criatura de la teva elecció que puguis veure i comenci el seu torn a 10 peus o menys de tu, la seva velocitat es veu reduïda 10 peus fins al començament del teu pròxim torn."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d8|3,5,7,9|1d8} for every two slot levels above 3rd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, el dany augmenta {@scaledamage 1d8|3,5,7,9|1d8} per cada nivell per sobre de 3."
 					]
 				}
 			],
@@ -481,7 +514,7 @@
 			]
 		},
 		{
-			"name": "Summon Aberration",
+			"name": "Invocar aberració",
 			"source": "TCE",
 			"page": 109,
 			"level": 4,
@@ -503,7 +536,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a pickled tentacle and an eyeball in a platinum-inlaid vial worth at least 400 gp",
+					"text": "un tentacle en salmorra i un globus ocular en un vial amb incrustacions de platí amb un valor d'almenys 400 po",
 					"cost": 40000
 				}
 			},
@@ -518,15 +551,18 @@
 				}
 			],
 			"entries": [
-				"You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Aberrant Spirit|TCE} stat block. When you cast the spell, choose Beholderkin, Slaad, or Star Spawn. The creature resembles an aberration of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un esperit aberrant que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit aberrant. Quan llances el conjur, escull Contemplador, Slaad o Llavor estel·lar. La criatura semblarà una aberració d'aquest tipus, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 5 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -536,7 +572,7 @@
 			]
 		},
 		{
-			"name": "Summon Beast",
+			"name": "Invocar bèstia",
 			"source": "TCE",
 			"page": 109,
 			"level": 2,
@@ -558,7 +594,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 gp",
+					"text": "una ploma, una mica de pèl i cua de peix dins d'una gla daurada amb valor d'almenys 200 po",
 					"cost": 20000
 				}
 			},
@@ -573,15 +609,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a bestial spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Bestial Spirit|TCE} stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature resembles an animal of your choice that is native to the chosen environment, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un esperit aberrant que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit bestial. Quan llances el conjur, escull un hàbitat: terra, mar o aire. La criatura semblarà un animal de la teva elecció d'aquest hàbitat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -591,7 +630,7 @@
 			]
 		},
 		{
-			"name": "Summon Celestial",
+			"name": "Invocar celestial",
 			"source": "TCE",
 			"page": 110,
 			"level": 5,
@@ -613,7 +652,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a golden reliquary worth at least 500 gp",
+					"text": "un reliquiari daurat amb valor d'almenys 500 po",
 					"cost": 50000
 				}
 			},
@@ -628,15 +667,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a celestial spirit. It manifests in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the {@creature Celestial Spirit|TCE} stat block. When you cast the spell, choose Avenger or Defender. Your choice determines the creature's attack in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un esperit celestial que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit celestial. Quan llances el conjur, escull venjador o defensor. L'elecció determinarà com és l'atac de la criatura. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 6 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -647,7 +689,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Summon Construct",
+			"name": "Invocar autòmata",
 			"source": "TCE",
 			"page": 111,
 			"level": 4,
@@ -669,7 +711,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an ornate stone and metal lockbox worth at least 400 gp",
+					"text": "una pedra decorada i una caixa de seguretat metàl·lica amb valor d'almenys 400 po",
 					"cost": 40000
 				}
 			},
@@ -684,15 +726,18 @@
 				}
 			],
 			"entries": [
-				"You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Construct Spirit|TCE} stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un esperit d'un autòmat que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit de l'autòmat. Quan llances el conjur, escull un material: argila, metall o pedra. La criatura semblarà un golem o un modron (a la teva elecció) del material escollit, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -702,7 +747,7 @@
 			]
 		},
 		{
-			"name": "Summon Elemental",
+			"name": "Invocar elemental",
 			"source": "TCE",
 			"page": 111,
 			"level": 4,
@@ -724,7 +769,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "air, a pebble, ash, and water inside a gold-inlaid vial worth at least 400 gp",
+					"text": "aire, una pedra, cendra i aigua dins d'un vial amb incrustacions d'or amb valor d'almenys 400 po",
 					"cost": 40000
 				}
 			},
@@ -739,15 +784,18 @@
 				}
 			],
 			"entries": [
-				"You call forth an elemental spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Elemental Spirit|TCE} stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un esperit elemental que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit elemental. Quan llances el conjur, escull un element: aigua, terra, foc o aire. La criatura semblarà un ésser bípede envoltat de l'element escollit, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 5 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -757,7 +805,7 @@
 			]
 		},
 		{
-			"name": "Summon Fey",
+			"name": "Invocar feèric",
 			"source": "TCE",
 			"page": 112,
 			"level": 3,
@@ -779,7 +827,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded flower worth at least 300 gp",
+					"text": "una flor banyada en or amb valor d'almenys 300 po",
 					"cost": 30000
 				}
 			},
@@ -794,15 +842,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fey Spirit|TCE} stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un esperit feèric que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit feèric. Quan llances el conjur, escull un estat d'ànim: furiós, alegre o burleta. La criatura semblarà un ésser feèric amb aquest estat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -812,7 +863,7 @@
 			]
 		},
 		{
-			"name": "Summon Fiend",
+			"name": "Invocar infernal",
 			"source": "TCE",
 			"page": 112,
 			"level": 6,
@@ -834,7 +885,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "humanoid blood inside a ruby vial worth at least 600 gp",
+					"text": "sang d'humanoide dins d'un vial de robí amb valor d'almenys 600 po",
 					"cost": 60000
 				}
 			},
@@ -849,15 +900,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a fiendish spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fiendish Spirit|TCE} stat block. When you cast the spell, choose Demon, Devil, or Yugoloth. The creature resembles a fiend of the chosen type, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un esperit infernal que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit infernal. Quan llances el conjur, escull: dimoni, diable o yugoloth. La criatura semblarà un infernal d'aquest estat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 7 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -867,7 +921,7 @@
 			]
 		},
 		{
-			"name": "Summon Shadowspawn",
+			"name": "Invocar engendrament de les ombres",
 			"source": "TCE",
 			"page": 113,
 			"level": 3,
@@ -889,7 +943,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "tears inside a gem worth at least 300 gp",
+					"text": "llàgrimes dins d'una gemma amb valor d'almenys 300 po",
 					"cost": 30000
 				}
 			},
@@ -904,15 +958,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a shadowy spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Shadow Spirit|TCE} stat block. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature resembles a misshapen biped marked by the chosen emotion, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un esperit de les ombres que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit de les ombres. Quan llances el conjur, escull una emoció: fúria, desesperació o terror. La criatura semblarà un ésser bípede deforme marcar per aquesta emoció, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -923,7 +980,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Summon Undead",
+			"name": "Invocar mort vivent",
 			"source": "TCE",
 			"page": 114,
 			"level": 3,
@@ -945,7 +1002,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded skull worth at least 300 gp",
+					"text": "una calavera banyada en or amb valor d'almenys 300 po",
 					"cost": 30000
 				}
 			},
@@ -960,15 +1017,18 @@
 				}
 			],
 			"entries": [
-				"You call forth an undead spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Undead Spirit|TCE} stat block. When you cast the spell, choose the creature's form: Ghostly, Putrid, or Skeletal. The spirit resembles an undead creature with the chosen form, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un esperit mort vivent que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit mort vivent. Quan llances el conjur, escull la forma de la criatura: fantasmal, pútrida o esquelètica. La criatura semblarà un mort vivent amb la forma escollida, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -978,7 +1038,7 @@
 			]
 		},
 		{
-			"name": "Sword Burst",
+			"name": "Esclat d'espases",
 			"source": "TCE",
 			"page": 115,
 			"otherSources": [
@@ -1011,8 +1071,16 @@
 				}
 			],
 			"entries": [
-				"You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take {@damage 1d6} force damage.",
-				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Crees un cercle momentani d'espases espectrals que fan un escombrat al teu voltant. Totes les criatures fins a 5 peus de tu han de realitzar una tirada de salvació de Destresa. Si la fallen, reben {@damage 1d6} de dany per Força."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "En nivells superiors",
+					"entries": [
+						"El dany del conjur augmenta {@dice 1d6} en arribar a nivell 5 ({@damage 2d6}), a nivell 11 ({@damage 3d6}), i a nivell 17({@damage 4d6})."
+					]
+				}
 			],
 			"scalingLevelDice": {
 				"label": "force damage",
@@ -1037,7 +1105,7 @@
 			]
 		},
 		{
-			"name": "Tasha's Caustic Brew",
+			"name": "Beuratge càstic de Tasha",
 			"source": "TCE",
 			"page": 115,
 			"level": 1,
@@ -1058,7 +1126,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of rotten food"
+				"m": "una mica de menjar podrit"
 			},
 			"duration": [
 				{
@@ -1071,14 +1139,14 @@
 				}
 			],
 			"entries": [
-				"A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes {@damage 2d4} acid damage at start of each of its turns."
+				"De tu emana un raig d'àcid en una línia recta de 30 peus de llargada i 5 peus d'amplada en la direcció que escullis. Cada criatura que es trobi dins l'àrea del raig ha de realitzar una tirada de salvació de Destresa. Si la falla, queda coberta d'àcid fins que el conjur acabi o fins que una criatura faci servir la seva acció per treure's l'àcid i treure-l'hi a una altra criatura. Una criatura coberta d'àcid rep {@damage 2d4} de dany per àcid al començament de cadascun dels seus torns."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d4|1-9|2d4} for each slot level above 1st."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 2 o superior, el dany augmenta {@scaledamage 2d4|1-9|2d4} per cada nivell per sobre d'1."
 					]
 				}
 			],
@@ -1090,7 +1158,7 @@
 			]
 		},
 		{
-			"name": "Tasha's Mind Whip",
+			"name": "Fuet mental de Tasha",
 			"source": "TCE",
 			"page": 115,
 			"level": 2,
@@ -1121,14 +1189,14 @@
 				}
 			],
 			"entries": [
-				"You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects."
+				"Ataques amb un fuet psíquic una criatura que puguis veure dins del rang. L'objectiu ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, rep {@damage 3d6} de dany psíquic i no pot dur a terme cap reacció fins al final del seu pròxim torn. A més a més, en el seu pròxim torn, ha d'escollir entre un moviment, una acció o una acció addicional; només en pot dur a terme una de les tres. Si supera la tirada, l'objectiu rep la meitat del dany i no pateix la resta dels efectes del conjur."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, pots escollir com a objectiu una criatura addicional per cada nivell per sobre de 2. La criatura ha d'estar fins a 30 peus d'un altre objectiu."
 					]
 				}
 			],
@@ -1147,7 +1215,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Tasha's Otherworldly Guise",
+			"name": "Aparença espectral de Tasha",
 			"source": "TCE",
 			"page": 116,
 			"level": 6,
@@ -1168,7 +1236,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an object engraved with a symbol of the Outer Planes, worth at least 500 gp",
+					"text": "un objecte que tingui gravat un símbol dels Plans Exteriors amb valor d'almenys 500 po",
 					"cost": 50000
 				}
 			},
@@ -1183,16 +1251,16 @@
 				}
 			],
 			"entries": [
-				"Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:",
+				"Pronuncies unes paraules de poder i recorres a la màgia dels Plans Inferiors o els Plans Superiors (a la teva elecció) per transformar-te. Fins que el conjur acabi, obtens els següents beneficis:",
 				{
 					"type": "list",
 					"items": [
-						"You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).",
-						"You are immune to the {@condition poisoned} condition (Lower Planes) or the {@condition charmed} condition (Upper Planes).",
-						"Spectral wings appear on your back, giving you a flying speed of 40 feet.",
-						"You have a +2 bonus to AC.",
-						"All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
-						"You can attack twice, instead of once, when you take the {@action Attack} action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that lets you attack more than once when you take the Attack action on your turn."
+						"Ets immune al dany per foc i per verí (Plans Inferiors) o al dany radiant i necròtic (Plans Superiors)",
+						"Ets immune a l'estat {@condition poisoned} (Plans Inferiors) o a l'estat {@condition charmed} (Plans Superiors).",
+						"De la teva espasa brotes unes ales espectrals que t'atorguen velocitat de vol de 40 peus.",
+						"Obtens un bonificador de +2 a la teva CA.",
+						"Tots els teus atacs amb arma són màgics, i quan realitzes un atac amb arma, pots fer servir el teu modificador per aptitud màgica en comptes de la teva Força o Destresa per a les tirades d'atac i de dany.",
+						"Quan duguis a terme l'acció d'atacar durant el teu torn, pots realitzar dos atacs en comptes d'un. Ignores aquest benefici si ja tens un tret que et permeti atacar més d'un cop quan realitzes l'acció d'atacar durant el teu torn."
 					]
 				}
 			],

@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Conjure Barlgura (UA)",
+			"name": "Conjurar Barlgura",
 			"source": "UAThatOldBlackMagic",
 			"page": 2,
 			"level": 4,
@@ -34,9 +34,9 @@
 				}
 			],
 			"entries": [
-				"You summon a {@creature barlgura} that appears in an unoccupied space you can see within range. The {@creature barlgura} disappears when it drops to 0 hit points or when the spell ends.",
-				"The {@creature barlgura} is hostile to all non-demons. Roll initiative for the {@creature barlgura}, which has its own turns. At the start of its turn, it moves toward and attacks the nearest non-demon it can perceive. If two or more creatures are equally near, it picks one at random. If it cannot see any potential enemies, the {@creature barlgura} moves in a random direction in search of foes.",
-				"As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned {@creature barlgura} cannot cross the circle or target anyone in it while the spell lasts."
+				"Invoques un {@creature barlgura} que apareix en un espai desocupat que puguis veure dins del rang. La criatura desapareix quan els seus punts de vida es veuen reduïts a 0 o quan el conjur acaba.",
+				"El {@creature barlgura} és hostil cap a tots els no dimonis. Realitza una tirada d'iniciativa per al dimoni, que té els seus propis torns. Al començament del seu torn, es mou cap a la criatura no dimoni més propera que pugui percebre i l'ataca. Si n'hi ha més d'una, n'escull una aleatòriament. Si no pot veure cap enemic potencial, el dimoni es mou en una direcció aleatòria a la cerca d'enemics.",
+				"Com a part del llançament del conjur, pots inscriure un cercle a terra fent servir la sang d'un humanoide intel·ligent mort en les últimes 24 hores. El cercle és prou gran per cabre en el teu espai. La criatura invocada no pot travessar el cercle o escollir com a objectiu ningú dins del cercle fins que el conjur acabi."
 			],
 			"miscTags": [
 				"SGT",
@@ -44,7 +44,7 @@
 			]
 		},
 		{
-			"name": "Conjure Hezrou (UA)",
+			"name": "Conjurar Hezrou",
 			"source": "UAThatOldBlackMagic",
 			"page": 2,
 			"level": 7,
@@ -66,7 +66,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "food worth at least 100 gp, which the spell consumes",
+					"text": "menjar amb valor d'almenys 100 po, que es consumeix amb el conjur",
 					"cost": 10000,
 					"consume": true
 				}
@@ -82,10 +82,10 @@
 				}
 			],
 			"entries": [
-				"You summon a {@creature hezrou} that appears in an unoccupied space you can see within range. The {@creature hezrou} disappears when it drops to 0 hit points or when the spell ends.",
-				"The {@creature hezrou}'s attitude depends on the value of the food used as a material component for this spell. Roll initiative for the {@creature hezrou}, which has its own turns. At the start of the {@creature hezrou}'s turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the food's value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the {@creature hezrou} and have it obey you as long as you succeed on the Charisma check.",
-				"If the check fails, the spell no longer requires {@status concentration} and the demon is no longer under your control. The {@creature hezrou} then focuses on devouring any corpses it can see. If there are no such meals at hand, it attacks the nearest creatures and eats anything it kills. If its hit points are reduced to below half its hit point maximum, it returns to the Abyss.",
-				"As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned {@creature hezrou} cannot cross the circle or target anyone in it while the spell lasts."
+				"Invoques un {@creature hezrou} que apareix en un espai desocupat que puguis veure dins del rang. El dimoni desapareix quan els seus punts de vida es veuen reduïts a 0 o quan el conjur acaba.",
+				"L'actitud del {@creature barlgura} depèn del valor del menjar que s'ha fet servir com a component material del conjur. Realitza una tirada d'iniciativa per al dimoni, que té els seus propis torns. Al començament del seu torn, el DJ realitza una prova de Carisma en secret de part teva, amb un bonificador igual al valor del menjar dividit entre 20. La CD de la prova comença amb 10 i augmenta 2 cada ronda. Cada cop que superis la prova, pots donar-li ordres al dimoni, que les ha d'obeir.",
+				"Si falles la prova, el conjur deixa de requerir {@status concentration} i el dimoni deixa d'estar sota el teu control. Llavors, el {@creature hezrou} focalitza la seva atenció a devorar els cadàvers que vegi. Si no hi ha prou menjar per a ell, ataca l'objectiu que tingui més proper i es menja tot allò que aniquili. Si els seus punts de vida es veuen reduïts a més de la meitat del total, el dimoni torna a l'Abisme.", 
+				"Com a part del llançament del conjur, pots inscriure un cercle a terra fent servir la sang d'un humanoide intel·ligent mort en les últimes 24 hores. El cercle és prou gran per cabre en el teu espai. La criatura invocada no pot travessar el cercle o escollir com a objectiu ningú dins del cercle fins que el conjur acabi."
 			],
 			"abilityCheck": [
 				"charisma"
@@ -96,7 +96,7 @@
 			]
 		},
 		{
-			"name": "Conjure Lesser Demon (UA)",
+			"name": "Conjurar dimonis menors",
 			"source": "UAThatOldBlackMagic",
 			"page": 2,
 			"level": 3,
@@ -117,7 +117,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a vial of blood from an intelligent humanoid killed within the past 24 hours"
+				"m": "un vial de sang d'un humanoide intel·ligent assassinat en les últimmes 24 hores"
 			},
 			"duration": [
 				{
@@ -130,16 +130,16 @@
 				}
 			],
 			"entries": [
-				"You summon up to a total of eight {@creature manes} or {@creature dretch||dretches} that appear in unoccupied spaces you can see within range. A {@creature manes} or {@creature dretch} disappears when it drops to 0 hit points or when the spell ends.",
-				"The demons are hostile to all creatures. Roll initiative for the summoned demons as a group, which has its own turns. The demons attack the nearest non-demons to the best of their ability.",
-				"As part of casting the spell, you can scribe a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. The summoned demons cannot cross the circle or target anyone in it while the spell lasts. Using the material component in this manner consumes it."
+				"Invoques fins a un total de vuit {@creature manes} o {@creature dretch||dretches}, que apareixen en espais desocupats que puguis veure dins del rang. Els {@creature manes} o els {@creature dretch||dretches} desapareixen quan els seus punts de vida es veuen reduïts a 0 o quan el conjur acaba.",
+				"Aquests dimonis són hostils cap a totes les criatures. Realitza una tirada d'iniciativa per als dimonis com a grup, que tenen els seus propis torns. Ataquen al no dimoni més proper tan bé com puguin.",
+				"Com a part del llançament del conjur, pots inscriure un cercle a terra fent servir la sang d'un humanoide intel·ligent mort en les últimes 24 hores. El cercle és prou gran per cabre en el teu espai. Els dimonis invocats no poden travessar el cercle o escollir com a objectiu ningú dins del cercle fins que el conjur acabi."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th or 7th level, you summon sixteen demons. If you cast it using a spell slot of 8th or 9th level, you summon thirty-two demons."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 6 o 7, pots invocar fins a 16 dimonis. Quan llences aquest conjur fent servir un espai de conjur de nivell 8 o 9, pots invocar fins a 32 dimonis."
 					]
 				}
 			],
@@ -149,7 +149,7 @@
 			]
 		},
 		{
-			"name": "Conjure Shadow Demon (UA)",
+			"name": "Conjurar dimoni de l'ombra",
 			"source": "UAThatOldBlackMagic",
 			"page": 3,
 			"level": 4,
@@ -170,7 +170,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a vial of blood from an intelligent humanoid killed within the past 24 hours"
+				"m": "un vial de sang d'un humanoide intel·ligent assassinat en les últimmes 24 hores"
 			},
 			"duration": [
 				{
@@ -183,9 +183,9 @@
 				}
 			],
 			"entries": [
-				"You summon a {@creature shadow demon} that appears in an unoccupied space you can see within range. The {@creature shadow demon} disappears when it drops to 0 hit points or when the spell ends.",
-				"Roll initiative for the {@creature shadow demon}, which has its own turns. You can issue orders to the {@creature shadow demon}, and it obeys you as long as it can attack a creature on each of its turns and does not start its turn in an area of bright light. If either of these conditions is not met, the {@creature shadow demon} immediately makes a Charisma check contested by your Charisma check. If you fail the check, the spell no longer requires {@status concentration} and the demon is no longer under your control. The demon automatically succeeds on the check if it is more than 100 feet away from you.",
-				"As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned {@creature shadow demon} cannot cross the circle or target anyone in it while the spell lasts."
+				"Invoques un {@creature shadow demon} que apareix en un espai desocupat que puguis veure dins del rang. El dimoni desapareix quan els seus punts de vida es veuen reduïts a 0 o quan el conjur acaba.",
+				"Realitza una tirada d'iniciativa per al dimoni, que té els seus propis torns. Pots donar-li ordres a la criatura, que les ha d'obeir, sempre que pugui atacar una criatura en cadascun dels seus torns i no els comença dins d'una ària amb llum brillant. Si no es compleixen ambdues condicions, el dimoni realitza una prova de Carisma enfrontada amb la teva prova de Carisma. Si tu falles la prova, el conjur deixa de requerir {@status concentration} i el dimoni deixa d'estar sota el teu control. El dimoni supera automàticament la prova si es troba a més de 100 peus de distància de tu.",
+				"Com a part del llançament del conjur, pots inscriure un cercle a terra fent servir la sang d'un humanoide intel·ligent mort en les últimes 24 hores. El cercle és prou gran per cabre en el teu espai. Els dimonis invocats no poden travessar el cercle o escollir com a objectiu ningú dins del cercle fins que el conjur acabi."
 			],
 			"abilityCheck": [
 				"charisma"
@@ -196,7 +196,7 @@
 			]
 		},
 		{
-			"name": "Conjure Vrock (UA)",
+			"name": "Conjurar Vrock",
 			"source": "UAThatOldBlackMagic",
 			"page": 3,
 			"level": 5,
@@ -218,7 +218,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gem worth at least 100 gp, which the spell consumes",
+					"text": "una gemma amb valor d'almanys 100 po, que es consumeix amb el conjur",
 					"cost": 10000,
 					"consume": true
 				}
@@ -234,10 +234,11 @@
 				}
 			],
 			"entries": [
-				"You summon a {@creature vrock} that appears in an unoccupied space you can see within range. The {@creature vrock} disappears when it drops to 0 hit points or when the spell ends.",
-				"The {@creature vrock}'s attitude depends on the value of the gem used as a material component for this spell. Roll initiative for the {@creature vrock}, which has its own turns. At the start of the {@creature vrock}'s turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the gem's value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the {@creature vrock} and have it obey you as long as you succeed on the Charisma check.",
-				"If the check fails, the spell no longer requires {@status concentration} and the {@creature vrock} is no longer under your control. The {@creature vrock} takes no actions on its next turn and uses its telepathy to tell any creature it can see that it will fight in exchange for treasure. The creature that gives the {@creature vrock} the most expensive gem can command it for the next {@dice 1d6} rounds. At the end of that time, it offers the bargain again. If no one offers the {@creature vrock} treasure before its next turn begins, it attacks the nearest creatures for {@dice 1d6} rounds before returning to the Abyss.",
-				"As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned {@creature vrock} cannot cross the circle or target anyone in it while the spell lasts."
+				"Invoques un {@creature vrock} que apareix en un espai desocupat que puguis veure dins del rang. El dimoni desapareix quan els seus punts de vida es veuen reduïts a 0 o quan el conjur acaba.",
+				"L'actitud del {@creature barlgura} depèn del valor de la gemma que s'ha fet servir com a component material del conjur. Realitza una tirada d'iniciativa per al dimoni, que té els seus propis torns. Al començament del seu torn, el DJ realitza una prova de Carisma en secret de part teva, amb un bonificador igual al valor del menjar dividit entre 20. La CD de la prova comença amb 10 i augmenta 2 cada ronda. Cada cop que superis la prova, pots donar-li ordres al dimoni, que les ha d'obeir.",
+				"Si falles la prova, el conjur deixa de requerir {@status concentration} i el dimoni deixa d'estar sota el teu control. Llavors, el {@creature hezrou} fa servir la seva telepatia per demanar a qualsevol criatura que pugui veure de lluitar a canvi d'un tresor. La criatura que li doni la gemma més cara, li pot donar ordres durant els següents {@dice 1d6} assalts. Un cop acabats, el dimoni torna a fer la proposta.",
+				"Si ningú li ofereix una gemma abans que el seu següent torn comenci, el dimoni ataca la criatura més propera durant {@dice 1d6} assalts. Després torna a l'Abisme.",
+				"Com a part del llançament del conjur, pots inscriure un cercle a terra fent servir la sang d'un humanoide intel·ligent mort en les últimes 24 hores. El cercle és prou gran per cabre en el teu espai. La criatura invocada no pot travessar el cercle o escollir com a objectiu ningú dins del cercle fins que el conjur acabi."
 			],
 			"abilityCheck": [
 				"charisma"

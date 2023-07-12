@@ -1,9 +1,9 @@
 {
 	"spell": [
 		{
-			"name": "Mind Sliver",
-			"source": "UASorcererAndWarlock",
-			"page": 4,
+			"name": "Estella mental",
+			"source": "TCE",
+			"page": 108,
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -32,8 +32,15 @@
 				}
 			],
 			"entries": [
-				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes {@damage 1d6} psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a {@dice d4} and subtract the number rolled from the save.",
-				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Introdueixes una estella desorientadora d'energia psíquica dins la ment d'una criatura que puguis veure dins del rang. La criatura ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, rep {@damage 1d6} de dany psíquic i resta {@dice 1d4} a la següent tirada de salvació que realitzi abans del teu pròxim torn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "En nivells superiors",
+					"entries": [
+						"El dany del conjur augmenta {@dice 1d6} en arribar a nivell 5 ({@damage 2d6}), a nivell 11 ({@damage 3d6}), i a nivell 17({@damage 4d6})."					]
+				}
 			],
 			"scalingLevelDice": {
 				"label": "psychic damage",
@@ -56,7 +63,8 @@
 			],
 			"areaTags": [
 				"ST"
-			]
+			],
+			"hasFluffImages": true
 		}
 	]
 }

@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Borrowed Knowledge",
+			"name": "Coneixement prestat",
 			"source": "SCC",
 			"page": 37,
 			"level": 2,
@@ -22,7 +22,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a book worth at least 25 gp",
+					"text": "un llibre amb valor d'almenys 25 po",
 					"cost": 2500
 				}
 			},
@@ -36,11 +36,11 @@
 				}
 			],
 			"entries": [
-				"You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again."
+				"T'inspires en el coneixement dels esperits del passat. Escull una capacitat amb què no siguis competent. Fins que el conjur acabi, guanyes competència en la capacitat escollida. El conjur acaba abans si el tornes a llençar."
 			]
 		},
 		{
-			"name": "Kinetic Jaunt",
+			"name": "Excursió cinètica",
 			"source": "SCC",
 			"page": 37,
 			"level": 2,
@@ -71,13 +71,13 @@
 				}
 			],
 			"entries": [
-				"You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration.",
+				"Potencies màgicament el teu moviment amb passos de ball. Fins que el conjur acabi, obtens els següents beneficis:",
 				{
 					"type": "list",
 					"items": [
-						"Your walking speed increases by 10 feet.",
-						"You don't provoke opportunity attacks.",
-						"You can move through the space of another creature, and it doesn't count as {@quickref difficult terrain||3}. If you end your turn in another creature's space, you are shunted to the last unoccupied space you occupied, and you take {@damage 1d8} force damage."
+						"La teva velocitat augmenta 10 peus.",
+						"No provoques atacs d'oportunitat.",
+						"Et pots moure a través de l'espai d'una altra criatura i no compta com a {@quickref difficult terrain||3}. Si acabes el torn en l'espai d'una altra criatura, ets empès a l'últim espai desocupat, i reps {@damage 1d8} de dany per força."
 					]
 				}
 			],
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			"name": "Silvery Barbs",
+			"name": "Pues platejades",
 			"source": "SCC",
 			"page": 38,
 			"level": 1,
@@ -95,7 +95,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take when a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw"
+					"condition": ", que duus a terme quan una criatura que puguis veure fins a 60 peus de tu supera una tirada d'atac, una prova de capacitat o una tirada de salvació"
 				}
 			],
 			"range": {
@@ -114,8 +114,8 @@
 				}
 			],
 			"entries": [
-				"You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the {@dice d20} and use the lower roll.",
-				"You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time."
+				"Distreus màgicament la criatura objectiu i transformes la seva incertesa momentània en coratge per a una altra criatura. L'objectiu ha de tornar a tirar {@dice d20} i fer servir el resultat més baix.",
+				"Llavors, pots escollir una altra criatura que puguis veure dins del rang (incloent-hi tu mateix). La nova criatura té avantatge en la seva pròxima tirada d'atac, prova de capacitat o tirada de salvació feta durant el següent minut. Només una criatura alhora pot estar afectada per aquest conjur."
 			],
 			"miscTags": [
 				"SGT"
@@ -125,7 +125,7 @@
 			]
 		},
 		{
-			"name": "Vortex Warp",
+			"name": "Deformació del vòrtex",
 			"source": "SCC",
 			"page": 38,
 			"level": 2,
@@ -153,14 +153,14 @@
 				}
 			],
 			"entries": [
-				"You magically twist space around another creature you can see within range. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze."
+				"Gires màgicament l'espai al voltant d'una altra criatura que puguis veure dins del rang. L'objectiu ha de realitzar una tirada de salvació de Constitució (l'objectiu pot escollir voluntàriament fallar-la). Si la falla, és teletransportat a un espai desocupat de la teva elecció que puguis veure dins del rang. L'espai escollit ha d'estar en una superfície o en un líquid que pugui subjectar l'objectiu sense que hagi de quedar esclafat."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the range of the spell increases by 30 feet for each slot level above 2nd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, en rang del conjur augmenta 30 peus per cada nivell per sobre de 2."
 					]
 				}
 			],
@@ -173,7 +173,7 @@
 			]
 		},
 		{
-			"name": "Wither and Bloom",
+			"name": "Marcir-se i florir",
 			"source": "SCC",
 			"page": 38,
 			"level": 2,
@@ -194,7 +194,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a withered vine twisted into a loop"
+				"m": "un cep marcit retorçat en forma de llaç"
 			},
 			"duration": [
 				{
@@ -202,15 +202,15 @@
 				}
 			],
 			"entries": [
-				"You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking {@damage 2d6} necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.",
-				"In addition, one creature of your choice in that area can spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier."
+				"Invoques tant la mort com la vida en una esfera de 10 peus de radi centrada en un punt dins del rang. Cada criatura de la teva elecció dins l'àrea ha de realitzar una tirada de salvació de Constitució. Si la falla, rep{@damage 2d6} de dany necròtic. Si la supera, rep la meitat de mal. La vegetació no màgica d'aquesta àrea es marceix.",
+				"A més a més, una criatura de la teva elecció dins l'àrea pot emprar un dels seus daus de vida no gastats i guanyar punts de vida igual al resultat del dau més el teu modificador per aptitud màgica."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 2d6|2-9|1d6} for each slot above the 2nd, and the number of Hit Dice that can be spent and added to the healing roll increases by one for each slot above 2nd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, el dany augmenta {@scaledamage 2d6|2-9|1d6} per cada nivell per sobre de 2. El nombre de daus de vida que pots gastar per afegir-los als teus punts de vida  augmenta 1 per cada nivell per sobre de 2."
 					]
 				}
 			],

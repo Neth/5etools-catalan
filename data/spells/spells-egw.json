@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Dark Star",
+			"name": "Estrella negra",
 			"source": "EGW",
 			"page": 186,
 			"level": 8,
@@ -23,7 +23,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a shard of onyx and a drop of the caster's blood, both of which the spell consumes",
+					"text": "un fragment d'ònix i una gota de sang pròpia, que es consumeixen amb el conjur",
 					"consume": true
 				}
 			},
@@ -38,9 +38,9 @@
 				}
 			],
 			"entries": [
-				"This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.",
-				"For the duration, the spell's area is {@quickref difficult terrain||3}. A creature with darkvision can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are {@condition deafened} while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
-				"Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Constitution saving throw. The creature takes {@damage 8d10} force damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust."
+				"Aquest conjur crea una esfera centrada en un punt que esculls dins del rang. L'esfera pot tenir un radi de fins a 40 peus. L'àrea de dins l'esfera s'omple d'obscuritat màgica i de força gravitacional esclafadora.",
+				"Fins que el conjur acabi, l'àrea del conjur es considera {@quickref difficult terrain||3}. Una criatura amb visió a la foscor no pot veure-hi a través i la llum no màgica no pot il·luminar-la. Cap so no pot ser creat dins l'àrea ni passar-hi a través. Qualsevol criatura o objecte totalment dins de l'esfera és immune al dany per tro, i les criatures es queden {@condition deafened} mentre hi són dins. No s'hi pot llençar cap conjur que requereixi components verbals.",
+				"Qualsevol criatura que entri dins l'àrea per primer cop durant un torn o que hi comenci dins ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 8d10} de dany per força. Si la supera, rep la meitat del dany. Si els punts de vida d'una criatura es veuen reduïts a 0 a causa d'aquest conjur, la criatura es desintegra, així com tot el que duu a sobre, llevat dels objectes màgics, que es tornen pols."
 			],
 			"damageInflict": [
 				"force"
@@ -61,7 +61,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Fortune's Favor",
+			"name": "Favor de Fortuna",
 			"source": "EGW",
 			"page": 186,
 			"level": 2,
@@ -83,7 +83,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a white pearl worth at least 100 gp, which the spell consumes",
+					"text": "una perla blanca amb valor d'almenys 100 po, que es consumeix amb el conjur",
 					"cost": 10000,
 					"consume": true
 				}
@@ -98,15 +98,15 @@
 				}
 			],
 			"entries": [
-				"You impart latent luck to yourself or one willing creature you can see within range. When the chosen creature makes an attack roll, an ability check, or a saving throw before the spell ends, it can dismiss this spell on itself to roll an additional {@dice d20} and choose which of the {@dice d20}s to use. Alternatively, when an attack roll is made against the chosen creature, it can dismiss this spell on itself to roll a {@dice d20} and choose which of the {@dice d20}s to use, the one it rolled or the one the attacker rolled.",
-				"If the original {@dice d20} roll has advantage or disadvantage, the creature rolls the additional {@dice d20} after advantage or disadvantage has been applied to the original roll."
+				"Imparteixes sort latent a tu o a una criatura que puguis veure dins del rang. Quan la criatura escollida realitzi una tirada d'atac, una prova de capacitat o una tirada de salvació abans que el conjur acabi, es pot descartar d'aquest efecte per tirar un {@dice d20} addicional i escollir quin fer servir. Alternativament, quan es realitza una tirada d'atac contra la criatura escollida, es pot descartar d'aquest efecte per tirar un {@dice d20} addicional i escollir quin fer servir (si el que ha llençat ella o el que ha llençat l'atacant).",
+				"Si la tirada té avantatge o desavantatge, la criatura tira {@dice d20} addicional, després d'haver-se aplicat l'avantatge o desavantatge."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, pots escollir com a objectiu una criatura addicional per cada nivell per sobre de 2."
 					]
 				}
 			],
@@ -118,7 +118,7 @@
 			]
 		},
 		{
-			"name": "Gift of Alacrity",
+			"name": "Regal d'alacritat",
 			"source": "EGW",
 			"page": 186,
 			"level": 1,
@@ -149,14 +149,14 @@
 				}
 			],
 			"entries": [
-				"You touch a willing creature. For the duration, the target can add {@dice 1d8} to its initiative rolls."
+				"Toques una criatura voluntària. Fins que el conjur acabi, la criatura pot afegir {@dice 1d8} a les seves tirades d'iniciativa."
 			],
 			"areaTags": [
 				"ST"
 			]
 		},
 		{
-			"name": "Gravity Fissure",
+			"name": "Fissura gravitatòria",
 			"source": "EGW",
 			"page": 187,
 			"level": 6,
@@ -177,7 +177,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a fistful of iron filings"
+				"m": "un grapat de llimadures de ferro"
 			},
 			"duration": [
 				{
@@ -185,15 +185,15 @@
 				}
 			],
 			"entries": [
-				"You manifest a ravine of gravitational energy in a line originating from you that is 100 feet long and 5 feet wide. Each creature in that line must make a Constitution saving throw, taking {@damage 8d8} force damage on a failed save, or half as much damage on a successful one.",
-				"Each creature within 10 feet of the line but not in it must succeed on a Constitution saving throw or take {@damage 8d8} force damage and be pulled toward the line until the creature is in its area."
+				"Manifestes una esquerda d'energia gravitacional en línia recta des de tu que té 100 peus de llargada i 5 peus d'amplada. Cada criatura dins de l'àrea ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 8d8} de dany per força. Si la supera, rep la meitat del dany.",
+				"Cada criatura fins a 10 peus de l'àrea, però que no hi sigui dins, ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 8d8} de dany per força i és empesa cap a l'àrea fins que hi sigui completament a dins."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@scaledamage 8d8|6-9|1d8} for each slot level above 6th."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 7 o superior, el dany augmenta {@scaledamage 8d8|6-9|1d8} per cada nivell per sobre de 6."
 					]
 				}
 			],
@@ -208,7 +208,7 @@
 			]
 		},
 		{
-			"name": "Gravity Sinkhole",
+			"name": "Dolina gravitacional",
 			"source": "EGW",
 			"page": 187,
 			"level": 4,
@@ -229,7 +229,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a black marble"
+				"m": "marbre negre"
 			},
 			"duration": [
 				{
@@ -237,14 +237,14 @@
 				}
 			],
 			"entries": [
-				"A 20-foot-radius sphere of crushing force forms at a point you can see within range and tugs at the creatures there. Each creature in the sphere must make a Constitution saving throw. On a failed save, the creature takes {@damage 5d10} force damage and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). On a successful save, the creature takes half as much damage and isn't pulled."
+				"Una esfera de 20 peus de radi d'energia esclafadora es forma en un punt que puguis veure dins del radi i arrossega les criatures que hi ha. Cada criatura dins l'esfera ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 5d10} de dany per força i és arrossegada cap al centre de l'esfera, en un espai desocupat tan proper al centre com sigui possible (encara que l'espai sigui a l'aire). Si la supera, rep la meitat del dany i no és arrossegada."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 5d10|4-9|1d10} for each slot level above 4th."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 5 o superior, el dany augmenta {@scaledamage 5d10|4-9|1d10} per cada nivell per sobre de 4."
 					]
 				}
 			],
@@ -262,7 +262,7 @@
 			]
 		},
 		{
-			"name": "Immovable Object",
+			"name": "Objecte inamovible",
 			"source": "EGW",
 			"page": 187,
 			"level": 2,
@@ -283,7 +283,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "gold dust worth at least 25 gp, which the spell consumes",
+					"text": "pols daurada amb valor d'almenys 25 po, que es consumeix amb el conjur",
 					"cost": 2500,
 					"consume": true
 				}
@@ -298,15 +298,15 @@
 				}
 			],
 			"entries": [
-				"You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.",
-				"If the object is fixed in the air, it can hold up to 4,000 pounds of weight. More weight causes the object to fall. Otherwise, a creature can use an action to make a Strength check against your spell save DC. On a success, the creature can move the object up to 10 feet."
+				"Toques un objecte que no pesi més de 10 lliures i fas que es fixi màgicament en el lloc on es troba. Tu i les criatures que designis en llençar el conjur podeu moure l'objecte amb normalitat. També pots escollir una contrasenya que, en ser pronunciada a 5 peus o menys de l'objecte, anul·la el conjur durant 1 minut.",
+				"Si l'objecte és fixat a l'aire, pot sostenir fins a 4000 lliures de pes. Més pes faria que l'objecte caigués. Altrament, una criatura pot fer servir la seva acció per fer una prova de Força amb CD igual a la teva salvació de conjurs. Si la supera, la criatura pot veure l'objecte fins a 10 peus."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"If you cast this spell using a spell slot of 4th or 5th level, the DC to move the object increases by 5, it can carry up to 8,000 pounds of weight, and the duration increases to 24 hours. If you cast this spell using a spell slot of 6th level or higher, the DC to move the object increases by 10, it can carry up to 20,000 pounds of weight, and the effect is permanent until dispelled."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o 5, la CD per moure l'objecte augmenta 5, pot sostenir fins a 8000 lliures de pes i la duració del conjur augmenta 24 hores. Quan llences aquest conjur fent servir un espai de conjur de nivell 6 o superior, la CD per moure l'objecte augmenta 10, pot sostenir fins a 20000 lliures de pes i la duració del conjur és permanent fins que sigui dissipat."  
 					]
 				}
 			],
@@ -321,7 +321,7 @@
 			]
 		},
 		{
-			"name": "Magnify Gravity",
+			"name": "Augmentar la gravetat",
 			"source": "EGW",
 			"page": 188,
 			"level": 1,
@@ -353,15 +353,15 @@
 				}
 			],
 			"entries": [
-				"The gravity in a 10-foot-radius sphere centered on a point you can see within range increases for a moment. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes {@damage 2d8} force damage, and its speed is halved until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.",
-				"Until the start of your next turn, any object that isn't being worn or carried in the sphere requires a successful Strength check against your spell save DC to pick up or move."
+				"La gravetat en una esfera de 10 peus de radi centrada en un punt que puguis veure dins del rang augmenta durant un moment. Cada criatura dins l'esfera durant el torn que llences el conjur ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 2d8} de dany per força, i la seva velocitat es veu reduïda a la meitat dins que acabi el seu pròxim torn. Si la supera, rep la meitat del dany i la seva velocitat no es veu reduïda.",
+				"Fins al començament del teu pròxim torn, qualsevol objecte dins de l'àrea que no porti a sobre ningú requereix una prova de Força amb CD igual a la teva salvació de conjurs. Si se supera, es pot agafar o moure l'objecte."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d8|1-9|1d8} for each slot level above 1st."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 2 o superior, el dany augmenta {@scaledamage 2d8|1-9|1d8} per cada nivell per sobre d'1."
 					]
 				}
 			],
@@ -380,7 +380,7 @@
 			]
 		},
 		{
-			"name": "Pulse Wave",
+			"name": "Pols ondulat",
 			"source": "EGW",
 			"page": 188,
 			"level": 3,
@@ -408,15 +408,15 @@
 				}
 			],
 			"entries": [
-				"You create intense pressure, unleash it in a 30-foot cone, and decide whether the pressure pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes {@damage 6d6} force damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the spell.",
-				"In addition, unsecured objects that are completely within the cone are likewise pulled or pushed 15 feet."
+				"Crees una intensa pressió, que surt disparada en un con de 30 peus, i decideixes si aquesta pressió empeny o estira les criatures i els objectes. Cada criatura dins de l'àrea ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 6d6} de dany per força, i és empesa 15 peus de tu o estirada 15 peus cap a tu (segons el que s'hagi escollit en llençar el conjur). Si la supera, rep la meitat del dany.",
+				"A més a més, els objectes no fixats que són completament dins l'àrea també poden ser empesos o estirats 15 peus."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 6d6|3-9|1d6} and the distance pulled or pushed increases by 5 feet for each slot level above 3rd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, el dany augmenta {@scaledamage 4d6|1-9|1d6} i la distància de moviment de les criatures o objectes afectats augmenta 5 peus per cada nivell per sobre de 3."
 					]
 				}
 			],
@@ -435,7 +435,7 @@
 			]
 		},
 		{
-			"name": "Ravenous Void",
+			"name": "Buit voraç",
 			"source": "EGW",
 			"page": 188,
 			"level": 9,
@@ -456,7 +456,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a small, nine-pointed star made of iron"
+				"m": "una estrella petita de nou puntes feta de ferro"
 			},
 			"duration": [
 				{
@@ -469,9 +469,9 @@
 				}
 			],
 			"entries": [
-				"You create a 20-foot-radius sphere of destructive gravitational force centered on a point you can see within range. For the spell's duration, the sphere and any space within 100 feet of it are {@quickref difficult terrain||3}, and nonmagical objects fully inside the sphere are destroyed if they aren't being worn or carried.",
-				"When the sphere appears and at the start of each of your turns until the spell ends, unsecured objects within 100 feet of the sphere are pulled toward the sphere's center, ending in an unoccupied space as close to the center as possible.",
-				"A creature that starts its turn within 100 feet of the sphere must succeed on a Strength saving throw or be pulled straight toward the sphere's center, ending in an unoccupied space as close to the center as possible. A creature that enters the sphere for the first time on a turn or starts its turn there takes {@damage 5d10} force damage and is {@condition restrained} until it is no longer in the sphere. If the sphere is in the air, the {@condition restrained} creature hovers inside the sphere. A creature can use its action to make a Strength check against your spell save DC, ending this {@condition restrained} condition on itself or another creature in the sphere that it can reach. A creature reduced to 0 hit points by this spell is annihilated, along with any nonmagical items it is wearing or carrying."
+				"Crees una esfera de 20 peus de radi de força gravitacional destructiva en un punt que puguis veure dins del rang. Fins que el conjur acabi, l'esfera i qualsevol espai fins a 100 peus de l'àrea es considera {@quickref difficult terrain||3}, i els objectes no màgics completament dins de l'àrea que no porta a sobre ningú són destruïts.",
+				"Quan l'esera apareix, i al començament de cadascun dels teus torns fins que el conjur acabi, els objectes no fixats fins a 100 peus de l'àrea són arrossegats cap al centre de l'esfera, en un espai desocupat tan proper al centre com sigui possible.",
+				"Una criatura que comenci el seu torn fins a 100 peus de l'esfera ha de realitzar una tirada de salvació de Força. Si la falla, és arrossegada cap al centre de l'esfera, en un espai desocupat tan proper al centre com sigui possible. Qualsevol criatura que entri dins l'esfera per primer cop en un torn o que hi comenci dins rep {@damage 5d10} de dany per força i queda {@condition restrained} fins que deixi d'estar dins l'esfera. Si l'esfera és a l'aire, la criatura {@condition restrained} queda suspesa a l'aire dins l'esfera. Una criatura pot fer servir la seva acció per realitzar una prova de Força amb CD igual a la teva salvació de conjurs. Si la supera, l'efecte acaba per a ella o una altra criatura dins l'esfera a qui pugui arribar. Si els punts de vida d'una criatura es veuen reduïts a 0 per l'efecte d'aquest conjur, la criatura és aniquilada, juntament amb els objectes no màgics que porti a sobre."
 			],
 			"damageInflict": [
 				"force"
@@ -494,7 +494,7 @@
 			]
 		},
 		{
-			"name": "Reality Break",
+			"name": "Trencament de la realitat",
 			"source": "EGW",
 			"page": 189,
 			"level": 8,
@@ -515,7 +515,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a crystal prism"
+				"m": "un prisma de cristall"
 			},
 			"duration": [
 				{
@@ -528,11 +528,10 @@
 				}
 			],
 			"entries": [
-				"You shatter the barriers between realities and timelines, thrusting a creature into turmoil and madness. The target must succeed on a Wisdom saving throw, or it can't take reactions until the spell ends. The affected target must also roll a {@dice d10} at the start of each of its turns; the number rolled determines what happens to the target, as shown on the Reality Break Effects table.",
-				"At the end of each of its turns, the affected target can repeat the Wisdom saving throw, ending the spell on itself on a success.",
+				"Fas miques les barreres entre realitats i línies del temps, portant una criatura dins del rang a l'agitació i la bogeria. L'objectiu ha de realitzar una tirada de salvació de Saviesa. Si la falla, no pot realitzar reaccions fins que el conjur acabi. L'objectiu afectat ha de tirar {@dice d10} al començament de cadascun dels seus torns. El resultat de la tirada determina què li passa a la criatura, tal com es mostra a la següent taula. Al final de cadascun dels seus torns, l'objectiu afectat pot repetir la tirada de salvació de Saviesa. Si la supera, l'efecte del conjur acaba per a ella."
 				{
 					"type": "table",
-					"caption": "Reality Break Effects",
+					"caption": "Efectes del conjur",
 					"colLabels": [
 						"d10",
 						"Effect"
@@ -544,19 +543,19 @@
 					"rows": [
 						[
 							"1-2",
-							"{@b Vision of the Far Realm.} The target takes {@damage 6d12} psychic damage, and it is {@condition stunned} until the end of the turn."
+							"{@b Visió del reialme llunyà.} L'objectiu rep {@damage 6d12} de dany psíquic i queda {@condition stunned} fins al final del seu torn."
 						],
 						[
 							"3-5",
-							"{@b Rending Rift.} The target must make a Dexterity saving throw, taking {@damage 8d12} force damage on a failed save, or half as much damage on a successful one."
+							"{@b Esquerda destructora.} L'objectiu ha de realitzar una tirada de salvació de Destresa. Si la falla, rep {@damage 8d12} de dany per força. Si la supera, rep la meitat del dany."
 						],
 						[
 							"6-8",
-							"{@b Wormhole.} The target is teleported, along with everything it is wearing and carrying, up to 30 feet to an unoccupied space of your choice that you can see. The target also takes {@damage 10d12} force damage and is knocked {@condition prone}."
+							"{@b Forat de cuc.} L'objectiu és teletransportat, juntament amb tot el que porti a sobre, fins a 30 peus de distància a un espai desocupat que puguis veure. A més a més, rep {@damage 10d12} de dany per força i queda {@condition prone}."
 						],
 						[
 							"9-10",
-							"{@b Chill of the Dark Void.} The target takes {@damage 10d12} cold damage, and it is {@condition blinded} until the end of the turn."
+							"{@b Calfreds del buit obscur.} L'objectiu rep {@damage 10d12} de dany per fred i queda {@condition blinded} fins al final del seu torn."
 						]
 					]
 				}
@@ -585,7 +584,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Sapping Sting",
+			"name": "Agulló de drenatge",
 			"source": "EGW",
 			"page": 189,
 			"level": 0,
@@ -613,8 +612,16 @@
 				}
 			],
 			"entries": [
-				"You sap the vitality of one creature you can see in range. The target must succeed on a Constitution saving throw or take {@damage 1d4} necrotic damage and fall {@condition prone}.",
-				"This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+				"Absorbeixes la vitalitat d'una criatura que puguis veure dins del rang. L'objectiu ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 1d4} de dany necròtic i queda {@condition prone}.",
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "En nivells superiors",
+					"entries": [
+						"El dany del conjur augmenta {@dice 1d4} en arribar a nivell 5 ({@damage 2d4}), a nivell 11 ({@damage 3d4}), i a nivell 17({@damage 4d4})."
+					]
+				}
 			],
 			"scalingLevelDice": {
 				"label": "necrotic damage",
@@ -643,7 +650,7 @@
 			]
 		},
 		{
-			"name": "Temporal Shunt",
+			"name": "Derivació temporal",
 			"source": "EGW",
 			"page": 189,
 			"level": 5,
@@ -652,7 +659,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "taken when a creature you can see makes an attack roll or starts to cast a spell"
+					"condition": ", que duus a terme quan una criatura que puguis veure realitza una tirada d'atac o comença a llençar un conjur"
 				}
 			],
 			"range": {
@@ -676,14 +683,14 @@
 				}
 			],
 			"entries": [
-				"You target the triggering creature, which must succeed on a Wisdom saving throw or vanish, being thrown to another point in time and causing the attack to miss or the spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember you casting the spell or being affected by it."
+				"La criatura ha de realitzar una tirada de salvació de Saviesa. Si la falla, s'esvaeix a un altre punt temporal i el seu atac o conjur fallen. Al començament del seu pròxim torn, la criatura reapareix en el mateix punt on s'havia esvaït o en l'espai desocupat més proper. La criatura no recorda el que ha passat quan reapareix."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. All targets must be within 30 feet of each other."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 6 o superior, pots escollir com a objectiu una criatura addicional per cada nivell per sobre de 5. La criatura ha d'estar fins a 30 peus d'un altre objectiu."
 					]
 				}
 			],
@@ -695,7 +702,7 @@
 			]
 		},
 		{
-			"name": "Tether Essence",
+			"name": "Amarrar l'essència",
 			"source": "EGW",
 			"page": 189,
 			"level": 7,
@@ -717,7 +724,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a spool of platinum cord worth at least 250 gp, which the spell consumes",
+					"text": "una bobina de cordó platejat amb valor d'almenys 250 po, que es consumeix amb el conjur",
 					"cost": 25000,
 					"consume": true
 				}
@@ -733,7 +740,7 @@
 				}
 			],
 			"entries": [
-				"Two creatures you can see within range must make a Constitution saving throw, with disadvantage if they are within 30 feet of each other. Either creature can willingly fail the save. If either save succeeds, the spell has no effect. If both saves fail, the creatures are magically linked for the duration, regardless of the distance between them. When damage is dealt to one of them, the same damage is dealt to the other one. If hit points are restored to one of them, the same number of hit points are restored to the other one. If either of the tethered creatures is reduced to 0 hit points, the spell ends on both. If the spell ends on one creature, it ends on both."
+				"Dues criatures que puguis veure dins del rang han de realitzar una tirada de salvació de Constitució (la fan amb desavantatge si es troben fins a 30 peus l'una de l'altra). Qualsevol de les criatures pot fallar la tirada voluntàriament. Si qualsevol d'elles la supera, el conjur no té efecte. Si ambdues la fallen, les criatures són lligades màgicament, independentment de la distància que les separi, fins que el conjur acabi. Quan una criatura rep cap dany, l'altre rep el mateix dany. De la mateixa manera, si una recupera punts de vida, l'altra recupera els mateixos. Si els punts de vida d'algunes de les dues es veuen reduïts a 0, el conjur acaba per a ambdues. Si el conjur acaba per a una, acaba per a ambdues."
 			],
 			"savingThrow": [
 				"constitution"
@@ -746,7 +753,7 @@
 			]
 		},
 		{
-			"name": "Time Ravage",
+			"name": "Saqueig temporal",
 			"source": "EGW",
 			"page": 189,
 			"level": 9,
@@ -768,7 +775,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an hourglass filled with diamond dust worth at least 5,000 gp, which the spell consumes",
+					"text": "un rellotge de sorra ple amb pols de diamant amb valor d'almenys 5000 po, que es consumeix amb el conjur",
 					"cost": 500000,
 					"consume": true
 				}
@@ -779,7 +786,8 @@
 				}
 			],
 			"entries": [
-				"You target a creature you can see within range, putting its physical form through the devastation of rapid aging. The target must make a Constitution saving throw, taking {@damage 10d12} necrotic damage on a failed save, or half as much damage on a successful one. If the save fails, the target also ages to the point where it has only 30 days left before it dies of old age. In this aged state, the target has disadvantage on attack rolls, ability checks, and saving throws, and its walking speed is halved. Only the {@spell wish} spell or the {@spell greater restoration} cast with a 9th-level spell slot can end these effects and restore the target to its previous age."
+				"Prens com a objectiu una criatura que puguis veure dins del rang, sotmetent la seva forma física a la devastació d'un ràpid envelliment. L'objectiu ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 10d12} de dany necròtic i envelleix fins que li queden 30 dies per morir a causa de l'edat. Si la supera, rep la meitat del dany.",
+				"Una criatura en aquest estat d'envelliment, té desavantatge en les tirades d'atac, en les proves de capacitat, en les tirades de salvació i la seva velocitat es veu reduïda a la meitat. Només els conjurs {@spell wish} o {@spell greater restoration} llençats fent servir un espai de conjur de nivell 9 poden desfer aquest efecte i retornar la criatura a la seva edat original."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -795,7 +803,7 @@
 			]
 		},
 		{
-			"name": "Wristpocket",
+			"name": "Canellera",
 			"source": "EGW",
 			"page": 190,
 			"level": 2,
@@ -829,8 +837,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"You flick your wrist, causing one object in your hand to vanish. The object, which only you can be holding and can weigh no more than 5 pounds, is transported to an extradimensional space, where it remains for the duration.",
-				"Until the spell ends, you can use your action to summon the object to your free hand, and you can use your action to return the object to the extradimensional space. An object still in the pocket plane when the spell ends appears in your space, at your feet."
+				"Sacseges el canell, fent que un objecte a la teva mà s'esvaeixi. L'objecte, que només tu pots subjectar i que no pot pesar més de 5 lliures, és teletransportat a un espai extradimensional, on roman fins que el conjur acabi.",
+				"Fins que el conjur acabi, pots fer servir la teva acció per invocar l'objecte a la teva mà lliure, i pots fer servir la teva acció per fer que l'objecte torni a l'espai extradimensional. Un objecte que es troba en aquest espai quan el conjur acaba, reapareix al teu espai, als teus peus."
 			],
 			"areaTags": [
 				"ST"

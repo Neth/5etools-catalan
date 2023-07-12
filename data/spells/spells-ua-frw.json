@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Ego Whip",
+			"name": "Fuetada d'ego",
 			"source": "UAFighterRogueWizard",
 			"page": 7,
 			"level": 4,
@@ -33,7 +33,7 @@
 				}
 			],
 			"entries": [
-				"You lash the mind of one creature you can see within range, filling it with despair. The target must succeed on an Intelligence saving throw or suffer disadvantage on attack rolls, ability checks, and saving throws, and it can't cast spells. At the end of each of its turns, the target can make another Intelligence saving throw. On a success, the spell ends on the target."
+				"Fueteges la ment d'una criatura que puguis veure dins del rang, omplint-la de desesperació. L'objectiu ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, té desavantatge en les tirades d'atac, les proves de capacitat i les tirades de salvació, i no pot llençar conjurs. Al final de cadascun dels seus torns, l'objectiu pot tornar a realitzar una tirada de salvació d'Intel·ligència. Si la supera, el conjur acaba per a ell."
 			],
 			"savingThrow": [
 				"intelligence"
@@ -46,7 +46,7 @@
 			]
 		},
 		{
-			"name": "Id Insinuation",
+			"name": "Insinuació d'identitat",
 			"source": "UAFighterRogueWizard",
 			"page": 7,
 			"level": 1,
@@ -79,7 +79,7 @@
 				}
 			],
 			"entries": [
-				"You unleash a torrent of conflicting desires in the mind of one creature you can see within range, impairing its ability to make decisions. The target must succeed on a Wisdom saving throw or be incapacitated. At the end of each of its turns, it takes {@damage 1d12} psychic damage, and it can then make another Wisdom saving throw. On a success, the spell ends on the target."
+				"Desencadenes un torrent de desitjos conflictius dins la ment d'una criatura que puguis veure dins del rang, perjudicant la seva capacitat de prendre decisions. L'objectiu ha de realitzar una tirada de salvació de Saviesa. Si la falla, queda incapacitat. Al final de cadascun dels seus torns, rep {@damage 1d12} de dany psíquic i pot tornar a realitzar una tirada de salvació de Saviesa. Si la supera, el conjur acaba per a ell."
 			],
 			"damageInflict": [
 				"psychic"
@@ -98,7 +98,7 @@
 			]
 		},
 		{
-			"name": "Intellect Fortress",
+			"name": "Fortalesa de l'intel·lecte",
 			"source": "UAFighterRogueWizard",
 			"page": 7,
 			"level": 5,
@@ -130,15 +130,15 @@
 				}
 			],
 			"entries": [
-				"You create a faintly shimmering barrier of protective psychic power around you. For the duration, you have advantage on all saving throws.",
-				"When another creature that you can see within 30 feet of you fails a saving throw, you can use your reaction to allow them to reroll the save. They must use the new roll."
+				"Crees una barrera lleugerament brillant de poder psíquic protector al teu voltant. Fins que el conjur acabi, tens avantatge en les tirades de salvació.",
+				"Quan una altra criatura que puguis veure fins a 30 peus de tu falla una tirada de salvació, pots fer servir la teva reacció per fer que torni a realitzar la tirada. El resultat vàlid serà el d'aquesta nova tirada."
 			],
 			"miscTags": [
 				"SGT"
 			]
 		},
 		{
-			"name": "Mental Barrier",
+			"name": "Barrera mental",
 			"source": "UAFighterRogueWizard",
 			"page": 7,
 			"level": 2,
@@ -147,7 +147,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take when you are forced to make an Intelligence, a Wisdom, or a Charisma saving throw"
+					"condition": ", que duus a terme quan ets obligat a realitzar una tirada de salvació d'Intel·ligència, de Saviesa o de Carisma"
 				}
 			],
 			"range": {
@@ -169,11 +169,11 @@
 				}
 			],
 			"entries": [
-				"You protect your mind with a wall of looping, repetitive thought. Until the start of your next turn, you have advantage on Intelligence, Wisdom, and Charisma saving throws, and you have resistance to psychic damage."
+				"Et protegeixes la ment amb una paret de pensaments constants i repetitius. Fins al començament del teu pròxim torn, tens avantatge en les tirades de salvació d'Intel·ligència, de Saviesa i de Carisma, i tens resistència al dany psíquic."
 			]
 		},
 		{
-			"name": "Mind Sliver",
+			"name": "Estella mental",
 			"source": "UAFighterRogueWizard",
 			"page": 7,
 			"level": 0,
@@ -204,8 +204,15 @@
 				}
 			],
 			"entries": [
-				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes {@damage 1d6} psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a {@dice d4} and subtract the number rolled from the save.",
-				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"Introdueixes una estella desorientadora d'energia psíquica dins la ment d'una criatura que puguis veure dins del rang. La criatura ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, rep {@damage 1d6} de dany psíquic i resta {@dice 1d4} a la següent tirada de salvació que realitzi abans del teu pròxim torn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "En nivells superiors",
+					"entries": [
+						"El dany del conjur augmenta {@dice 1d6} en arribar a nivell 5 ({@damage 2d6}), a nivell 11 ({@damage 3d6}), i a nivell 17({@damage 4d6})."					]
+				}
 			],
 			"scalingLevelDice": {
 				"label": "psychic damage",
@@ -231,7 +238,7 @@
 			]
 		},
 		{
-			"name": "Mind Thrust",
+			"name": "Estocada mental",
 			"source": "UAFighterRogueWizard",
 			"page": 7,
 			"level": 2,
@@ -263,14 +270,14 @@
 				}
 			],
 			"entries": [
-				"You propel a lance of psionic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can use its action only to {@action Dash} or {@action Disengage} on its next turn. On a successful save, the target takes half as much damage, and this spell doesn't limit its action options."
+				"Llences una llança de disrupció psíquica a la ment d'una criatura que puguis veure dins del rang. L'objectiu ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, rep {@damage 3d6} de dany psíquic, i no pot realitzar cap reacció fins al final del seu pròxim torn. A més a més, en el seu pròxim torn, ha d'escollir si realitzar una acció, un moviment o una acció addicional (només una de les tres). Si supera la tirada de salvació, rep la meitat del dany, però no pateix cap altre efecte."
 			],
 			"entriesHigherLevel": [
 				{
-					"name": "At Higher Levels",
 					"type": "entries",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, pots escollir com a objectiu una criatura addicional per cada nivell per sobre de 2. La criatura ha d'estar fins a 30 peus d'un altre objectiu."
 					]
 				}
 			],
@@ -289,7 +296,7 @@
 			]
 		},
 		{
-			"name": "Psionic Blast",
+			"name": "Explosió psiònica",
 			"source": "UAFighterRogueWizard",
 			"page": 8,
 			"level": 3,
@@ -316,14 +323,14 @@
 				}
 			],
 			"entries": [
-				"You unleash a destructive wave of mental power in a 30-foot cone. Each creature in the area must make a Dexterity saving throw. On a failed save, a target takes {@damage 5d8} force damage, is pushed 20 feet directly away from you, and is knocked {@condition prone}. On a successful save, a target takes half as much damage and isn't pushed or knocked prone."
+				"Desencadenes una onada destructora de poder mental en un con de 30 peus. Cada criatura dins de l'àrea ha de realitzar una tirada de salvació de Destresa. Si la falla, rep {@damage 5d8} de dany per força, és empesa 20 peus per allunyar-se de tu i queda {@condition prone}. Si la supera, rep la meitat del dany, però no pateix cap altre efecte."
 			],
 			"entriesHigherLevel": [
 				{
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"type": "entries",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, el dany augmenta {@scaledamage 5d8|3-9|1d8} per cada nivell per sobre de 3."
 					]
 				}
 			],
@@ -344,7 +351,7 @@
 			]
 		},
 		{
-			"name": "Psychic Crush",
+			"name": "Xoc psíquic",
 			"source": "UAFighterRogueWizard",
 			"page": 8,
 			"level": 6,
@@ -376,8 +383,8 @@
 				}
 			],
 			"entries": [
-				"You overload the mind of one creature you can see within range, filling its psyche with discordant emotions. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 12d6} psychic damage and is {@condition stunned} for 1 minute. On a successful save, the target takes half as much damage and isn't stunned.",
-				"The stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the spell ends on the target."
+				"Sobrecarregues la ment d'una criatura que puguis veure dins del rang, omplint-ne la psique d'emocions discordants. L'objectiu ha de realitzar una tirada de salvació d'Intel·ligència. SI la falla, rep {@damage 12d6} de dany psíquic i queda {@condition stunned} durant 1 minut. Si la supera, rel la meitat del dany, però no pateix cap altre efecte.",
+				"La criatura {@condition stunned} pot realitzar una tirada de salvació d'Intel·ligència al final de cadascun dels seus torns. Si la supera, el conjur acaba per a ella."
 			],
 			"damageInflict": [
 				"psychic"
@@ -396,7 +403,7 @@
 			]
 		},
 		{
-			"name": "Thought Shield",
+			"name": "Escut de pensaments",
 			"source": "UAFighterRogueWizard",
 			"page": 8,
 			"level": 2,
@@ -427,7 +434,7 @@
 				}
 			],
 			"entries": [
-				"You weave a clouding veil over the mind of one creature you touch. For the duration, the target's mind can't be read or detected, creatures can't telepathically communicate with the target unless the target allows it, and the target has advantage on saving throws against any effect that would determine whether it is telling the truth."
+				"Teixeixes un vel ennuvolat sobre la ment d'una criatura que toquis. Fins que el conjur acabi, la ment de l'objectiu no pot ser llegida o detectada, les criatures no s'hi poden comunicar telepàticament a menys que ell els ho permeti, i l'objectiu té avantatge en les tirades de salvació contra qualsevol efecte que determinaria si està dient la veritat."
 			],
 			"areaTags": [
 				"ST"

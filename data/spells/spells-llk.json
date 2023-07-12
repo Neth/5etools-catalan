@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Flock of Familiars",
+			"name": "Bandada de familiars",
 			"source": "LLK",
 			"page": 57,
 			"level": 2,
@@ -33,16 +33,16 @@
 				}
 			],
 			"entries": [
-				"You temporarily summon three familiars\u2014spirits that take animal forms of your choice. Each familiar uses the same rules and options for a familiar conjured by the {@spell find familiar} spell. All the familiars conjured by this spell must be the same type of creature (celestials, fey, or fiends; your choice). If you already have a familiar conjured by the {@spell find familiar} spell or similar means, then one fewer familiars are conjured by this spell.",
-				"Familiars summoned by this spell can telepathically communicate with you and share their visual or auditory senses while they are within 1 mile of you.",
-				"When you cast a spell with a range of touch, one of the familiars conjured by this spell can deliver the spell, as normal. However, you can cast a touch spell through only one familiar per turn."
+				"Invoques temporalment tres esperits familiars que prenen formes animals de la teva elecció. Cada familiar fa servir les mateixes regles i opcions que per a un familiar invocat amb el conjur {@spell find familiar}. Tots els familiars invocats per aquest conjur han de ser del mateix tipus de criatura (celestials, ferèrics o infernals, a la teva elecció). Si ja tens un familiar invocat pel conjur {@spell find familiar} o un altre conjur similar, aquest conjur invoca un familiar menys.",
+				"Els familiars invocats per aquest conjur es poden comunicar amb tu telepàticament compartint-te els seus sentits de la vista i de l'oïda mentre us trobeu fins a 1 milla de distància.",
+				"Quan llences un conjur de toc, pots llençar-lo a través d'un dels familiars invocats per aquest conjur. Només pots fer-ho d'aquesta manera un cop per torn."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you conjure an additional familiar for each slot level above 2nd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, invoques un familiar addicional per cada nivell per sobre de 2."
 					]
 				}
 			],
@@ -51,7 +51,7 @@
 			]
 		},
 		{
-			"name": "Galder's Speedy Courier",
+			"name": "El missatger veloç de Galder",
 			"source": "LLK",
 			"page": 57,
 			"level": 4,
@@ -73,7 +73,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "25 gold pieces, or mineral goods of equivalent value, which the spell consumes",
+					"text": "25 peces d'or i béns minerals del mateix valor, que es consumeixen amb el conjur",
 					"cost": 2500,
 					"consume": true
 				}
@@ -88,16 +88,16 @@
 				}
 			],
 			"entries": [
-				"You summon a Small air elemental to a spot within range. The air elemental is formless, nearly transparent, immune to all damage, and cannot interact with other creatures or objects. It carries an open, empty chest whose interior dimensions are 3 feet on each side. While the spell lasts, you can deposit as many items inside the chest as will fit. You can then name a living creature you have met and seen at least once before, or any creature for which you possess a body part, lock of hair, clipping from a nail, or similar portion of the creature's body.",
-				"As soon as the lid of the chest is closed, the elemental and the chest disappear, then reappear adjacent to the target creature. If the target creature is on another plane, or if it is proofed against magical detection or location, the contents of the chest reappear on the ground at your feet.",
-				"The target creature is made aware of the chest's contents before it chooses whether or not to open it, and knows how much of the spell's duration remains in which it can retrieve them. No other creature can open the chest and retrieve its contents. When the spell expires or when all the contents of the chest have been removed, the elemental and the chest disappear. The elemental also disappears if the target creature orders it to return the items to you. When the elemental disappears, any items not taken from the chest reappear on the ground at your feet."
+				"Invoques un elemental d'aire Petit en un punt dins del rang. L'elemental d'aire és amorf, gairebé transparent, immune a tots els danys i no pot interactuar amb altres criatures o objectes. Porta un cofre obert i buit les dimensions interiors del qual són de 3 peus de costat. Mentre duri el conjur, pots dipositar tants objectes a l'interior del cofre com puguis. Llavors pots nomenar una criatura viva que hagis conegut i vist almenys un cop abans, o qualsevol criatura de la qual tinguis una part del cos, floc de cabells, tros d'ungla o una part similar.",
+				"Tan aviat com es tanca la tapa del cofre, l'elemental i el cofre desapareixen, i després reapareixen adjacents a la criatura objectiu. Si la criatura objectiu es troba en un altre pla o si està protegida contra la detecció o la ubicació màgica, el contingut del cofre reapareix de nou a terra als teus peus.",
+				"La criatura objectiu és conscient del contingut del cofre abans d'escollir si l'obre o no, i coneix la duració que queda perquè el conjur acabi per poder agafar el contingut del cofre. Cap altra criatura pot obrir el cofre i recuperar-ne el contingut. Quan el conjur acaba o quan s'ha eliminat tot el contingut del cofre, l'elemental i el cofre desapareixen. L'elemental també desapareix si la criatura objectiu li ha ordenat retornar-te el contingut del cofre. Qualsevol objecte que no s'hagi tret del cofre cau a terra als teus peus."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using an 8th-level spell slot, you can send the chest to a creature on a different plane of existence from you."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 8, pots enviar el cofre a una criatura que estigui en un altre pla d'existència."
 					]
 				}
 			],
@@ -106,7 +106,7 @@
 			]
 		},
 		{
-			"name": "Galder's Tower",
+			"name": "La torre de Galder",
 			"source": "LLK",
 			"page": 57,
 			"level": 3,
@@ -127,7 +127,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a fragment of stone, wood, or other building material"
+				"m": "un fragment de pedre, fusta o altres materials de construcció"
 			},
 			"duration": [
 				{
@@ -139,28 +139,28 @@
 				}
 			],
 			"entries": [
-				"You conjure a two-story tower made of stone, wood, or similar suitably sturdy materials. The tower can be round or square in shape. Each level of the tower is 10 feet tall and has an area of up to 100 square feet. Access between levels consists of a simple ladder and hatch. Each level takes one of the following forms, chosen by you when you cast the spell:",
+				"Crees una torre de dos pisos feta del component material emprat per al llançament del conjur. La torre pot tenir forma cilíndrica o cúbica. Cada pis de la torre té 10 peus d'alçada i una àrea de fins a 100 peus quadrats. L'accés entre els pisos consisteix en una simple escala i una escotilla. Cada pis té una de les següents formes, escollides en el moment del llançament:",
 				{
 					"type": "list",
 					"items": [
-						"A bedroom with a bed, chairs, chest, and magical fireplace",
-						"A study with desks, books, bookshelves, parchments, ink, and ink pens",
-						"A dining space with a table, chairs, magical fireplace, containers, and cooking utensils",
-						"A lounge with couches, armchairs, side tables and footstools",
-						"A washroom with toilets, washtubs, a magical brazier, and sauna benches",
-						"An observatory with a telescope and maps of the night sky",
-						"An unfurnished, empty room"
+						"Una habitació amb llit, cadires, calaixera i xemeneia màgica.",
+						"Un estudi amb escriptoris, llibres, prestatgeries, pergamins, tinta i plomes per escriure.",
+						"Un menjador amb taula, cadires, xemeneia màgica, vaixella i estris de cuina.",
+						"Una sala d'estar amb sofàs, butaques, tauletes auxiliars i banquets per als peus.",
+						"Un lavabo amb tassa, pica, estufa màgica, una sauna i bancs.",
+						"Un observatori amb telescopi i un mapa del cel nocturn.",
+						"Una sasla buida sense moblar."
 					]
 				},
-				"The interior of the tower is warm and dry, regardless of conditions outside. Any equipment or furnishings conjured with the tower dissipate into smoke if removed from it. At the end of the spell's duration, all creatures and objects within the tower that were not created by the spell appear safely outside on the ground, and all traces of the tower and its furnishings disappear.",
-				"You can cast this spell again while it is active to maintain the tower's existence for another 24 hours. You can create a permanent tower by casting this spell in the same location and with the same configuration every day for one year."
+				"L'interior de la torre és càlid i sec, independentment de les condicions climàtiques de l'exterior. Qualsevol equipament o mobiliari creat pel conjur desapareix si es treu de la torre. Quan el conjur acaba, la torre s'ensorra inofensivament, deixant qualsevol criatura que hi hagués dins segura sobre el terra.",
+				"Mentre el conjur continuï actiu pots tornar-lo a llençar per allargar l'existència de la torre 24 hores més. Llençar aquest conjur sobre el mateix punt un cop cada dia durant 1 any fa que la torre romangui permanentment."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the tower can have one additional story for each slot level beyond 3rd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, la torre pot tenir una planta addicional per cada nivell per sobre de 3."
 					]
 				}
 			],

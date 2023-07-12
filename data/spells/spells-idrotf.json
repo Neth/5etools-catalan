@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Create Magen",
+			"name": "Crear Magen",
 			"source": "IDRotF",
 			"page": 318,
 			"level": 7,
@@ -22,7 +22,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a vial of quicksilver worth 500 gp and a life-sized human doll, both of which the spell consumes, and an intricate crystal rod worth at least 1,500 gp that is not consumed",
+					"text": "un vial de mercuri amb valor de 500 po i una nina humana de mida real, ambdós consumits amb el conjur, i una vareta intricada de cristall amb valor d'almenys 1500 po, que no es consumeix",
 					"cost": 50000,
 					"consume": true
 				}
@@ -33,16 +33,19 @@
 				}
 			],
 			"entries": [
-				"While casting the spell, you place a vial of quicksilver in the chest of a life-sized human doll stuffed with ash or dust. You then stitch up the doll and drip your blood on it. At the end of the casting, you tap the doll with a crystal rod, transforming it into a {@filter magen|bestiary|search=magen|source=IDRotF} clothed in whatever the doll was wearing. The type of magen is chosen by you during the casting of the spell. See {@adventure appendix C|IDRotF|21} for different kinds of magen and their statistics.",
-				"When the magen appears, your hit point maximum decreases by an amount equal to the magen's challenge rating (minimum reduction of 1). Only a {@spell wish} spell can undo this reduction to your hit point maximum.",
-				"Any magen you create with this spell obeys your commands without question."
+				"Mentre llences el conjur, col·loques un vial de mercuri al pit d'una nina humana de mida real farcida de cendra o pols. Després cuses la nina i hi degotes la teva sang. Al final del llançament, toques la nina amb la vareta de cristall i la transformes en un Magen vestit tal com anés vestida la nina. El tipus de Magen s'escull durant el llançament del conjur.",
+
+				"VEURE PERFIL DE LES CRIATURES",
+
+				"Quan apareix el Magen, els teus punts de vida màxims decreixen una quantitat igual al valor de desafiament del Magen (mínim 1). Només el conjur {@spell wish} pot desfer aquesta reducció.",
+				"Qualsevol Magen que creïs amb aquest conjur obeeix les teves ordres sense oposar-s'hi."
 			],
 			"areaTags": [
 				"ST"
 			]
 		},
 		{
-			"name": "Frost Fingers",
+			"name": "Dits gelats",
 			"source": "IDRotF",
 			"page": 318,
 			"level": 1,
@@ -70,15 +73,15 @@
 				}
 			],
 			"entries": [
-				"Freezing cold blasts from your fingertips in a 15-foot cone. Each creature in that area must make a Constitution saving throw, taking {@damage 2d8} cold damage on a failed save, or half as much damage on a successful one.",
-				"The cold freezes nonmagical liquids in the area that aren't being worn or carried."
+				"Ràfegues de fred congelant surten de les puntes dels teus dits en un con de 15 peus. Cada criatura dins l'àrea ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 2d8} de dany per fred. Si la supera, rep la meitat del dany.",
+				"El fred congela els líquids no màgics dins l'àrea que no porti a sobre ningú."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 2 o superior, el dany augmenta {@scaledamage 2d8|1-9|1d8} per cada nivell per sobre d'1."
 					]
 				}
 			],

@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Acid Stream",
+			"name": "Corrent d'àcid",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 2,
 			"level": 1,
@@ -22,7 +22,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of rotten food"
+				"m": "una mica de menjar podrit"
 			},
 			"duration": [
 				{
@@ -35,14 +35,14 @@
 				}
 			],
 			"entries": [
-				"A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes {@damage 3d4} acid damage at start of each of its turns."
+				"Un corrent d'àcid emana de tu en una línia de 30 peus de llargada i 5 peus d'amplada en la direcció que escullis. Cada criatura dins l'àrea ha de realitzar una tirada de salvació de Destresa. Si la falla, queda coberta en àcid fins que el conjur acabi o fins que la criatura faci servir la seva acció per treure's l'àcid a si mateixa o a una altra criatura. Una criatura coberta d'àcid rep {@damage 3d4} de dany per àcid al començament de cadascun dels seus torns."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 3d4|1-9|1d4} for each slot level above 1st."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 2 o superior, el dany augmenta {@scaledamage 3d4|1-9|1d4} per cada nivell per sobre d'1."
 					]
 				}
 			],
@@ -57,7 +57,7 @@
 			]
 		},
 		{
-			"name": "Otherworldly Form",
+			"name": "Forma d'un altre món",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 2,
 			"level": 6,
@@ -78,7 +78,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an object engraved with a symbol of the Outer Planes, worth at least 500 gp",
+					"text": "un objecte gravar amb un símbol d'un Pla Exterior, amb valor d'almenys 500 po",
 					"cost": 50000
 				}
 			},
@@ -93,16 +93,16 @@
 				}
 			],
 			"entries": [
-				"Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:",
+				"En pronunciar el conjur, aprofites la màgia dels Plans Inferiors o Superiors (a la teva elecció) per transformar-te. Guanyes els següents beneficis fins que el conjur acabi:",
 				{
 					"type": "list",
 					"items": [
-						"You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).",
-						"You are immune to the {@condition poisoned} condition (Lower Planes) or the {@condition charmed} condition (Upper Planes).",
-						"Spectral wings appear on your back, giving you a flying speed of 40 feet.",
-						"You have a +2 bonus to AC.",
-						"All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
-						"You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks."
+						"Ets immune al dany per foc i per verí (Plans Inferiors) o al dany radiant i necròtic (Plans Superiors).",
+						"Ets immune a quedar {@condition poisoned} (Plans Inferiors) o {@condition charmed} (Plans Superiors).",
+						"T'apareixen unes ales espectrals a l'esquena, que t'atorguen velocitat de vol de 40 peus.",
+						"Tens un bonificador +2 a la teva CA.",
+						"Tots els teus atacs amb arma són màgics, i quan realitzes un atac amb arma, pots fer servir el teu modificador d'aptitud màgica en comptes de la teva Força o Destresa per a les tirades d'atac i de dany.",
+						"Pots atacar dos cops, en comptes d'un, quan realitzar l'acció d'atacar en el teu torn. Ignores aquest benefici si ja tens la possibilitat de realitzat atacs extres."
 					]
 				}
 			],
@@ -124,7 +124,7 @@
 			]
 		},
 		{
-			"name": "Spirit Shroud",
+			"name": "Mortalla espiritual",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 2,
 			"level": 3,
@@ -156,16 +156,16 @@
 				}
 			],
 			"entries": [
-				"You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable, and they are good or evil (your choice).",
-				"Until the spell ends, any attack you make deals {@damage 1d8} extra damage when you hit a creature within 10 feet of you. This damage is radiant if the spirits are good and necrotic if they are evil. Any creature that takes this damage can't regain hit points until the start of your next turn.",
-				"In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn."
+				"Crides esperits dels morts, que volen al teu voltant fins que el conjur acabi. Els esperits són intangibles i invulnerables, i poden ser bons o dolents (a la teva elecció).",
+				"Fins que el conjur acabi, qualsevol atac que impacti causa {@damage 1d8} de dany addicional quan colpeges una criatura fins a 10 peus de tu. Aquest dany és radiant si l'esperit és bo i necròtic si és dolent. Qualsevol criatura que rebi aquest dany no pot recuperar punts de vida fins al començament del teu pròxim torn.",
+				"A més a més, qualsevol criatura de la teva elecció que puguis veure situada fins a 10 peus de tu veu la seva velocitat reduïda 10 peus fins al començament del teu pròxim torn."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the extra damage increases by {@scaledamage 1d8|3-9|1d8} for each slot level above 3rd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, el dany addicional augmenta {@scaledamage 1d8|3-9|1d8} per cada nivell per sobre de 3."
 					]
 				}
 			],
@@ -179,7 +179,7 @@
 			]
 		},
 		{
-			"name": "Summon Aberrant Spirit",
+			"name": "Invocar esperit aberrant",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 3,
 			"level": 4,
@@ -201,7 +201,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a pickled tentacle and an eyeball in a crystal vial worth at least 400 gp",
+					"text": "un tentacle en salmorra i un globus ocular en un vial amb incrustacions de platí amb un valor d'almenys 400 po",
 					"cost": 40000
 				}
 			},
@@ -216,15 +216,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit from the Far Realm or another alien realm of madness. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Aberrant Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose Beholderkin, Slaadi, or Star Spawn. The creature physically resembles your choice, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"Crides un esperit del Reialme Llunyà o d'un altre reialme alienígena de la bogeria. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit aberrant. Quan llances el conjur, escull Contemplador, Slaad o Llavor estel·lar. La criatura semblarà una aberració d'aquest tipus, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 5 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -234,7 +237,7 @@
 			]
 		},
 		{
-			"name": "Summon Bestial Spirit",
+			"name": "Incocar esperit bestial",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 3,
 			"level": 2,
@@ -256,7 +259,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 gp",
+					"text": "una ploma, una mica de pèl i cua de peix dins d'una gla daurada amb valor d'almenys 200 po",
 					"cost": 20000
 				}
 			},
@@ -271,15 +274,18 @@
 				}
 			],
 			"entries": [
-				"You call forth the spirit of a beast. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Bestial Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature physically resembles an animal of your choice that is native to the chosen environment, which also determines one of the movement modes in the creature's stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"Crides un esperit d'una bèstia. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit bestial. Quan llances el conjur, escull un hàbitat: terra, mar o aire. La criatura semblarà un animal de la teva elecció d'aquest hàbitat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -289,7 +295,7 @@
 			]
 		},
 		{
-			"name": "Summon Celestial Spirit",
+			"name": "Invocar esperit celestial",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 4,
 			"level": 5,
@@ -311,7 +317,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a golden reliquary worth at least 500 gp",
+					"text": "un reliquiari daurat amb valor d'almenys 500 po",
 					"cost": 50000
 				}
 			},
@@ -326,15 +332,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit from the Upper Planes. The spirit manifests physically in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the {@creature Celestial Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose Avenger or Defender. Your choice determines the creature's attack in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"Crides un esperit dels Plans Superiors. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit celestial. Quan llances el conjur, escull venjador o defensor. L'elecció determinarà com és l'atac de la criatura. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 6 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -344,7 +353,7 @@
 			]
 		},
 		{
-			"name": "Summon Elemental Spirit",
+			"name": "Invocar esperit elemental",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 4,
 			"level": 4,
@@ -366,7 +375,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "air, a pebble, ash, and water inside a crystal vial worth at least 400 gp",
+					"text": "aire, una pedra, cendra i aigua dins d'un vial amb incrustacions d'or amb valor d'almenys 400 po",
 					"cost": 40000
 				}
 			},
@@ -381,15 +390,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit from the Elemental Planes. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Elemental Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature physically resembles a vaguely humanoid form wreathed in the chosen element, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"Crides un esperit dels Plans Elementals. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit elemental. Quan llances el conjur, escull un element: aigua, terra, foc o aire. La criatura semblarà un ésser bípede envoltat de l'element escollit, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 5 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -399,7 +411,7 @@
 			]
 		},
 		{
-			"name": "Summon Fey Spirit",
+			"name": "Invocar esperit feèric",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 5,
 			"level": 3,
@@ -421,7 +433,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded flower worth at least 300 gp",
+					"text": "una flor banyada en or amb valor d'almenys 300 po",
 					"cost": 30000
 				}
 			},
@@ -436,15 +448,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit from the Feywild. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fey Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose a mood: Deceitful, Furious, or Joyful. The creature physically resembles a satyr, a dryad, or an elf (your choice) marked by the chosen mood, which also determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"Crides un esperit de Feywild. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit feèric. Quan llances el conjur, escull un estat d'ànim: furiós, alegre o burleta. La criatura semblarà un ésser feèric amb aquest estat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -454,7 +469,7 @@
 			]
 		},
 		{
-			"name": "Summon Fiendish Spirit",
+			"name": "Invocar esperit infernal",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 6,
 			"level": 6,
@@ -476,7 +491,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "humanoid blood inside a ruby vial worth at least 600 gp",
+					"text": "sang d'humanoide dins d'un vial de robí amb valor d'almenys 600 po",
 					"cost": 60000
 				}
 			},
@@ -491,15 +506,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a fiendish spirit from the Lower Planes. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fiendish Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose Demon, Devil, or Yugoloth. The creature physically resembles a fiend of the chosen type, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"Crides un esperit dels Plans Inferiors. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit infernal. Quan llances el conjur, escull: dimoni, diable o yugoloth. La criatura semblarà un infernal d'aquest estat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 7 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -509,7 +527,7 @@
 			]
 		},
 		{
-			"name": "Summon Shadow Spirit",
+			"name": "Invocar esperit de l'ombra",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 7,
 			"level": 3,
@@ -531,7 +549,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "tears inside a crystal vial worth at least 300 gp",
+					"text": "llàgrimes dins d'una gemma amb valor d'almenys 300 po",
 					"cost": 30000
 				}
 			},
@@ -546,15 +564,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a shadowy spirit from the Shadowfell. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Shadow Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature physically resembles a misshapen humanoid marked by the chosen emotion, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"Crides un esperit de Shadowfell. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit de les ombres. Quan llances el conjur, escull una emoció: fúria, desesperació o terror. La criatura semblarà un ésser bípede deforme marcar per aquesta emoció, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -564,7 +585,7 @@
 			]
 		},
 		{
-			"name": "Summon Undead Spirit",
+			"name": "Invocar esperit mort vivent",
 			"source": "UA2020SpellsAndMagicTattoos",
 			"page": 7,
 			"level": 3,
@@ -586,7 +607,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded humanoid skull worth at least 300 gp",
+					"text": "una calavera banyada en or amb valor d'almenys 300 po",
 					"cost": 30000
 				}
 			},
@@ -601,15 +622,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a restless spirit from beyond the grave. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Undead Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose the creature's form: Ghostly, Putrid, or Skeletal. The creature physically resembles a humanoid with the chosen form, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+				"Crides un esperit inquiet des de més enllà de la tomba. L'esperit es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit mort vivent. Quan llances el conjur, escull la forma de la criatura: fantasmal, pútrida o esquelètica. La criatura semblarà un mort vivent amb la forma escollida, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],

@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Distort Value",
+			"name": "Distorsió de valors",
 			"source": "AI",
 			"page": 75,
 			"level": 1,
@@ -31,21 +31,20 @@
 				}
 			],
 			"entries": [
-				"Do you need to squeeze a few more gold pieces out of a merchant as you try to sell that weird octopus statue you liberated from the chaos temple? Do you need to downplay the worth of some magical assets when the tax collector stops by? Distort value has you covered.",
-				"You cast this spell on an object no more than 1 foot on a side, doubling the object's perceived value by adding illusory flourishes or polish to it, or reducing its perceived value by half with the help of illusory scratches, dents, and other unsightly features. Anyone examining the object can ascertain its true value with a successful Intelligence ({@skill Investigation}) check against your spell save DC."
+				"Llences aquest conjur sobre un objecte de no més d'1 peu de costat, fent que el seu valor es dobli afegint-hi decoracions i poliments il·lusoris. També pots fer que el valor es vegi reduït a la meitat creant esquerdes o bonys il·lusoris. Qualsevol que examini l'objecte pot endevinar el seu valor real si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the maximum size of the object increases by 1 foot for each slot level above 1st."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 2 o superior, les dimensions de l'objecte objectiu augmenten 1 peu de costat per cada nivell per sobre d'1."
 					]
 				}
 			]
 		},
 		{
-			"name": "Fast Friends",
+			"name": "Amics ràpids",
 			"source": "AI",
 			"page": 75,
 			"level": 3,
@@ -77,16 +76,16 @@
 				}
 			],
 			"entries": [
-				"When you need to make sure something gets done, you can't rely on vague promises, sworn oaths, or binding contracts of employment. When you cast this spell, choose one humanoid within range that can see and hear you, and that can understand you. The creature must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the creature is {@condition charmed} in this way, it undertakes to perform any services or activities you ask of it in a friendly manner, to the best of its ability.",
-				"You can set the creature new tasks when a previous task is completed, or if you decide to end its current task. If the service or activity might cause harm to the creature, or if it conflicts with the creature's normal activities and desires, the creature can make another Wisdom saving throw to try to end the effect. This save is made with advantage if you or your companions are fighting the creature. If the activity would result in certain death for the creature, the spell ends.",
-				"When the spell ends, the creature knows it was {@condition charmed} by you."
+				"Quan llances aquest conjur, escull un humanoide que et pugui veure, sentir i entendre dins del rang. La criatura ha de realitzar una tirada de salvació de Saviesa. Si la falla, queda {@condition charmed} per tu fins que el conjur acabi. Mentre la criatura estigui {@condition charmed} d'aquesta manera, es compromet a dur a terme tots els serveis i activitats que li demanis de manera amistosa, tan bé com sàpiga.",
+				"Pots demanar-li noves tasques si ja ha acomplert les anteriors, o si decideixes finalitzar les actuals. Si una de les tasques encomanades comporten un risc per a la criatura o si van en contra de la seva naturalesa i desitjos, la criatura pot realitzar una tirada de salvació de Saviesa (la criatura té avantatge si tu o els teus companys hi esteu lluitant). Si la supera, l'efecte acaba per a ella. Si la tasca implicaria d'alguna manera la mort de la criatura, el conjur acaba.",
+				"Quan el conjur acaba, la criatura sap que ha estat {@condition charmed} per tu."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, pots escollir com a objectiu una criatura addicional per cada nivell per sobre de 3."
 					]
 				}
 			],
@@ -108,7 +107,7 @@
 			]
 		},
 		{
-			"name": "Gift of Gab",
+			"name": "Do de la paraula",
 			"source": "AI",
 			"page": 76,
 			"level": 2,
@@ -117,7 +116,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": "which you take when you speak to another creature"
+					"condition": ", que es duu a terme quan parles amb una altra criatura"
 				}
 			],
 			"range": {
@@ -137,22 +136,14 @@
 				}
 			],
 			"entries": [
-				{
-					"type": "quote",
-					"entries": [
-						"When I met Jim Darkmagic, I wondered how he got anything done in that outfit. I have since learned that most of his talents involve standing and talking. His outfit is perfect for that."
-					],
-					"by": "Môrgæn"
-				},
-				"Jim Darkmagic is said to have invented this spell, originally calling it {@i I said what?!} Have you ever been talking to the local monarch and accidentally mentioned how their son looks like your favorite hog from when you were growing up on the family farm? We've all been there! But rather than being beheaded for an honest slip of the tongue, you can pretend it never happened\u2014by ensuring that no one knows it happened.",
-				"When you cast this spell, you skillfully reshape the memories of listeners in your immediate area, so that each creature of your choice within 5 feet of you forgets everything you said within the last 6 seconds. Those creatures then remember that you actually said the words you speak as the verbal component of the spell."
+				"Quan llences aquest conjur, remodeles hàbilment els records dels qui t'escolten al teu davant. Cada criatura fins a 5 peus de tu oblida qualsevol cosa que has dit en els últims 6 segons. Després aquestes criatures recorden de nou les paraules que has fet servir com a component verbal del conjur."
 			],
 			"areaTags": [
 				"MT"
 			]
 		},
 		{
-			"name": "Incite Greed",
+			"name": "Incitar a la cobdícia",
 			"source": "AI",
 			"page": 76,
 			"level": 3,
@@ -174,7 +165,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gem worth at least 50 gp",
+					"text": "una gemma amb valor d'almenys 50 po",
 					"cost": 5000
 				}
 			},
@@ -189,8 +180,8 @@
 				}
 			],
 			"entries": [
-				"When you cast this spell, you present the gem used as the material component and choose any number of creatures within range that can see you. Each target must succeed on a Wisdom saving throw or be {@condition charmed} by you until the spell ends, or until you or your companions do anything harmful to it. While {@condition charmed} in this way, a creature can do nothing but use its movement to approach you in a safe manner. While an affected creature is within 5 feet of you, it cannot move, but simply stares greedily at the gem you present.",
-				"At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target."
+				"Quan llences aquest conjur, ensenyes la gemma que has fet servir com a component material i esculls qualsevol nombre de criatures que puguis veure dins del rang. Cada objectiu ha de realitzar una tirada de salvació de Saviesa. Si la fallen, queden {@condition charmed} per tu fins que el conjur acabi o fins que tu o un company teu li causin dany. Mentre una criatura estigui {@condition charmed} d'aquesta manera, només pot fer servir el seu moviment per apropar-se a tu de manera segura. Mentre la criatura estigui fins a 5 peus de tu, no es pot moure, sinó simplement observar la gemma que li ensenyes.",
+				"Al final de cadascun dels seus torns, un objectiu afectat per aquest conjur pot realitzar una tirada de salvació de Saviesa. Si la supera, l'efecte acaba per a ell."
 			],
 			"conditionInflict": [
 				"charmed"
@@ -206,7 +197,7 @@
 			]
 		},
 		{
-			"name": "Jim's Glowing Coin",
+			"name": "Moneda relluent de Jim",
 			"source": "AI",
 			"page": 76,
 			"level": 2,
@@ -226,7 +217,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a coin",
+				"m": "una moneda",
 				"r": true
 			},
 			"duration": [
@@ -239,7 +230,7 @@
 				}
 			],
 			"entries": [
-				"Of the many tactics employed by master magician and renowned adventurer Jim Darkmagic, the old glowing coin trick is a time-honored classic. When you cast the spell, you hurl the coin that is the spell's material component to any spot within range. The coin lights up as if under the effect of a {@spell light} spell. Each creature of your choice that you can see within 30 feet of the coin must succeed on a Wisdom saving throw or be distracted for the duration. While distracted, a creature has disadvantage on Wisdom ({@skill Perception}) checks and initiative rolls."
+				"Quan llences aquest conjur, tires la moneda emprada com a component material a qualsevol punt dins del rang. La moneda s'il·lumina com si estigués sota els efectes del conjur {@spell light}. Cada criatura de la teva elecció que puguis veure fins a 30 peus de la moneda ha de realitzar una tirada de salvació de Saviesa. Si la falla, quedarà distreta fins que el conjur acabi. Mentre estigui distreta, la criatura té desavantatge en totes les proves de Saviesa ({@skill Perception}) i les tirades d'iniciativa."
 			],
 			"savingThrow": [
 				"wisdom"
@@ -252,7 +243,7 @@
 			]
 		},
 		{
-			"name": "Jim's Magic Missile",
+			"name": "Míssil màgic de Jim",
 			"source": "AI",
 			"page": 76,
 			"level": 1,
@@ -281,23 +272,15 @@
 				}
 			],
 			"entries": [
-				{
-					"type": "quote",
-					"entries": [
-						"Jim's magic missile is an ancient and powerful spell, as well as being the name of my band in Wizard Academy."
-					],
-					"by": "Jim Darkmagic"
-				},
-				"Any apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather's magic with this improved version of the spell, as used by Jim Darkmagic!",
-				"You create three twisting, whistling, hypoallergenic, gluten-free darts of magical force. Each dart targets a creature of your choice that you can see within range. Make a ranged spell attack for each missile. On a hit, a missile deals {@damage 2d4} force damage to its target.",
-				"If the attack roll scores a critical hit, the target of that missile takes {@damage 5d4} force damage instead of you rolling damage twice for a critical hit. If the attack roll for any missile is a 1, all missiles miss their targets and blow up in your face, dealing 1 force damage per missile to you."
+				"Crees tres dards giratoris i sibilants de força màgica. Cada dard pren com a objectiu a una criatura de la teva elecció que puguis veure dins del rang. Realitza un atac de conjur a distància per a cada míssil. Si impacta, l'objectiu rep {@damage 2d4} de dany per força.",
+				"Si la tirada d'atac és crític, l'objectiu rep {@damage 5d4} de dany per força en comptes del doble del dany per crític. Si el resultat d'alguna tirada és 1, el míssil perd el control i reps tu 1 dany per força."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart, and the royalty component increases by 1 gp, for each slot level above 1st."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 2 o superior, pots el conjur crea un dard addicional, i el component reial augmenta 1po per cada nivell per sobre d'1."
 					]
 				}
 			],
@@ -316,7 +299,7 @@
 			]
 		},
 		{
-			"name": "Motivational Speech",
+			"name": "Discurs motivador",
 			"source": "AI",
 			"page": 77,
 			"level": 3,
@@ -347,21 +330,14 @@
 				}
 			],
 			"entries": [
-				{
-					"type": "quote",
-					"entries": [
-						"I once heard a motivational speech by Jim and it was the worst ninety seconds of my life. What does Omin see in him, anyway?"
-					],
-					"by": "Walnut Dankgrass"
-				},
-				"You address allies, staff, or innocent bystanders to exhort and inspire them to greatness, whether they have anything to get excited about or not. Choose up to five creatures within range that can hear you. For the duration, each affected creature gains 5 temporary hit points and has advantage on Wisdom saving throws. If an affected creature is hit by an attack, it has advantage on the next attack roll it makes. Once an affected creature loses the temporary hit points granted by this spell, the spell ends for that creature."
+				"T'adreces a aliats, personal o vianants innocents per inspirar-los a la grandesa, tant si tenen res per què emocionar-se o no. Escull fins a 5 criatures que puguin sentir-te dins del rang. Fins que el conjur acabi, cada criatura guanya 5 punts de vida temporals i té avantatge en les seves tirades de salvació de Saviesa. Si una criatura és colpejada per un atac, té avantatge en el pròxim atac que realitzi. Un cop una criatura afectada perd els punts de vida temporals atorgats per aquest conjur, el conjur acaba per a la criatura." 
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the temporary hit points increase by 5 for each slot level above 3rd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, els punts de vida temporals augmenten 5 per cada nivell per sobre de 3."
 					]
 				}
 			],

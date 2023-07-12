@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Antagonize",
+			"name": "Fer la guitza",
 			"source": "UA2022WondersOfTheMultiverse",
 			"page": 10,
 			"level": 3,
@@ -22,7 +22,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a playing card depicting a rogue"
+				"m": "una carta representant un murri"
 			},
 			"duration": [
 				{
@@ -30,14 +30,14 @@
 				}
 			],
 			"entries": [
-				"You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, it takes {@damage 4d4} psychic damage and must immediately use its reaction, if available, to make a melee attack against another creature of your choice that you can see. If no other creature is within range, the target has disadvantage on the next attack roll it makes before the start of your next turn."
+				"Xiuxiueges paraules màgiques que fan la guitza a una criatura de la teva elecció dins del rang. L'objectiu ha de realitzar una tirada de salvació de Saviesa. Si la falla, rep {@damage 4d4} de dany psíquic i ha de fer servir immediatament la seva reacció, si és possible, per realitzar un atac cos a cos contra una altra criatura de la teva elecció que puguis veure. Si no hi ha cap altra criatura dins del rang, l'objectiu té desavantatge en la seva pròxima tirada d'atac que realitzi abans del començament del teu pròxim torn."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d4} for each slot level above 4th."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 5 o superior, el dany augmenta {@scaledamage 4d4|4-9|1d4} per cada nivell per sobre de 4."
 					]
 				}
 			],
@@ -52,7 +52,7 @@
 			]
 		},
 		{
-			"name": "House of Cards",
+			"name": "Casa de cartes",
 			"source": "UA2022WondersOfTheMultiverse",
 			"page": 10,
 			"level": 3,
@@ -72,7 +72,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a deck of cards"
+				"m": "una baralla de cartes"
 			},
 			"duration": [
 				{
@@ -84,13 +84,13 @@
 				}
 			],
 			"entries": [
-				"You touch the ground and conjure forth a defensive structure made of enormous playing cards. The structure rises with you at its center, harmlessly lifting you and any creatures in the area. The house of cards has a square base that is 30 feet on each side, and it has three floors with 10- foot-high ceilings. The second floor is 20 feet on each side, and the top floor is 10 feet on each side\u2014both centered above the bottom floor. Ramps connect the interior of each floor, and empty doorframes connect the interior and exterior of each level. Creatures inside or on top of the structure have half cover.",
-				"Each card that comprises the house is 5 feet wide and 10 feet tall and is very fragile. A card has AC 10 and 1 hit point. The cards are immune to poison and psychic damage. Reducing a card to 0 hit points destroys it. Every time a card is destroyed, roll {@dice 1d6}. If you roll a 5 or a 6, the house collapses, ending the spell.",
-				"The house and all its cards vanish when the spell ends."
+				"Toques el terra i conjures una estructura defensiva feta de cartes. L'estructura s'alça amb tu al centre, elevant-te a tu i a qualsevol criatura dins l'àrea de forma inofensiva. La casa de cartes té una base quadrada de 30 peus de costat, i té dues plantes més amb sostres de 10 peus d'alçada, connectades amb rampes i amb marcs de porta buits connectant l'interior i l'exterior de cada planta. La primera planta té una base de 20 peus de costat i la segona, de 10 peus de costat, totes elles centrades en el mateix punt. Qualsevol criatura dins o sobre l'àrea té cobertura mitja.",
+				"Cada carta que comprén la casa té 5 peus de gruix i 10 peus d'alçada i és molt fràgil. Una carta té CA 10 i 1 punt de vida. Les cartes són immunes al dany per verí i al dany psíquic. Si els punts de vida de les cartes es veuen reduïts a 0, la carta es destrueix. Cada cop que una carta es destrueix, tira {@dice 1d6}. Si el resultat és 5 o 6, la casa cau i el conjur acaba.", 
+				"Quan el conjur acaba, la casa i les cartes que la formen s'esvaeixen."
 			]
 		},
 		{
-			"name": "Spirit of Death",
+			"name": "Esperit de la mort",
 			"source": "UA2022WondersOfTheMultiverse",
 			"page": 10,
 			"level": 4,
@@ -112,7 +112,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded playing card depicting an avatar of death worth at least 400 gp",
+					"text": "una carta banyada en or que representa la mort, amb valor d'almenys 400 po",
 					"cost": 40000
 				}
 			},
@@ -127,15 +127,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a spirit that embodies death itself. Choose a creature you can see within range. The spirit manifests in an unoccupied space that you can see within 10 feet of the target, and the target becomes haunted by the spirit. The spirit uses the {@creature Reaper Spirit|UA2022WondersOfTheMultiverse} stat block. The spirit disappears when it or the haunted creature is reduced to 0 hit points, or when the spell ends.",
-				"The reaper spirit is an ally to you and your companions. In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you), but it will only attack the haunted creature. If you don't issue the spirit any commands, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Crides un esperit que encarna la mort mateixa. Escull una criatura que puguis veure dins del rang. L'esperit es manifesta en un espai desocupat que puguis veure fins a 10 peus de la criatura, que queda embruixada per l'esperit. L'esperit fa servir el perfil de la parca. L'esperit desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"L'esperit de la parca es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció), però només ataca la criatura embruixada. Si no li demanes cap tasca, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 5 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],
@@ -144,7 +147,7 @@
 			]
 		},
 		{
-			"name": "Spray of Cards",
+			"name": "Ruixada de cartes",
 			"source": "UA2022WondersOfTheMultiverse",
 			"page": 11,
 			"level": 2,
@@ -165,7 +168,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a deck of cards"
+				"m": "una baralla de cartes"
 			},
 			"duration": [
 				{
@@ -173,28 +176,28 @@
 				}
 			],
 			"entries": [
-				"You spray spectral cards from your hands or sleeve; the cards blind or slash at your enemies, and then vanish. Choose one of the following effects for the cards.",
+				"Ruixes cartes espectrals de la teva mà o màniga; les cartes ceguen o tallen els teus enemics i després s'esvaeixen. Escull un dels següents efectes per a les cartes:",
 				{
 					"type": "entries",
-					"name": "Blinding Cards",
+					"name": "Cartes cegadores",
 					"entries": [
-						"Each creature in a 15-foot cone must succeed on a Wisdom saving throw or be {@condition blinded} until the end of their next turn."
+						"Cada criatura en un con de 15 peus ha de realitzar una tirada de salvació de Saviesa. Si la falla, queda {@condition blinded} fins al final del seu pròxim torn."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Cutting Cards",
+					"name": "Cartes tallants",
 					"entries": [
-						"Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes {@damage 2d10} force damage on a failed save or half as much damage on a successful one."
+						"Cada criatura en un con de 15 peus ha de realitzar una tirada de salvació de Destresa. Si la falla, rep {@damage 2d10} de dany per força. Si la supera, rep la meitat del mal."
 					]
 				}
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage of cutting cards increases by {@dice 1d10} for every two slot levels above 2nd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, el dany augmenta {@dice 1d10} per cada dos nivells per sobre de 2."
 					]
 				}
 			],
@@ -210,7 +213,7 @@
 			]
 		},
 		{
-			"name": "Summon Warrior Spirit",
+			"name": "Invocar esperit guerrer",
 			"source": "UA2022WondersOfTheMultiverse",
 			"page": 11,
 			"level": 3,
@@ -232,7 +235,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gilded playing card depicting a knight worth at least 300 gp",
+					"text": "una carta banyada en or que representa un cavaller, amb valor d'almenys 300 po",
 					"cost": 30000
 				}
 			},
@@ -247,15 +250,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a warrior spirit from the legendary Deck of Many Things. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Warrior Spirit|UA2022WondersOfTheMultiverse} stat block. When you cast the spell, choose a type of warrior: barbarian, fighter, or monk. The warrior resembles a humanoid armed appropriately to the chosen class, which determines certain traits in its stat block. The warrior disappears when it drops to 0 hit points or when the spell ends.",
-				"The warrior is an ally to you and your companions. In combat, the warrior shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Crides un esperit de la baralla llegendària de Moltes Coses. L'esperit es manifesta en un espai desocupat que puguis veure dins del rang. L'esperit fa servir el perfil de l'esperit guerrer. Quan llances el conjur, escull una classe de guerrer: bàrbar, lluitador o monjo. La criatura semblarà un humanoide armat apropiadament segons la classe escollida, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],

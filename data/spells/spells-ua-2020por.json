@@ -1,10 +1,10 @@
 {
 	"spell": [
 		{
-			"name": "Intellect Fortress",
-			"source": "UA2020PsionicOptionsRevisited",
-			"page": 7,
-			"level": 4,
+			"name": "Fortalesa de l'intel·lecte",
+			"source": "TCE",
+			"page": 107,
+			"level": 3,
 			"school": "A",
 			"time": [
 				{
@@ -33,14 +33,14 @@
 				}
 			],
 			"entries": [
-				"For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws."
+				"Fins que el conjur acabi, tu o una criatura voluntària que puguis veure dins del rang guanya resistència al dany psíquic i avantatge en les tirades de salvació d'Intel·ligència, Saviesa i Carisma."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, pots escollir com a objectiu una criatura addicional per cada nivell per sobre de 3. En el moment d'escollir-la com a objectiu, cada criatura ha d'estar a 30 peus o menys de la resta de criatures."
 					]
 				}
 			],
@@ -50,9 +50,7 @@
 			"miscTags": [
 				"SGT"
 			],
-			"areaTags": [
-				"ST"
-			]
+			"hasFluffImages": true
 		},
 		{
 			"name": "Mind Sliver",
@@ -113,7 +111,7 @@
 			]
 		},
 		{
-			"name": "Mind Thrust",
+			"name": "Estocada mental",
 			"source": "UA2020PsionicOptionsRevisited",
 			"page": 7,
 			"level": 2,
@@ -144,14 +142,14 @@
 				}
 			],
 			"entries": [
-				"You thrust a lance of psychic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects."
+				"Llences una llança de disrupció psíquica a la ment d'una criatura que puguis veure dins del rang. L'objectiu ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, rep {@damage 3d6} de dany psíquic, i no pot realitzar cap reacció fins al final del seu pròxim torn. A més a més, en el seu pròxim torn, ha d'escollir si realitzar una acció, un moviment o una acció addicional (només una de les tres). Si supera la tirada de salvació, rep la meitat del dany, però no pateix cap altre efecte."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, pots escollir com a objectiu una criatura addicional per cada nivell per sobre de 2. La criatura ha d'estar fins a 30 peus d'un altre objectiu."
 					]
 				}
 			],

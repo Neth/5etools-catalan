@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Linked Glyphs",
+			"name": "Glifs enllaçats",
 			"source": "AitFR-AVT",
 			"page": 9,
 			"otherSources": [
@@ -28,7 +28,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "incense and powdered diamond worth at least 300 gp, which the spell consumes",
+					"text": "encens i pols de diamant, amb valor d'almenys 300 po, que es consumeixen amb el conjur",
 					"cost": 30000,
 					"consume": true
 				}
@@ -43,32 +43,32 @@
 				}
 			],
 			"entries": [
-				"When you cast this spell, you inscribe a detection glyph that later activates a magical effect at the site of a separate, linked glyph. You inscribe the detection glyph either on a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the detection glyph is broken, and the spell ends without being triggered.",
-				"Both glyphs are nearly invisible, and finding either requires a successful Intelligence ({@skill Investigation}) check against your spell save DC.",
-				"You decide what triggers the detection glyph when you cast this spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.",
-				"You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.",
-				"When you inscribe the detection glyph, choose an alarm glyph or spell glyph to link to it.",
+				"Quan llences aquest conjur, inscrius un glif de detecció que posteriorment activa un efecte màgic al lloc d'un glif enllaçat separat. Inscrius un glif de detecció o bé en una superfície (com una taula o una part del terra o de la paret) o bé en un objecte que pot tancar-se (com un llibre, un rotlle, un cofre del tresor) per ocultar el glif, que té una àrea no superior a 10 peus de diàmetre. Si la superfície o l'objecte es mou més de 10 peus del lloc des d'on s'ha llençat el conjur, el glif de detecció es trenca i el conjur acaba sense ser activat.",
+				"Ambdós glifs són gairebé invisibles i trobar-los requereix superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs.",
+				"Tu decideixes què activa el glif de detecció quan llences el conjur. Per a glifs inscrits en una superfície, l'activació més típica inclou tocar o trepitjar el glif, treure un objecte que el cobreixi, apropar-t'hi a una certa distància, o manipular la superfície on està inscrit. Per a glifs inscrits en un objecte, l'activació més típica inclou obrir l'objecte, apropar-t'hi a una certa distància, o veure o llegir el glif. Un cop s'activa el glif, el conjur acaba.",
+				"Pots concretar encara perquè el glif s'activi sota determinades circumstàncies, d'acord amb unes característiques físiques (com el pes o l'alçada), el tipus de criatura (per exemple, activar-se només contra aberracions o drows), o un alineament concret. També pots concretar per a quines criatures no vols que s'activi el glif, com aquelles que pronunciïn una contrasenya.",
+				"Quan inscrius el glif de detecció, escull un glif d'alarma o un glif de conjur amb què enllaçar-lo.",
 				{
 					"type": "entries",
-					"name": "Alarm Glyph",
+					"name": "Glif d'alarma",
 					"entries": [
-						"You create and magically link two glyphs: a detection glyph and an effect glyph. Each of these two glyphs must stay within 100 miles of the other or the spell effect ends. When the detection glyph is triggered, the effect glyph reacts like an alarm spell, creating a mental ping in your mind if you are within 1 mile of the effect glyph. This ping awakens you if you are sleeping."
+						"Crees dos glifs enllaçats màgicament: el glif de detecció i el glif d'efecte. Han d'estar fins a 100 peus de distància l'un de l'altre. Altrament, el conjur acaba. Quan el glif de detecció s'activa, el glif d'efecte reacciona com un conjur d'alarma, creant una alarma mental a la teva ment si et trobes fins a 1 milla del glif d'efecte. Aquesta alarma et desperta si estàs dormint."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spell Glyph",
+					"name": "Glif de conjur",
 					"entries": [
-						"You create and magically link two glyphs: a detection glyph and an effect glyph. These two glyphs must be within 100 feet of each other. You can store a prepared spell of 4th level or lower in the effect glyph by casting it as part of creating the glyphs. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the detection glyph is triggered, the spell stored in the effect glyph is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on the effect glyph. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the effect glyph. If the spell requires {@status concentration}, it lasts until the end of its full duration."
+						"Crees dos glifs enllaçats màgicament: el glif de detecció i el glif d'efecte. Han d'estar fins a 100 peus de distància l'un de l'altre. Pots emmagatzemar un conjur preparat de nivell 4 o inferior en el glif d'efecte llençant-lo com a part del llançament d'aquest conjur. El conjur ha de prendre com a objectiu una única criatura o una àrea. El conjur emmagatzemat no té efecte immediat si el llences d'aquesta manera, sinó que s'activa en activar-se el glif d'efecte. L'objectiu del conjur és aquell que el fa activar. Si el conjur afecta una àrea, l'àrea se centra en el glif d'efecte. Si el conjur invoca criatures hostils i crea objectes o trampes que causen dany, apareixen tan a prop com sigui possible del glif d'efecte. Si el conjur requereix {@status concentration}, dura fins al final."
 					]
 				}
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher to create a spell glyph, you can store any spell of up to the same level as the slot you use."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 5 o superior per crear un glif de conjur, pots emmagatzemar qualsevol conjur fins al mateix nivell que l'espai que fas servir."
 					]
 				}
 			],

@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Ashardalon's Stride",
+			"name": "Gambada d'Ashardalon",
 			"source": "FTD",
 			"page": 19,
 			"level": 3,
@@ -33,15 +33,15 @@
 				}
 			],
 			"entries": [
-				"The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn't provoke opportunity attacks.",
-				"When you move within 5 feet of a creature or an object that isn't being worn or carried, it takes {@damage 1d6} fire damage from your trail of heat. A creature or object can take this damage only once during a turn."
+				"Les flames d'un drac esclaten des dels teus peus, atorgant-te velocitat explosiva. Fins que el conjur acabi, la teva velocitat augmenta 20 peus el teu moviment no provoca atacs d'oportunitat.",
+				"Quan et mous fins a 5 caselles d'una criatura o un objecte que no porta a sobre ningú, l'objectiu rep {@damage 1d6} de dany per foc del teu rastre de calor. Qualsevol criatura o objecte només pot rebre aquest dany un cop durant el teu torn."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. The spell deals an additional {@scaledamage 1d6|3-9|1d6} fire damage for each slot level above 3rd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 4 o superior, la teva velocitat augmenta 5 peus per cada nivell per sobre de 3 i el dany augmenta {@scaledamage 1d6|3-9|1d6} per cada nivell per sobre de 3."
 					]
 				}
 			],
@@ -54,7 +54,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Draconic Transformation",
+			"name": "Transformació dracònica",
 			"source": "FTD",
 			"page": 19,
 			"level": 7,
@@ -75,7 +75,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a statuette of a dragon, worth at least 500 gp",
+					"text": "una estatueta d'un drac amb valor d'almenys 500 po",
 					"cost": 50000
 				}
 			},
@@ -90,30 +90,30 @@
 				}
 			],
 			"entries": [
-				"With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:",
+				"Amb un rugit recorres a la màgia dels dracs per transformar-te, prenent trets dracònics. Guanyes els següents beneficis fins que el conjur acabi.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Blindsight",
+							"name": "Ales",
 							"entries": [
-								"You have {@sense blindsight} with a range of 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're {@condition blinded} or in darkness. Moreover, you can see an {@condition invisible} creature, unless the creature successfully hides from you."
+								"Unes ales incorpòries surten de la teva esquena, atorgant-te una velocitat de vol de 60 peus."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Breath Weapon",
+							"name": "Arma de respiració",
 							"entries": [
-								"When you cast this spell, and as a bonus action on subsequent turns for the duration, you can exhale shimmering energy in a 60-foot cone. Each creature in that area must make a Dexterity saving throw, taking {@damage 6d8} force damage on a failed save, or half as much damage on a successful one."
+								"Quan llences aquest conjur, i com a acció addicional en els teus pròxims torns fins que el conjur acabi, pots exhalar energia brillant en un con de 60 peus. Cada criatura dins d'aquesta àrea ha de realitzar una tirada de salvació de Destresa. Si la falla, rep {@damage 6d8} de dany per força. Si la superen, reben la meitat del dany."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Wings",
+							"name": "Visió cega",
 							"entries": [
-								"Incorporeal wings sprout from your back, giving you a flying speed of 60 feet."
+								"Guanyes {@sense blindsight} en un rang de 30 peus. En aquest rang pots veure perfectament qualsevol cosa que es trobi darrere d'una cobertura total, pots veure una criatura invisible, a menys que s'amagui exitosament de tu."
 							]
 						}
 					]
@@ -131,7 +131,7 @@
 			]
 		},
 		{
-			"name": "Fizban's Platinum Shield",
+			"name": "Escut de platí de Fizban",
 			"source": "FTD",
 			"page": 20,
 			"level": 6,
@@ -153,7 +153,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a platinum-plated dragon scale, worth at least 500 gp",
+					"text": "una maqueta d'un drac de platí, amb valor d'almenys 500 po",
 					"cost": 50000
 				}
 			},
@@ -168,42 +168,42 @@
 				}
 			],
 			"entries": [
-				"You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet. While surrounded by the field, a creature gains the following benefits:",
+				"Crees un camp de llum platejada que envolta una criatura de la teva elecció dins del rang (incloent-hi a tu). El camp emana llum tènua fins 5 caselles. Mentre estigui envoltada d'aquesta llum, la criatura objeectiu guanya els següents beneficis:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "Cover",
+							"name": "Cobertura",
 							"entries": [
-								"The creature has half cover."
+								"La criatuta té cobertura mitjana."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Damage Resistance",
+							"name": "Evasió",
 							"entries": [
-								"The creature has resistance to acid, cold, fire, lightning, and poison damage."
+								"Si la criatura està sotmesa a un efecte que li permet realitzar una tirada de salvament de Destresa per rebre només la meitat del dany si la supera, en comptes d'això no rep cap dany si la supera i només rep la meitat del dany si la falla."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Evasion",
+							"name": "Resistència al dany",
 							"entries": [
-								"If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+								"La criatrua guanya resistència al dany per àcid, per fred, per poc, per llamp i per verí."
 							]
 						}
 					]
 				},
-				"As a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field."
+				"Com a acció addicional en el següents torns, pots moure el camp de llum a una altra criatrua fins a 60 peus de l'àrea."
 			],
 			"miscTags": [
 				"UBA"
 			]
 		},
 		{
-			"name": "Nathair's Mischief",
+			"name": "Malifetes de Nathair",
 			"source": "FTD",
 			"page": 20,
 			"level": 2,
@@ -223,7 +223,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a piece of crust from an apple pie"
+				"m": "un tros crosta d'un pastís de poma"
 			},
 			"duration": [
 				{
@@ -236,13 +236,13 @@
 				}
 			],
 			"entries": [
-				"You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.",
+				"Omples un cub de 20 peus de costat que puguis veure dins del rang amb màgic feèrica i dracònica. Tira {@dice d4} per determinar quin efecte de la següent taula es produeix, i tira'l de nou al començament de cadascun dels teus torns fins que el conjur acabi. Pots moure el cub fins a 10 peus abans de tirar.",
 				{
 					"type": "table",
-					"caption": "Mischievous Surge",
+					"caption": "Onades de malifetes",
 					"colLabels": [
 						"d4",
-						"Effect"
+						"Efecte"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -251,19 +251,19 @@
 					"rows": [
 						[
 							"1",
-							"The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become {@condition charmed} by you until the start of your next turn."
+							"L'olor d'un pastís de poma omple l'aire, i cada criatura dins l'àrea ha de realitzar una tirada de salvació de Saviesa. Si la falla, queda {@condition charmed} per tu fins al començament del teu pròxim torn."
 						],
 						[
 							"2",
-							"Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be {@condition blinded} until the start of your next turn as the flowers spray water in their faces."
+							"Rams de flors apareixen per tot arreu, i cada criatura dins l'àrea ha de realitzar una tirada de salvació de Destresa. Si la falla, queda {@condition blinded} fins al començament del teu pròxim torn, ja que les flors li disparen aigua a la cara."
 						],
 						[
 							"3",
-							"Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is {@condition incapacitated} and uses all its movement to move in a random direction."
+							"Cada criatura dins l'àrea ha de realitzar una tirada de salvació de Saviesa. Si la falla, comença a riure sense parar fins al començament del teu pròxim torn. Una criatura que riu sense parar es considera {@condition incapacitated} i fa servir tot el seu moviment per moure's en una direcció aleatòria."
 						],
 						[
 							"4",
-							"Drops of molasses hover in the cube, making it {@quickref difficult terrain||3} until the start of your next turn."
+							"Unes gotes de melassa cobreixen l'àrea, transformant-la en {@quickref difficult terrain||3} fins al començament del teu pròxim torn"
 						]
 					]
 				}
@@ -278,7 +278,7 @@
 			]
 		},
 		{
-			"name": "Raulothim's Psychic Lance",
+			"name": "Llança psíquica de Raulothim",
 			"source": "FTD",
 			"page": 21,
 			"level": 4,
@@ -305,15 +305,15 @@
 				}
 			],
 			"entries": [
-				"You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.",
-				"The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 7d6} psychic damage and is {@condition incapacitated} until the start of your next turn. On a successful save, the creature takes half as much damage and isn't {@condition incapacitated}."
+				"Del teu front surt disparada una llança brillant de poder psíquic cap a una criatura que puguis veure dins del rang. Alternativament, pots pronunciar el nom d'una criatura. Si la criatura nomenada està dins del rang, es converteix en l'objectiu del conjur fins i tot encara que no la puguis veure. Si la criatura nomenada no està dins del rang, la llança es dissipa sense efecte.",
+				"L'objectiu ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, rep {@damage 7d6} de dany psíquic i queda {@condition incapacitated} fins al començament del teu pròxim torn. Si la supera, rep la meitat del dany i no queda {@condition incapacitated}."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 7d6|4-9|1d6} for each slot level above 4th."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 5 o superior, el dany augmenta {@scaledamage 7d6|4-9|1d6} per cada nivell per sobre de 4."
 					]
 				}
 			],
@@ -331,7 +331,7 @@
 			]
 		},
 		{
-			"name": "Rime's Binding Ice",
+			"name": "Bloqueig de gel de Rime",
 			"source": "FTD",
 			"page": 21,
 			"level": 2,
@@ -351,7 +351,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a vial of meltwater"
+				"m": "un vial d'aigua de neu fosa"
 			},
 			"duration": [
 				{
@@ -359,14 +359,14 @@
 				}
 			],
 			"entries": [
-				"A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes {@damage 3d8} cold damage and is hindered by ice formations for 1 minute, or until it or another creature within reach of it uses an action to break away the ice. A creature hindered by ice has its speed reduced to 0. On a successful save, a creature takes half as much damage and isn't hindered by ice."
+				"Una explosió d'energia gèlida emana de tu en un con de 30 peus. Cada criatura dins l'àrea ha de realitzar una tirada de salvació de Constitució. Si la falla, {@damage 3d8} de dany per fred i es veu obstaculitzada per formacions de gel durant 1 minut o fins que ella o una altra criatura faci servir una acció per desfer-se'n. Una criatura obstaculitzada pel gel veu la seva velocitat reduïda a 0. Si la criatura supera la tirada, rep la meitat del dany i no queda obstaculitzada."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by {@scaledamage 3d8|2-9|1d8} for each slot level above 2nd."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 3 o superior, el dany per fred augmenta {@scaledamage 3d8|2-9|1d8} per cada nivell per sobre de 2."
 					]
 				}
 			],
@@ -382,7 +382,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Summon Draconic Spirit",
+			"name": "Invocar esperit dracònic",
 			"source": "FTD",
 			"page": 21,
 			"level": 5,
@@ -404,7 +404,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an object with the image of a dragon engraved on it, worth at least 500 gp",
+					"text": "un objecte amb la imatge d'un drac gravada amb valor d'almenys 500 po",
 					"cost": 50000
 				}
 			},
@@ -419,15 +419,18 @@
 				}
 			],
 			"entries": [
-				"You call forth a {@creature draconic spirit|FTD}. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Draconic Spirit stat block. When you cast this spell, choose a family of dragon: chromatic, gem, or metallic. The creature resembles a dragon of the chosen family, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
-				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+				"Invoques un {@creature draconic spirit|FTD}, que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir les estadístiques de l'esperit dracònic. Quan llences aquest conjur, escull una família de dracs: cromàtics o metàl·lics. La criatura pren la forma d'un drac de la família escollida, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o quan el conjur acabi.",
+
+				"VEURE PERFIL DE LA CRIATURA",
+
+				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "En nivells superiors",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block."
+						"Quan llences aquest conjur fent servir un espai de conjur de nivell 6 o superior, fes servir el nivell més alt quan es faci referència al nivell del conjur en el perfil."
 					]
 				}
 			],

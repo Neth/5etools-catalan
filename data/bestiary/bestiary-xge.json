@@ -1,13 +1,13 @@
 {
 	"monster": [
 		{
-			"name": "Tiny Servant",
+			"name": "Servent minúscul",
 			"source": "XGE",
 			"page": 169,
 			"size": [
 				"T"
 			],
-			"type": "construct",
+			"type": "Autòmat",
 			"alignment": [
 				"U"
 			],
@@ -53,7 +53,7 @@
 			],
 			"action": [
 				{
-					"name": "Slam",
+					"name": "Envestir",
 					"entries": [
 						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
 					]
