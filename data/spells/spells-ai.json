@@ -31,7 +31,7 @@
 				}
 			],
 			"entries": [
-				"Llences aquest conjur sobre un objecte de no més d'1 peu de costat, fent que el seu valor es dobli afegint-hi decoracions i poliments il·lusoris. També pots fer que el valor es vegi reduït a la meitat creant esquerdes o bonys il·lusoris. Qualsevol que examini l'objecte pot endevinar el seu valor real si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs."
+				"Llences aquest conjur sobre un objecte de no més d'1 peu de costat, fent que el seu valor es dobli afegint-hi decoracions i poliments il·lusoris. També pots fer que el valor es vegi reduït a la meitat creant esquerdes o bonys il·lusoris. Qualsevol que examini l'objecte pot endevinar el seu valor real si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica."
 			],
 			"entriesHigherLevel": [
 				{

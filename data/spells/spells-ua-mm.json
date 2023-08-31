@@ -37,7 +37,7 @@
 				"technomagic": true
 			},
 			"entries": [
-				"Tens avantatge en totes les proves d'Intel·ligència fent servir les eines de haqueig per desencriptar software o seguretat en línia quan utilitzes un sistema estranger. Aquest conjur també permet contrarestar conjurs de protecció de nivell 2 o inferior, com {@spell arcane lock} o {@spell glyph of warding} realitzant una tirada de salvació d'Intel·ligència fent servir les eines de haqueig contra la CD de salvació de conjurs del llançador."
+				"Tens avantatge en totes les proves d'Intel·ligència fent servir les eines de haqueig per desencriptar software o seguretat en línia quan utilitzes un sistema estranger. Aquest conjur també permet contrarestar conjurs de protecció de nivell 2 o inferior, com {@spell arcane lock} o {@spell glyph of warding} realitzant una tirada de salvació d'Intel·ligència fent servir les eines de haqueig contra la CD de salvació màgica del llançador."
 			],
 			"entriesHigherLevel": [
 				{
@@ -225,7 +225,7 @@
 			],
 			"entries": [
 				"Invoques un esperit que assumeix la forma d'un vehicle no militar terrestre de la teva elecció. Apareix en un espai desocupat dins del rang. El vehicle té les estadístiques d'un vehicle normal del mateix tipus, encara que és celestial, feèric o infernal (tu esculls). Les característiques físiques del vehicle reflecteixen el seu origen en algun grau. Per exemple, un SUV infernal podria ser de color negre amb finestres tintades i una graella davantera d'aparença sinistre.",
-				"Tens un vincle sobrenatural amb el vehicle que et permet conduir-lo més enllà de la teva habilitat natural. Mentre el condueixes, tens competència amb els vehicles d'aquest tipus, i afegeixes el doble de bonificador per competència a les proves de capacitat relacionades amb conduir vehicles. Mentre el condueixes, només pots llençar conjurs que et prenguin com a objectiu a tu o al vehicle.",
+				"Tens un vincle sobrenatural amb el vehicle que et permet conduir-lo més enllà de la teva habilitat natural. Mentre el condueixes, tens competència amb els vehicles d'aquest tipus, i afegeixes el doble de bonificador per competència a les proves de característica (capacitat) relacionades amb conduir vehicles. Mentre el condueixes, només pots llençar conjurs que et prenguin com a objectiu a tu o al vehicle.",
 				"Si els punts de vida del vehicle es veuen reduïts a 0, desapareix, deixant enrere la forma no física. Pots cancel·lar la invocació en qualsevol moment com a acció.",
 				"No pots tenir més d'un vehicle invocat per aquest conjur alhora. Com a acció, pots desvincular-te del vehicle, fet que comporta que desaparegui."
 			],
@@ -631,7 +631,7 @@
 			],
 			"entries": [
 				"La criatura que toques sent que la realitat ha canviat subtilment a favor seu mentre el conjur no acabi. L'objectiu no es veu impedit pels retards mundant de cap mena. Els semàfors sempre estan verds, sempre hi ha un ascensor esperant-lo, un taxi sempre està a punt a la cantonada. L'objectiu pot córrer a la seva màxima velocitat a través de les multituds, i els atacs d'oportunitat provocats pel moviment de l'objectiu tenen desavantatge.",
-				"Aquest conjur té avantatge en les proves de Destresa ({@skill Stealth}), ja que l'objectiu sempre troba cobertura. A més a més, l'objectiu té avantatge en totes les proves de capacitat per conduir un vehicle.",
+				"Aquest conjur té avantatge en les proves de Destresa ({@skill Stealth}), ja que l'objectiu sempre troba cobertura. A més a més, l'objectiu té avantatge en totes les proves de característica (capacitat) per conduir un vehicle.",
 				"En cas que dues o més criatures sota els efectes d'aquest conjur intentin evitar ser impedides mútuament, han de realitzar una prova de Carisma enfrontada cada cop que els efectes del conjur s'oposin entre si."
 			],
 			"areaTags": [

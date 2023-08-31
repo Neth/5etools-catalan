@@ -95,7 +95,7 @@
 				{
 					"number": 1,
 					"unit": "reaction",
-					"condition": ", que duus a terme quan una criatura que puguis veure fins a 60 peus de tu supera una tirada d'atac, una prova de capacitat o una tirada de salvació"
+					"condition": ", que duus a terme quan una criatura que puguis veure fins a 60 peus de tu supera una tirada d'atac, una prova de característica (capacitat) o una tirada de salvació"
 				}
 			],
 			"range": {
@@ -115,7 +115,7 @@
 			],
 			"entries": [
 				"Distreus màgicament la criatura objectiu i transformes la seva incertesa momentània en coratge per a una altra criatura. L'objectiu ha de tornar a tirar {@dice d20} i fer servir el resultat més baix.",
-				"Llavors, pots escollir una altra criatura que puguis veure dins del rang (incloent-hi tu mateix). La nova criatura té avantatge en la seva pròxima tirada d'atac, prova de capacitat o tirada de salvació feta durant el següent minut. Només una criatura alhora pot estar afectada per aquest conjur."
+				"Llavors, pots escollir una altra criatura que puguis veure dins del rang (incloent-hi tu mateix). La nova criatura té avantatge en la seva pròxima tirada d'atac, prova de característica (capacitat) o tirada de salvació feta durant el següent minut. Només una criatura alhora pot estar afectada per aquest conjur."
 			],
 			"miscTags": [
 				"SGT"

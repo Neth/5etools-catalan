@@ -98,7 +98,7 @@
 				}
 			],
 			"entries": [
-				"Imparteixes sort latent a tu o a una criatura que puguis veure dins del rang. Quan la criatura escollida realitzi una tirada d'atac, una prova de capacitat o una tirada de salvació abans que el conjur acabi, es pot descartar d'aquest efecte per tirar un {@dice d20} addicional i escollir quin fer servir. Alternativament, quan es realitza una tirada d'atac contra la criatura escollida, es pot descartar d'aquest efecte per tirar un {@dice d20} addicional i escollir quin fer servir (si el que ha llençat ella o el que ha llençat l'atacant).",
+				"Imparteixes sort latent a tu o a una criatura que puguis veure dins del rang. Quan la criatura escollida realitzi una tirada d'atac, una prova de característica (capacitat) o una tirada de salvació abans que el conjur acabi, es pot descartar d'aquest efecte per tirar un {@dice d20} addicional i escollir quin fer servir. Alternativament, quan es realitza una tirada d'atac contra la criatura escollida, es pot descartar d'aquest efecte per tirar un {@dice d20} addicional i escollir quin fer servir (si el que ha llençat ella o el que ha llençat l'atacant).",
 				"Si la tirada té avantatge o desavantatge, la criatura tira {@dice d20} addicional, després d'haver-se aplicat l'avantatge o desavantatge."
 			],
 			"entriesHigherLevel": [
@@ -528,8 +528,8 @@
 				}
 			],
 			"entries": [
-				"Fas miques les barreres entre realitats i línies del temps, portant una criatura dins del rang a l'agitació i la bogeria. L'objectiu ha de realitzar una tirada de salvació de Saviesa. Si la falla, no pot realitzar reaccions fins que el conjur acabi. L'objectiu afectat ha de tirar {@dice d10} al començament de cadascun dels seus torns. El resultat de la tirada determina què li passa a la criatura, tal com es mostra a la següent taula. Al final de cadascun dels seus torns, l'objectiu afectat pot repetir la tirada de salvació de Saviesa. Si la supera, l'efecte del conjur acaba per a ella."
-				{
+				"Fas miques les barreres entre realitats i línies del temps, portant una criatura dins del rang a l'agitació i la bogeria. L'objectiu ha de realitzar una tirada de salvació de Saviesa. Si la falla, no pot realitzar reaccions fins que el conjur acabi. L'objectiu afectat ha de tirar {@dice d10} al començament de cadascun dels seus torns. El resultat de la tirada determina què li passa a la criatura, tal com es mostra a la següent taula. Al final de cadascun dels seus torns, l'objectiu afectat pot repetir la tirada de salvació de Saviesa. Si la supera, l'efecte del conjur acaba per a ella.",
+			{
 					"type": "table",
 					"caption": "Efectes del conjur",
 					"colLabels": [
@@ -612,7 +612,7 @@
 				}
 			],
 			"entries": [
-				"Absorbeixes la vitalitat d'una criatura que puguis veure dins del rang. L'objectiu ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 1d4} de dany necròtic i queda {@condition prone}.",
+				"Absorbeixes la vitalitat d'una criatura que puguis veure dins del rang. L'objectiu ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 1d4} de dany necròtic i queda {@condition prone}."
 			],
 			"entriesHigherLevel": [
 				{
@@ -787,7 +787,7 @@
 			],
 			"entries": [
 				"Prens com a objectiu una criatura que puguis veure dins del rang, sotmetent la seva forma física a la devastació d'un ràpid envelliment. L'objectiu ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 10d12} de dany necròtic i envelleix fins que li queden 30 dies per morir a causa de l'edat. Si la supera, rep la meitat del dany.",
-				"Una criatura en aquest estat d'envelliment, té desavantatge en les tirades d'atac, en les proves de capacitat, en les tirades de salvació i la seva velocitat es veu reduïda a la meitat. Només els conjurs {@spell wish} o {@spell greater restoration} llençats fent servir un espai de conjur de nivell 9 poden desfer aquest efecte i retornar la criatura a la seva edat original."
+				"Una criatura en aquest estat d'envelliment, té desavantatge en les tirades d'atac, en les proves de característica (capacitat), en les tirades de salvació i la seva velocitat es veu reduïda a la meitat. Només els conjurs {@spell wish} o {@spell greater restoration} llençats fent servir un espai de conjur de nivell 9 poden desfer aquest efecte i retornar la criatura a la seva edat original."
 			],
 			"damageInflict": [
 				"necrotic"

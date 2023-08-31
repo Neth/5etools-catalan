@@ -33,7 +33,7 @@
 				}
 			],
 			"entries": [
-				"Fueteges la ment d'una criatura que puguis veure dins del rang, omplint-la de desesperació. L'objectiu ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, té desavantatge en les tirades d'atac, les proves de capacitat i les tirades de salvació, i no pot llençar conjurs. Al final de cadascun dels seus torns, l'objectiu pot tornar a realitzar una tirada de salvació d'Intel·ligència. Si la supera, el conjur acaba per a ell."
+				"Fueteges la ment d'una criatura que puguis veure dins del rang, omplint-la de desesperació. L'objectiu ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, té desavantatge en les tirades d'atac, les proves de característica (capacitat) i les tirades de salvació, i no pot llençar conjurs. Al final de cadascun dels seus torns, l'objectiu pot tornar a realitzar una tirada de salvació d'Intel·ligència. Si la supera, el conjur acaba per a ell."
 			],
 			"savingThrow": [
 				"intelligence"

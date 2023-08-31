@@ -127,11 +127,11 @@
 				}
 			],
 			"entries": [
-				"Crides un esperit que encarna la mort mateixa. Escull una criatura que puguis veure dins del rang. L'esperit es manifesta en un espai desocupat que puguis veure fins a 10 peus de la criatura, que queda embruixada per l'esperit. L'esperit fa servir el perfil de la parca. L'esperit desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
+				"Crides un esperit que encarna la mort mateixa. Escull una criatura que puguis veure dins del rang. L'esperit es manifesta en un espai desocupat que puguis veure fins a 10 peus de la criatura, que queda embruixada per l'esperit. L'esperit desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
 				
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT DE LA MORT",
 
-				"L'esperit de la parca es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció), però només ataca la criatura embruixada. Si no li demanes cap tasca, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
+				"L'esperit de la mort es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció), però només ataca la criatura embruixada. Si no li demanes cap tasca, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
 			"entriesHigherLevel": [
 				{

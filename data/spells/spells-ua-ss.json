@@ -140,7 +140,7 @@
 					"type": "entries",
 					"name": "Majoria d'edat",
 					"entries": [
-						"Toques un humanoide adult jove. Durant les següents 24 hores, cada cop que l'objectiu realitza una prova de característica, pot tirar {@dice d4} i sumar el resultat a la tirada. Una criatura només es pot beneficiar d'aquest ritu un sol cop."
+						"Toques un humanoide adult jove. Durant les següents 24 hores, cada cop que l'objectiu realitza una prova de característica (capacitat), pot tirar {@dice d4} i sumar el resultat a la tirada. Una criatura només es pot beneficiar d'aquest ritu un sol cop."
 					]
 				},
 				{
@@ -719,9 +719,9 @@
 			],
 			"entries": [
 				"Quan llences aquest conjur fa servir la corda per crear un cercle de 5 peus de radi sobre el terra. Quan acabes de llençar el conjur, la corda desapareix i el cercla esdevé una trampa màgica.",
-				"Aquesta trampa és gairebé invisible i requereix superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs per poder-la discernir.",
+				"Aquesta trampa és gairebé invisible i requereix superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica per poder-la discernir.",
 				"La trampa es dispara quan una criatura Petita, Mitjana o Gran entra dins del radi de la trampa. La criatura ha de realitzar una tirada de salvació de Destresa. Si la falla, és llençada a l'aire i queda penjada cap per avall a 3 peus sobre el terra. La criatura queda {@condition restrained} fins que el conjur acabi",
-				"Una criatura {@condition restrained} pot realitzar una altra tirada de salvació de Destresa al final de cadascun dels seus torns. Si la supera, l'efecte acaba per a ella. Alternativament, la criatura o algú altre que pugui arribar a ella pot fer servir la seva acció per realitzar una prova d'Intel·ligència ({@skill Arcana}) amb CD igual a la teva salvació de conjurs. Si la supera, l'efecte acaba per a la criatura.",
+				"Una criatura {@condition restrained} pot realitzar una altra tirada de salvació de Destresa al final de cadascun dels seus torns. Si la supera, l'efecte acaba per a ella. Alternativament, la criatura o algú altre que pugui arribar a ella pot fer servir la seva acció per realitzar una prova d'Intel·ligència ({@skill Arcana}) amb CD igual a la teva salvació màgica. Si la supera, l'efecte acaba per a la criatura.",
 				"Un cop la trampa s'ha activat, el conjur acaba quan ja no hi ha cap criatura {@condition restrained} per la trampa."
 			],
 			"conditionInflict": [

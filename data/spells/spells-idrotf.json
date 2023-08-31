@@ -33,9 +33,9 @@
 				}
 			],
 			"entries": [
-				"Mentre llences el conjur, col·loques un vial de mercuri al pit d'una nina humana de mida real farcida de cendra o pols. Després cuses la nina i hi degotes la teva sang. Al final del llançament, toques la nina amb la vareta de cristall i la transformes en un Magen vestit tal com anés vestida la nina. El tipus de Magen s'escull durant el llançament del conjur.",
+				"Mentre llences el conjur, col·loques un vial de mercuri al pit d'una nina humana de mida real farcida de cendra o pols. Després cuses la nina i hi degotes la teva sang. Al final del llançament, toques la nina amb la vareta de cristall i la transformes en un Magen vestit tal com anés vestida la nina. El tipus de Magen (Demos, Galven o Hypnos) s'escull durant el llançament del conjur.",
 
-				"VEURE PERFIL DE LES CRIATURES",
+				"VEURE PERFIL DE LES CRIATURES MAGEN",
 
 				"Quan apareix el Magen, els teus punts de vida màxims decreixen una quantitat igual al valor de desafiament del Magen (mínim 1). Només el conjur {@spell wish} pot desfer aquesta reducció.",
 				"Qualsevol Magen que creïs amb aquest conjur obeeix les teves ordres sense oposar-s'hi."

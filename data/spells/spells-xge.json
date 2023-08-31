@@ -255,7 +255,7 @@
 			"entries": [
 				"Fas que fins a sis pilars de pedra sorgeixin des de terra a una distància que puguis veure dins del rang. Cada pilar és un cilindre de 5 peus de diàmetre i fins a 30 peus d'alçada. El terra on apareix un pilar ha de ser prou ample per al seu diàmetre, i pots apuntar sota el terra d'una criatura de mida Mitjana o més petita. Cada pilar té CA 5 i 30 punts de vida. Quan els punts de vida es vegin reduïts a 0, un pilar s'ensorra i crea una àrea de {@quickref difficult terrain||3} amb un radi de 10 peus que dura fins que s'eliminen les runes. Cada porció de 5 peus de diàmetre requereix almenys 1 minut per eliminar-ne les runes a mà.",
 				"Si es crea un pilar sota una criatura, aquesta ha de realitzar una tirada de salvació de Destresa. Si la falla, el pilar l'aixeca. Una criatura pot decidir fallar la tirada de salvació.",
-				"Si s'evita que un pilar arribi a la seva alçada màxima a causa d'un sostre o qualsevol altre obstacle, una criatura sobre el pilar rep {@damage 6d6} de dany contundent i queda {@condition restrained} entre el pilar i l'obstacle. La criatura {@condition restrained} pot fer servir una acció per realitzar una prova de Força o Destresa (a elecció de la criatura) amb CD igual a la teva salvació de conjurs. Si la supera, la criatura deixa d'estar {@condition restrained} i ha de moure's fora del pilar o caure'n."
+				"Si s'evita que un pilar arribi a la seva alçada màxima a causa d'un sostre o qualsevol altre obstacle, una criatura sobre el pilar rep {@damage 6d6} de dany contundent i queda {@condition restrained} entre el pilar i l'obstacle. La criatura {@condition restrained} pot fer servir una acció per realitzar una prova de Força o Destresa (a elecció de la criatura) amb CD igual a la teva salvació màgica. Si la supera, la criatura deixa d'estar {@condition restrained} i ha de moure's fora del pilar o caure'n."
 			],
 			"entriesHigherLevel": [
 				{
@@ -538,7 +538,7 @@
 					"type": "entries",
 					"name": "Majoria d'edat",
 					"entries": [
-						"Toques un humanoide adult jove. Durant les següents 24 hores, cada cop que l'objectiu realitza una prova de característica, pot tirar {@dice d4} i sumar el resultat a la tirada. Una criatura només es pot beneficiar d'aquest ritu un sol cop."
+						"Toques un humanoide adult jove. Durant les següents 24 hores, cada cop que l'objectiu realitza una prova de característica (capacitat), pot tirar {@dice d4} i sumar el resultat a la tirada. Una criatura només es pot beneficiar d'aquest ritu un sol cop."
 					]
 				},
 				{
@@ -2327,7 +2327,7 @@
 				"En reunir fils de material d'ombres de Shadowfell, crees un Enorme drac ombrívol en un espai desocupat que puguis veure dins del rang. La il·lusió hi roman fins que el conjur acabi, i ocupa el seu espai, com si fos una criatura.",
 				"Quan apareix la il·lusió, qualsevol dels teus enemics que puguis veure-la ha de realitzar una tirada de salvació de Saviesa. Si la falla, queda {@condition frightened} per tu durant 1 minut. Si una criatura {@condition frightened} acaba el seu torn en una localització que no està dins la línia de visió de la il·lusió, pot repetir la tirada de salvació. Si la supera, l'efecte acaba per a ella.",
 				"Com a acció addicional en el teu torn, pots moure la il·lusió fins a 60 peus. En qualsevol punt del seu moviment, pots fer que exhali una explosió d'energia en un con de 60 peus des del seu espai. Quan creïs el drac, escull un tipus de dany: per àcid, per fred, per foc, per llamp, per verí o necròtic. Cada criatura dins del con ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, rep {@damage 7d6} de dany del tipus escollit. Si la supera, rep la meitat del dany.",
-				"La il·lusió és tangible a causa de l'ombra emprada per crear-la, però els atacs es perden automàticament, supera totes les tirades de salvació i és immune a tots els danys i efectes. Una criatura pot emprar la seva acció per inspeccionar la teva aparença i ha de superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs. Si una criatura discerneix la il·lusió pel que és, pot veure-hi a través i té avantatge en les tirades de salvació contra el seu alè."
+				"La il·lusió és tangible a causa de l'ombra emprada per crear-la, però els atacs es perden automàticament, supera totes les tirades de salvació i és immune a tots els danys i efectes. Una criatura pot emprar la seva acció per inspeccionar la teva aparença i ha de superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica. Si una criatura discerneix la il·lusió pel que és, pot veure-hi a través i té avantatge en les tirades de salvació contra el seu alè."
 			],
 			"damageInflict": [
 				"acid",
@@ -2450,7 +2450,7 @@
 				}
 			],
 			"entries": [
-				"Amb un conjur obscur, invoques un diable dels Nou Inferns. Escull el tipus de diable, que ha de tenir un valor de desafiament de 6 o inferior, com un diable, com un {@creature barbed devil} o un {@creature bearded devil}. El diable apareix en un espai desocupat que puguis veure dins del rang. El diable desapareix quan els seus punts de vida queden reduïts a 0 o quan el conjur acaba.",
+				"Amb un conjur obscur, invoques un diable dels Nou Inferns. Escull el tipus de diable, que ha de tenir un valor de desafiament de 6 o inferior, com un diable, com un {@creature barbed devil}. El diable apareix en un espai desocupat que puguis veure dins del rang. El diable desapareix quan els seus punts de vida queden reduïts a 0 o quan el conjur acaba.",
 				"El diable és hostil cap a tu i els teus companys. Has de tirar la iniciativa per ell, que té els seus propis torns i està sota el control del DJ. El diable actua segons la seva naturalesa en cadascun dels seus torns, fet que podria comportar que t'ataqués o que et temptés a realitzar un acte malvat a canvi d'un servei limitat. El DJ té el seu perfil.",
 				"En cadascun dels teus torns, pots intentar emetre una ordre verbal al diable (no cal una acció). La criatura obeeix si el resultat probable està d'acord amb la seva naturalesa, sobretot si el resultat et portés cap al mal. Altrament, has de realitzar una prova de Carisma ({@skill Deception}, {@skill Intimidation}, o {@skill Persuasion}) enfrontada contra una prova de Saviesa ({@skill Insight}). Tens avantatge si dius el vertader nom del diable. Si falles la prova, el diable es torna immune a les teves ordres verbals fins que el conjur acabi, tot i que encara pot executar-les si així ho volgués. Si superes la prova, el diable executa l'ordre, com \"ataca els meus enemics,\" \"explora l'habitació del davant,\" or \"porta aquest missatge a la reina\" fins que la completi, moment en el qual torna per informar-te'n.",
 				"Si la teva {@status concentration} acaba abans que el conjur acabi, el diable no desapareix si és immune a les teves ordres verbals. En comptes d'això, actua com considera durant {@dice 3d6} minutes, i després desapareix.",
@@ -3144,7 +3144,7 @@
 			"entries": [
 				"Esculls un espai desocupat de 5 peus quadrats sobre el terra que puguis veure dins del rang. Una mà Mitjana feta de terra compactada s'alça i agafa una criatura que puguis veure a 5 peus d'ella. L'objectiu ha de realitzar una tirada de salvació de Força. Si la falla, rep {@damage 2d6} de dany contundent i queda {@condition restrained} fins que el conjur acaba.",
 				"Com a acció, pots fer que la mà aixafi l'objectiu {@condition restrained}, que ha de realitzar una altra tirada de salvació de Força. Si la falla, rep {@damage 2d6} de dany contundent. Si la supera, rep la meitat del dany.",
-				"Per lliurar-se'n, l'objectiu {@condition restrained} pot fer servir la seva acció per fer una prova de Força amb CD igual a la teva salvació de conjurs. Si la supera, l'objectiu escapa i deixa d'estar {@condition restrained} per la mà.",
+				"Per lliurar-se'n, l'objectiu {@condition restrained} pot fer servir la seva acció per fer una prova de Força amb CD igual a la teva salvació màgica. Si la supera, l'objectiu escapa i deixa d'estar {@condition restrained} per la mà.",
 				"Com a acció, pots fer que la mà agafi una altra criatura diferent o moure-la a un espai desocupat diferent dins del rang. La mà allibera qualsevol objectiu que tingués {@condition restrained} en ambdós casos."
 			],
 			"damageInflict": [
@@ -3532,7 +3532,7 @@
 			],
 			"entries": [
 				"Pronuncies una paraula de poder que fa que onades d'un intens dolor assaltin una criatura que puguis veure dins del rang. Si l'objectiu té 100 punts de vida o menys, està subjecte a un dolor paralitzant. Altrament, el conjur no té cap efecte. Un objectiu immune a ser {@condition charmed} tampoc és afectat per aquest conjur.",
-				"Mentre l'objectiu és afectat pel dolor paralitzant, qualsevol velocitat que tingui no pot superar els 10 peus. L'objectiu també té desavantatge a les tirades d'atac, a les proves de característica i a les tirades de salvació, llevat de les proves de salvació de Constitució. Finalment, si l'objectiu intenta llençar un conjur, primer ha de realitzar una tirada de salvació de Constitució. Si la falla, el seu conjur no té efecte i es gasta.",
+				"Mentre l'objectiu és afectat pel dolor paralitzant, qualsevol velocitat que tingui no pot superar els 10 peus. L'objectiu també té desavantatge a les tirades d'atac, a les proves de característica (capacitat) i a les tirades de salvació, llevat de les proves de salvació de Constitució. Finalment, si l'objectiu intenta llençar un conjur, primer ha de realitzar una tirada de salvació de Constitució. Si la falla, el seu conjur no té efecte i es gasta.",
 				"Un objectiu que pateix aquest dolor paralitzant pot realitzar una tirada de salvació de Constitució al final de cadascun dels seus torns. Si la supera, el dolor acaba."
 			],
 			"savingThrow": [
@@ -4069,7 +4069,7 @@
 				}
 			],
 			"entries": [
-				"La teva màgia aprofundeix en la comprensió que té una criatura sobre el seu propi talent. Toques una criatura voluntària i li dones experiència a una característica de la teva elecció; fins que el conjur acabi, la criatura duplica el seu bonificador de competència per a les proves de capacitat associades a la característica escollida.",
+				"La teva màgia aprofundeix en la comprensió que té una criatura sobre el seu propi talent. Toques una criatura voluntària i li dones experiència a una característica de la teva elecció; fins que el conjur acabi, la criatura duplica el seu bonificador de competència per a les proves de característica (capacitat) associades a la característica escollida.",
 				"Has d'escollir una característica en què l'objectiu sigui competent i per a la qual no tingui ja cap benefici, com Expertesa, que dobla el seu bonificador."
 			],
 			"areaTags": [
@@ -4160,9 +4160,9 @@
 			],
 			"entries": [
 				"Quan llences aquest conjur fa servir la corda per crear un cercle de 5 peus de radi sobre el terra. Quan acabes de llençar el conjur, la corda desapareix i el cercla esdevé una trampa màgica.",
-				"Aquesta trampa és gairebé invisible i requereix superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs per poder-la discernir.",
+				"Aquesta trampa és gairebé invisible i requereix superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica per poder-la discernir.",
 				"La trampa es dispara quan una criatura Petita, Mitjana o Gran entra dins del radi de la trampa. La criatura ha de realitzar una tirada de salvació de Destresa. Si la falla, és llençada a l'aire i queda penjada cap per avall a 3 peus sobre el terra. La criatura queda {@condition restrained} fins que el conjur acabi",
-				"Una criatura {@condition restrained} pot realitzar una altra tirada de salvació de Destresa al final de cadascun dels seus torns. Si la supera, l'efecte acaba per a ella. Alternativament, la criatura o algú altre que pugui arribar a ella pot fer servir la seva acció per realitzar una prova d'Intel·ligència ({@skill Arcana}) amb CD igual a la teva salvació de conjurs. Si la supera, l'efecte acaba per a la criatura.",
+				"Una criatura {@condition restrained} pot realitzar una altra tirada de salvació de Destresa al final de cadascun dels seus torns. Si la supera, l'efecte acaba per a ella. Alternativament, la criatura o algú altre que pugui arribar a ella pot fer servir la seva acció per realitzar una prova d'Intel·ligència ({@skill Arcana}) amb CD igual a la teva salvació màgica. Si la supera, l'efecte acaba per a la criatura.",
 				"Un cop la trampa s'ha activat, el conjur acaba quan ja no hi ha cap criatura {@condition restrained} per la trampa."
 			],
 			"conditionInflict": [
@@ -4285,7 +4285,7 @@
 					"type": "entries",
 					"name": "Prestar experiènci",
 					"entries": [
-						"Pots fer servir una acció addicional per reforçar-te amb l'experiència vital de l'ànima, fent que la teva pròxima tirada d'atac, prova de capacitat o tirada de salvació tinguin avantatge. Si no fas servir aquest benefici abans del començament del teu pròxim torn, es perd."
+						"Pots fer servir una acció addicional per reforçar-te amb l'experiència vital de l'ànima, fent que la teva pròxima tirada d'atac, prova de característica (capacitat) o tirada de salvació tinguin avantatge. Si no fas servir aquest benefici abans del començament del teu pròxim torn, es perd."
 					]
 				},
 				{
@@ -4626,7 +4626,7 @@
 			],
 			"entries": [
 				"Esculls un punt dins del rang i fas que l'energia psíquica esclati en aquest punt. Cada criatura en una esfera de 20 peus de radi centrada en aquest punt ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, rep {@damage 8d6} de dany psíquic. Si la supera, rep la meitat del dany.",
-				"Després d'haver fallat una tirada, l'objectiu té pensaments confusos durant 1 minut, durant el qual tira {@dice d6} i resta el resultat a totes les seves tirades d'atac, proves de capacitat i tirades de salvació de Constitució per mantenir la {@status concentration}. L'objectiu pot repetir la tirada de salvació d'Intel·ligència al final de cadascun dels seus torns. Si la supera, l'efecte acaba per a ell."
+				"Després d'haver fallat una tirada, l'objectiu té pensaments confusos durant 1 minut, durant el qual tira {@dice d6} i resta el resultat a totes les seves tirades d'atac, proves de característica (capacitat) i tirades de salvació de Constitució per mantenir la {@status concentration}. L'objectiu pot repetir la tirada de salvació d'Intel·ligència al final de cadascun dels seus torns. Si la supera, l'efecte acaba per a ell."
 			],
 			"damageInflict": [
 				"psychic"
@@ -4679,7 +4679,7 @@
 				"Fas que un temple es materialitzi amb una resplendor a terra que puguis veure dins del rang. El temple ha de cabre dins d'un cub de fins a 120 peus de radi, en una zona desocupada. El temple hi roman fins que el conjur acabi. El temps està dedicat a qualsevol deïtat, panteó o filosofia representada en el símbol sagrat emprat en el llançament.",
 				"Prens totes les decisions sobre l'aparença del temple. L'interior consta d'un terra, parets i un sostre, com una porta que permet l'accés a l'interior i tantes finestres com vulguis. Només tu i les criatures que designis en llençar el conjur poden obrir i tancar la porta.",
 				"L'interior del temple és un espai obert amb un ídol o un altar en un dels extrems. Tu decideixes si el temple està il·luminat i si aquesta il·luminació és brillant o tènue. L'olor d'encens cremat omple l'aire a l'interior, i la temperatura és suau.",
-				"El temple s'oposa a tota mena de criatures que escullis en el llançament. Escull un o més dels següents tipus: celestials, elementals, feèrics, infernals o morts vivents. Si una criatura del tipus escollit intenta entrar dins del temple, ha de realitzar una tirada de salvació de Carisma. Si la falla, no pot entrar-hi durant 24 hores. Fins i tot si una criatura pot entrar-hi, la màgia de dins li obstaculitza l'entrada, fent que sempre que la criatura realitzi una tirada d'atac, una prova de capacitat o una tirada de salvació dins del temple, ha de tirar {@dice d4} i restar-li el resultat al nombre obtingut en la tirada corresponent.",
+				"El temple s'oposa a tota mena de criatures que escullis en el llançament. Escull un o més dels següents tipus: celestials, elementals, feèrics, infernals o morts vivents. Si una criatura del tipus escollit intenta entrar dins del temple, ha de realitzar una tirada de salvació de Carisma. Si la falla, no pot entrar-hi durant 24 hores. Fins i tot si una criatura pot entrar-hi, la màgia de dins li obstaculitza l'entrada, fent que sempre que la criatura realitzi una tirada d'atac, una prova de característica (capacitat) o una tirada de salvació dins del temple, ha de tirar {@dice d4} i restar-li el resultat al nombre obtingut en la tirada corresponent.",
 				"A més a més, els sensors creats per conjurs d'endevinació no poden aparèixer dins del temple, i les criatures que hi són dins no poden ser objectius de conjurs d'endevinació.",
 				"Finalment, cada cop que una criatura dins del temple recupera punts de vida per un conjur de nivell 1 o superior, la criatura recupera punts addicionals igual al teu modificador de Saviesa (mínim 1).",
 				"El temple està fet d'una força màgica opaca que s'estén cap al Pla Eteri, bloquejant el viatge eteri cap a l'interior del temple. Res pot passar físicament per l'exterior del temple. Aquest conjur no es pot dissipar mitjançant el conjur {@spell dispel magic}, i el conjur {@spell antimagic field} no té cap efecte. El conjur {@spell disintegrate} destrueix el temple automàticament.",
@@ -4969,7 +4969,7 @@
 			"entries": [
 				"Toques un objecte no màgic Diminut que no estigui unit a cap altre objecte o superfície ni que el porti a sobre cap altra criatura. L'objecte s'anima i li surten petits braços i cames, convertint-lo en una criatura sobre el teu control fins que el conjur acabi o els punts de vida de la criatura es vegin reduïts a 0, moment en el qual recupera la forma original i qualsevol dany romanent es transfereix a aquesta forma. Consulta les seves estadístiques.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA SERVENT MINÚSCUL",
 				
 				"Pots fer servir una acció addicional per controlar mentalment la criatura que crees amb aquest conjur, emetent una ordre, sempre que estigui a 120 peus o menys de tu. Si controles a més d'una criatura amb aquest conjur, pots emetre l'ordre per a una o per a qualsevol alhora. Decideixes quina acció farà la criatura i cap a on es mourà el seu proper torn, així com donar-los una ordre general, com vigilar una càmera o passadís concret. Si no dones cap ordre, la criatura es limita a defensar-se d'altres criatures hostils. Un cop donada una ordre, la criatura continua fins a completar-la."
 			],
@@ -5172,7 +5172,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "una gota de bilis de llimac gegant"
+				"m": "una gota de bilis de llot gegant"
 			},
 			"duration": [
 				{
@@ -5545,7 +5545,7 @@
 				"Un remolí udola fins a formar-se en un punt que puguis veure dins del rang. El remolí té forma cilíndrica de 10 peus de radi i 30 peus d'alçada centrat en el punt. Fins que el conjur acabi, pots fer servir la teva acció per moure el remolí fins a 30 peus en qualsevol direcció al llarg del terra. El remolí aspira qualsevol objecte Mitjà o més petit que no estigui subjecte a cap superfície ni que porti a sobre algú.",
 				"El primer cop en un torn que una criatura entra dins del remolí o que el remolí entra dins l'espai de la criatura (fins i tot quan apareix per primer cop), ha de realitzar una tirada de salvació de Destresa. Si la falla, rep {@damage 10d6} de dany contundent. Si la supera, rep la meitat del dany. A més a més, una criatura Gran o més petita que falli la tirada de salvació ha de realitzar una tirada de salvació de Força. Si la falla, queda {@condition restrained} dins del remolí fins que el conjur acaba.",
 				"Quan una criatura {@condition restrained} pel remolí comença el seu torn, el remolí la fa ascendir 5 peus en el seu interior, a menys que ja es trobi a la part superior. Quan una criatura {@condition restrained} pel remolí es mou amb ell. Quan el conjur acaba, les criatures {@condition restrained} cauen, a menys que facin servir algun mitjà per romandre a l'aire.",
-				"Una criatura {@condition restrained} pel remolí pot fer servir la seva acció per realitzar una prova de Força o Destresa amb CD igual a la teva salvació de conjurs. Si la supera, deixa d'estar {@condition restrained} pel remolí i és llençada {@dice 3d6 × 10} peus de distància en una direcció aleatòria."
+				"Una criatura {@condition restrained} pel remolí pot fer servir la seva acció per realitzar una prova de Força o Destresa amb CD igual a la teva salvació màgica. Si la supera, deixa d'estar {@condition restrained} pel remolí i és llençada {@dice 3d6 × 10} peus de distància en una direcció aleatòria."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -5679,7 +5679,7 @@
 					"type": "entries",
 					"name": "Arrels i ceps",
 					"entries": [
-						"Al final de cadascun dels teus torns, una criatura de la teva elecció que sigui a terra dins l'àrea ha de realitzar una tirada de salvació de Força. Si la falla, queda {@condition restrained} fins que el conjur acaba. Una criatura {@condition restrained} pot fer servir una acció per realitzar una prova de Força ({@skill Athletics}) amb CD igual a la teva salvació de conjurs. Si la supera, l'efecte acaba per a ella."
+						"Al final de cadascun dels teus torns, una criatura de la teva elecció que sigui a terra dins l'àrea ha de realitzar una tirada de salvació de Força. Si la falla, queda {@condition restrained} fins que el conjur acaba. Una criatura {@condition restrained} pot fer servir una acció per realitzar una prova de Força ({@skill Athletics}) amb CD igual a la teva salvació màgica. Si la supera, l'efecte acaba per a ella."
 					]
 				},
 				{

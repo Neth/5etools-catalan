@@ -419,9 +419,9 @@
 				}
 			],
 			"entries": [
-				"Invoques un {@creature draconic spirit|FTD}, que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir les estadístiques de l'esperit dracònic. Quan llences aquest conjur, escull una família de dracs: cromàtics o metàl·lics. La criatura pren la forma d'un drac de la família escollida, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o quan el conjur acabi.",
+				"Invoques un {@creature draconic spirit|FTD}, que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir les estadístiques de l'esperit dracònic. Quan llences aquest conjur, escull una família de dracs: cromàtics o metàl·lics. La criatura pren la forma d'un drac de la família escollida, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o quan el conjur acabi. Quan invoquis el drac, tria una de les seves resistències al dany. Tens resistència al tipus de dany escollit fins que el conjur acabi.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT DRACÒNIC",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],

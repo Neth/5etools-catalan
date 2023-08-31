@@ -218,7 +218,7 @@
 			"entries": [
 				"Crides un esperit del Reialme Llunyà o d'un altre reialme alienígena de la bogeria. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit aberrant. Quan llances el conjur, escull Contemplador, Slaad o Llavor estel·lar. La criatura semblarà una aberració d'aquest tipus, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
 				
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT ABERRANT",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
@@ -276,7 +276,7 @@
 			"entries": [
 				"Crides un esperit d'una bèstia. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit bestial. Quan llances el conjur, escull un hàbitat: terra, mar o aire. La criatura semblarà un animal de la teva elecció d'aquest hàbitat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
 				
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT BESTIAL",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
@@ -334,7 +334,7 @@
 			"entries": [
 				"Crides un esperit dels Plans Superiors. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit celestial. Quan llances el conjur, escull venjador o defensor. L'elecció determinarà com és l'atac de la criatura. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
 				
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT CELESTIAL",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
@@ -392,7 +392,7 @@
 			"entries": [
 				"Crides un esperit dels Plans Elementals. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit elemental. Quan llances el conjur, escull un element: aigua, terra, foc o aire. La criatura semblarà un ésser bípede envoltat de l'element escollit, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
 				
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESSPERIT ELEMENTAL",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
@@ -450,7 +450,7 @@
 			"entries": [
 				"Crides un esperit de Feywild. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit feèric. Quan llances el conjur, escull un estat d'ànim: furiós, alegre o burleta. La criatura semblarà un ésser feèric amb aquest estat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
 				
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT FEÈRIC",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
@@ -508,7 +508,7 @@
 			"entries": [
 				"Crides un esperit dels Plans Inferiors. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil d'un esperit infernal. Quan llances el conjur, escull: dimoni, diable o yugoloth. La criatura semblarà un infernal d'aquest estat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
 				
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT INFERNAL",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
@@ -566,7 +566,7 @@
 			"entries": [
 				"Crides un esperit de Shadowfell. L'esperit es manifesta físicament en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit de les ombres. Quan llances el conjur, escull una emoció: fúria, desesperació o terror. La criatura semblarà un ésser bípede deforme marcar per aquesta emoció, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
 				
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT DE L'OMBRA",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],
@@ -624,7 +624,7 @@
 			"entries": [
 				"Crides un esperit inquiet des de més enllà de la tomba. L'esperit es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit mort vivent. Quan llances el conjur, escull la forma de la criatura: fantasmal, pútrida o esquelètica. La criatura semblarà un mort vivent amb la forma escollida, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0 o si el conjur acaba.",
 				
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT MORT VIVENT",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, es defensa, però no fa cap acció."
 			],

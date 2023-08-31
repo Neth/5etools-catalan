@@ -490,7 +490,7 @@
 			"entries": [
 				"Invoques esperits de criatures mortes, que voletegen al teu voltant fins que el conjur acabi. Els esperits són intangibles i invulnerables,",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT MORT VIVENT",
 				
 				"Fins que el conjur acabi, qualsevol atac que facis causa {@damage 1d8} de dany addicional a una criatura que estigui a 10 peus o menys de tu. Aquest és un dany per fred, radiant o necròtic (a la teva elecció quan llences el conjur). Qualsevol criatura que rebi el dany no pot recuperar punts de vida fins al final del teu pròxim torn.",
 				"A més a més, qualsevol criatura de la teva elecció que puguis veure i comenci el seu torn a 10 peus o menys de tu, la seva velocitat es veu reduïda 10 peus fins al començament del teu pròxim torn."
@@ -553,7 +553,7 @@
 			"entries": [
 				"Invoques un esperit aberrant que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit aberrant. Quan llances el conjur, escull Contemplador, Slaad o Llavor estel·lar. La criatura semblarà una aberració d'aquest tipus, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT ABERRANT",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
@@ -611,7 +611,7 @@
 			"entries": [
 				"Invoques un esperit aberrant que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit bestial. Quan llances el conjur, escull un hàbitat: terra, mar o aire. La criatura semblarà un animal de la teva elecció d'aquest hàbitat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT BESTIAL",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
@@ -669,7 +669,7 @@
 			"entries": [
 				"Invoques un esperit celestial que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit celestial. Quan llances el conjur, escull venjador o defensor. L'elecció determinarà com és l'atac de la criatura. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT CELESTIAL",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
@@ -728,7 +728,7 @@
 			"entries": [
 				"Invoques un esperit d'un autòmat que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit de l'autòmat. Quan llances el conjur, escull un material: argila, metall o pedra. La criatura semblarà un golem o un modron (a la teva elecció) del material escollit, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT AUTÒMAT",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
@@ -786,7 +786,7 @@
 			"entries": [
 				"Invoques un esperit elemental que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit elemental. Quan llances el conjur, escull un element: aigua, terra, foc o aire. La criatura semblarà un ésser bípede envoltat de l'element escollit, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT ELEMENTAL",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
@@ -844,7 +844,7 @@
 			"entries": [
 				"Invoques un esperit feèric que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit feèric. Quan llances el conjur, escull un estat d'ànim: furiós, alegre o burleta. La criatura semblarà un ésser feèric amb aquest estat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT FEÈRIC",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
@@ -902,7 +902,7 @@
 			"entries": [
 				"Invoques un esperit infernal que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit infernal. Quan llances el conjur, escull: dimoni, diable o yugoloth. La criatura semblarà un infernal d'aquest estat, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT INFERNAL",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
@@ -921,7 +921,7 @@
 			]
 		},
 		{
-			"name": "Invocar engendrament de les ombres",
+			"name": "Invocar esguerro de les ombres",
 			"source": "TCE",
 			"page": 113,
 			"level": 3,
@@ -960,7 +960,7 @@
 			"entries": [
 				"Invoques un esperit de les ombres que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit de les ombres. Quan llances el conjur, escull una emoció: fúria, desesperació o terror. La criatura semblarà un ésser bípede deforme marcar per aquesta emoció, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT DE LES OMBRES",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],
@@ -1019,7 +1019,7 @@
 			"entries": [
 				"Invoques un esperit mort vivent que es manifesta en un espai desocupat que puguis veure dins del rang. Aquesta forma corpòria fa servir el perfil de l'esperit mort vivent. Quan llances el conjur, escull la forma de la criatura: fantasmal, pútrida o esquelètica. La criatura semblarà un mort vivent amb la forma escollida, fet que determinarà certs atributs del seu perfil. La criatura desapareix si els seus punts de vida es veuen reduïts a 0.",
 
-				"VEURE PERFIL DE LA CRIATURA",
+				"VEURE PERFIL DE LA CRIATURA ESPERIT MORT VIVENT",
 
 				"La criatura es considera aliat per a tu i per als teus companys. En combat, la criatura comparteix el teu ordre d'iniciativa, però el seu torn va després del teu. Obeeix les teves ordres verbals (no requereix acció) i si no li'n dones cap, fa l'acció d'esquivar, emprant el seu moviment per evitar el perill."
 			],

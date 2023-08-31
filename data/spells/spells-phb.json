@@ -230,7 +230,7 @@
 			]
 		},
 		{
-			"name": "Amistat animal",
+			"name": "Encantar animal",
 			"source": "PHB",
 			"page": 212,
 			"srd": true,
@@ -420,7 +420,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of blood, a piece of flesh, and a pinch of bone dust"
+				"m": "una gota de sang, una peça de carn i un polsim de pols d'ossos"
 			},
 			"duration": [
 				{
@@ -1423,7 +1423,7 @@
 			]
 		},
 		{
-			"name": "Banishment",
+			"name": "Desterrament",
 			"source": "PHB",
 			"page": 217,
 			"srd": true,
@@ -1485,7 +1485,7 @@
 			]
 		},
 		{
-			"name": "Barkskin",
+			"name": "Pell robusta",
 			"source": "PHB",
 			"page": 217,
 			"srd": true,
@@ -1530,7 +1530,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Beacon of Hope",
+			"name": "Senyal d'esperança",
 			"source": "PHB",
 			"page": 217,
 			"srd": true,
@@ -1614,7 +1614,7 @@
 			]
 		},
 		{
-			"name": "Imposar maladicció",
+			"name": "Imposar maledicció",
 			"source": "PHB",
 			"page": 218,
 			"srd": true,
@@ -1651,7 +1651,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Escull una puntuació de característica. Mentre està maleït, l'objectiu té desavantatge en les proves de característica i en les respectives proves de salvació",
+						"Escull una puntuació de característica. Mentre està maleït, l'objectiu té desavantatge en les proves de característica (capacitat) i en les respectives proves de salvació",
 						"Fins que el conjur acabi, l'objectiu pateix desavantatge en les seves tirades d'atac contra tu.",
 						"Mentre l'objectiu estigui maleït, l'objectiu ha de realitzar una tirada de salvació de Saviesa al principi de cada torn. Si la falla, gasta la seva acció del torn i no fa res.",
 						"Mentre l'objectiu estigui maleït, els teus atacs i conjur li fan {@damage 1d8} de dany necròtic addicional."
@@ -2036,7 +2036,7 @@
 			]
 		},
 		{
-			"name": "Seguesa/Sordesa",
+			"name": "Ceguesa/Sordesa",
 			"source": "PHB",
 			"page": 219,
 			"srd": true,
@@ -2134,7 +2134,7 @@
 			]
 		},
 		{
-			"name": "Desdibuixar",
+			"name": "Contorn borrós",
 			"source": "PHB",
 			"page": 219,
 			"srd": true,
@@ -2736,7 +2736,7 @@
 			]
 		},
 		{
-			"name": "Clairvoyance",
+			"name": "Clarividència",
 			"source": "PHB",
 			"page": 222,
 			"srd": true,
@@ -3191,7 +3191,7 @@
 			]
 		},
 		{
-			"name": "Compelled Duel",
+			"name": "Duel forçat",
 			"source": "PHB",
 			"page": 224,
 			"level": 1,
@@ -3649,7 +3649,7 @@
 			]
 		},
 		{
-			"name": "Conjure Elemental",
+			"name": "Conjurar Elemental",
 			"source": "PHB",
 			"page": 225,
 			"srd": true,
@@ -4209,7 +4209,7 @@
 					"type": "entries",
 					"name": "Remolí",
 					"entries": [
-						"Aquest efecte necessita que la massa d'aigua sigui de 50 peus quadrats o més i tingui 25 peus de profunditat. Crees un remolí en el centre de l'àrea. Això produeix un vòrtex de 5 peus d'amplada a la base, fins a 50 peus d'amplada en la part més alta i fins a 25 peus de profunditat. Qualsevol objecte o criatura a l'aigua i a 25 peus o menys del remolí s'hi veu atreta 10 peus. Una criatura pot allunyar-se del vòrtex nedant realitzant una prova de Força ({@skill Athletics}) amb CD igual a la teva salvació de conjurs.",
+						"Aquest efecte necessita que la massa d'aigua sigui de 50 peus quadrats o més i tingui 25 peus de profunditat. Crees un remolí en el centre de l'àrea. Això produeix un vòrtex de 5 peus d'amplada a la base, fins a 50 peus d'amplada en la part més alta i fins a 25 peus de profunditat. Qualsevol objecte o criatura a l'aigua i a 25 peus o menys del remolí s'hi veu atreta 10 peus. Una criatura pot allunyar-se del vòrtex nedant realitzant una prova de Força ({@skill Athletics}) amb CD igual a la teva salvació màgica.",
 						"Quan una criatura entra a l'àrea del remolí per primer cop en un torn, o quan hi comença el seu torn, ha de realitzar una tirada de salvació de Força. Si la falla, la criatura rep {@damage 2d8} dany contundent i queda atrapada en el vòrtex fins que el conjur acabi. Si la supera, rep la meitat del mal i no queda atrapada. Una criatura atrapada en el remolí pot fer servir la seva acció per intentar-s'hi allunyar de la manera anteriorment descrita, però té desavantatge en la prova Força ({@skill Athletics}) necessària.",
 						"El primer cop que un objecte entri en el vòrtex cada torn rep {@damage 2d8} de dany contundent. Aquest dany ocorre cada assalt que hi romangui dins."
 					]
@@ -4466,7 +4466,7 @@
 				}
 			],
 			"entries": [
-				"Intentes interrompre una criatura mentre llença un conjur. Si aquest últim és de nivell 3 o inferior, ho aconsegueixes automàticament i el conjur no té cap mena d'efecte. No obstant això, per cada conjur de nivell 4 o superior, has de realitzar una prova de característica fent servir la teva aptitud màgica. La CD és 10 + el nivell del conjur. Si la superes, el conjur de la criatura falla i no té cap efecte."
+				"Intentes interrompre una criatura mentre llença un conjur. Si aquest últim és de nivell 3 o inferior, ho aconsegueixes automàticament i el conjur no té cap mena d'efecte. No obstant això, per cada conjur de nivell 4 o superior, has de realitzar una prova de característica (capacitat) fent servir la teva aptitud màgica. La CD és 10 + el nivell del conjur. Si la superes, el conjur de la criatura falla i no té cap efecte."
 			],
 			"entriesHigherLevel": [
 				{
@@ -5373,7 +5373,7 @@
 			]
 		},
 		{
-			"name": "Detect pensaments",
+			"name": "Detectar pensaments",
 			"source": "PHB",
 			"page": 231,
 			"srd": true,
@@ -5501,7 +5501,7 @@
 			"entries": [
 				"Fas que tu (incloent-hi la vestimenta, armadura, armes i altres possessiona que portes amb tu) semblis diferent fins que el conjur acabi o facis servir la teva acció per acabar-lo. Pots semblar 1 peu més alt o més baix i de complexió prima, grassa o intermèdia. No pots canviar el tipus del teu cos, així que has d'adoptar una forma que tingui la mateixa configuració de membres. La resta dels aspectes poden ser afectats per la il·lusió.",
 				"Els canvis realitzats per aquest conjur no aguanten una inspecció física. Per exemple, si fas servir aquest conjur per afegir un barret a la teva vestimenta, els objectes travessen el barret i qualsevol que el toqui no sentiria res, o simplement notaria el teu cap i els teus cabells. Si fas servir aquest conjur per semblar més prim, la mà de qualsevol que intenti tocar-te xocarà amb tu en allò que sembla un espai lliure.",
-				"Per adonar-se que estàs disfressat, una criatura pot emprar la seva acció per inspeccionar la teva aparença i ha de superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs."
+				"Per adonar-se que estàs disfressat, una criatura pot emprar la seva acció per inspeccionar la teva aparença i ha de superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica."
 			],
 			"abilityCheck": [
 				"intelligence"
@@ -5670,7 +5670,7 @@
 				}
 			],
 			"entries": [
-				"Escull una criatura, objecte o efecte màgic dins del rang. Qualsevol conjur de nivell 3 o meno present en l'objectiu acaba immediatament. Per a cada conjur de nivell 4 o més, realitza una prova de característica fent servir la teva aptitud màgica. La CD és 10 + el nivell del conjur. Si superes la tirada, el conjur acaba immediatament."
+				"Escull una criatura, objecte o efecte màgic dins del rang. Qualsevol conjur de nivell 3 o meno present en l'objectiu acaba immediatament. Per a cada conjur de nivell 4 o més, realitza una prova de característica (capacitat) fent servir la teva aptitud màgica. La CD és 10 + el nivell del conjur. Si superes la tirada, el conjur acaba immediatament."
 			],
 			"entriesHigherLevel": [
 				{
@@ -5738,7 +5738,7 @@
 			]
 		},
 		{
-			"name": "Divination",
+			"name": "Endevinació",
 			"source": "PHB",
 			"page": 234,
 			"srd": true,
@@ -6169,7 +6169,7 @@
 			]
 		},
 		{
-			"name": "Art druídic",
+			"name": "Saber druídic",
 			"source": "PHB",
 			"page": 236,
 			"srd": true,
@@ -6211,7 +6211,7 @@
 			]
 		},
 		{
-			"name": "Terratrèmols",
+			"name": "Terratrèmol",
 			"source": "PHB",
 			"page": 236,
 			"srd": true,
@@ -6590,7 +6590,7 @@
 			],
 			"entries": [
 				"El pròxim cop que impactis una criatura amb un atac fent servir una arma abans que el conjur acabi, una massa d'enfiladisses apareix en el punt de l'impacte. L'objectiu ha de superar una tirada de salvació de Força o quedarà {@condition restrained} per les enfiladisses màgiques fins al final del conjur. Les criatures Grans o de mida superior tenen avantatge en la tirada de salvació. Si l'objectiu supera la tirada, les enfiladisses es marceixen i s'assequen.",
-				"Mentre l'objectiu estigui {@condition restrained} pel conjur, rep {@damage 1d6} de dany perforant al principi de cada torn. Una criatura {@condition restrained} per les enfiladisses pot fer servir una acció per realitzar una prova de Força amb CD igual a la teva salvació de conjurs. Si la supera, queda lliure."
+				"Mentre l'objectiu estigui {@condition restrained} pel conjur, rep {@damage 1d6} de dany perforant al principi de cada torn. Una criatura {@condition restrained} per les enfiladisses pot fer servir una acció per realitzar una prova de Força amb CD igual a la teva salvació màgica. Si la supera, queda lliure."
 			],
 			"entriesHigherLevel": [
 				{
@@ -6650,7 +6650,7 @@
 			],
 			"entries": [
 				"Arrels, ceps i malesa brollen de terra en un quadrat de 20 peus de costat situat en un punt dins del rang i intenten agafar les criatures que es trobin en aquesta àrea. Fins que el conjur acabi, aquestes plantes transformen el terra de l'àrea en {@quickref difficult terrain||3}.",
-				"Qualsevol criatura que es trobi en aquest espai quan llencis el conjur ha de superar una tirada de salvació de Força o quedarà {@condition restrained} per les plantes enfiladisses fins que el conjur acabi. Una criatura {@condition restrained} per les plantes pot fer servir la seva acció per fer una prova de Força amb CD igual a la teva salvació de conjurs. Si la supera, queda lliure.",
+				"Qualsevol criatura que es trobi en aquest espai quan llencis el conjur ha de superar una tirada de salvació de Força o quedarà {@condition restrained} per les plantes enfiladisses fins que el conjur acabi. Una criatura {@condition restrained} per les plantes pot fer servir la seva acció per fer una prova de Força amb CD igual a la teva salvació màgica. Si la supera, queda lliure.",
 				"Quan el conjur acaba, les plantes conjurades es marceixes i s'assequen."
 			],
 			"conditionInflict": [
@@ -6808,7 +6808,7 @@
 			"entries": [
 				"Una massa de tentacles de color d'eben que es retorcen cobreix un quadrat de 20 peus de costat que puguis veure dins del rang. Fins que el conjur acabi, aquests tentacles transformen el terra de l'àrea en {@quickref difficult terrain||3}.",
 				"Quan una criatura afectada entra dins l'àrea per primer cop en un torn o hi comença el seu torn dins, ha de realitzar una tirada de salvació de Destresa. Si la falla, rep {@damage 3d6} de dany contundent i quedarà {@condition restrained} pels tentacles fins que acabi el conjur. Una criatura que comenci el seu torn dins l'àrea que ja estigués {@condition restrained} pels tentacles rep {@damage 3d6} de dany contundent.",
-				"Una criatura {@condition restrained} pels tentacles pot fer servir la seva acció per realitzar una prova de Força o Destresa (a la seva elecció) amb CD igual a la teva salvació de conjurs. Si la supera, queda lliure."
+				"Una criatura {@condition restrained} pels tentacles pot fer servir la seva acció per realitzar una prova de Força o Destresa (a la seva elecció) amb CD igual a la teva salvació màgica. Si la supera, queda lliure."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -6909,7 +6909,7 @@
 					"type": "entries",
 					"name": "Nàusees",
 					"entries": [
-						"L'objectiu té desavantatge en les tirades d'atac i en les proves de característica. Al final de cadascun dels seus torns, pot realitzar una tirada de salvació de Saviesa. Si la supera, l'efecte del conjur acaba."
+						"L'objectiu té desavantatge en les tirades d'atac i en les proves de característica (capacitat). Al final de cadascun dels seus torns, pot realitzar una tirada de salvació de Saviesa. Si la supera, l'efecte del conjur acaba."
 					]
 				},
 				{
@@ -8004,7 +8004,7 @@
 			]
 		},
 		{
-			"name": "Núvol de boira",
+			"name": "Núvol d'enfosquiment",
 			"source": "PHB",
 			"page": 243,
 			"srd": true,
@@ -8203,7 +8203,7 @@
 				}
 			],
 			"entries": [
-				"Toques una criatura voluntària, a qui atorgues una habilitat immediata per veure el futur immediat. Fins que el conjur acabi, l'objectiu no pot ser {@quickref Surprise|PHB|3|0|surprised} i té avantatge en les tirades d'atac, proves de característica i tirades de salvació. A més a més, les altres criatures tenen desavantatge en tirades d'atac contra l'objectiu.",
+				"Toques una criatura voluntària, a qui atorgues una habilitat immediata per veure el futur immediat. Fins que el conjur acabi, l'objectiu no pot ser {@quickref Surprise|PHB|3|0|surprised} i té avantatge en les tirades d'atac, proves de característica (capacitat) i tirades de salvació. A més a més, les altres criatures tenen desavantatge en tirades d'atac contra l'objectiu.",
 				"El conjur acaba immediatament si el llences de nou abans que acabi."
 			],
 			"areaTags": [
@@ -8669,7 +8669,7 @@
 			],
 			"entries": [
 				"Quan llences aquest conjur inscrius un glif que alliberarà posteriorment un efecte màgic. Pots fer-ho en una superfície (com una taula, una secció d'un mur o a terra) o dins d'un objecte que pugui tancar-se (com un llibre, un pergamí o un cofre del tresor), per amagar-hi el glif. Aquest glif pot cobrir una superfície de 10 peus de diàmetre. Si la superfície o l'objecte és allunyat més de 10 peus del punt on vas llençar el conjur, aquest acaba sense activar-se i el glif es trenca.",
-				"El glif és gairebé invisible i cal superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs per trobar-lo.",
+				"El glif és gairebé invisible i cal superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica per trobar-lo.",
 				"Decideixes què activa el glif quan llances el conjur. Per a glifs inscrits en una superfície, les activacions més típiques inclouen tocar o trepitjar el glif, retirar un objecte que el cobrís, apropar-se a una certa distància o manipular l'objecte que el té inscrit. Per a glifs inscrits en un objecte, les activacions més típiques inclouen obrir l'objecte, apropar-s'hi a una certa distància o veure o llegir el glif. Un cop que estigui activat, el conjur acaba.",
 				"Pots precisar encara més les condicions d'activació, perquè el conjur només s'activi sota certes circumstàncies o segons unes certes característiques físiques concretes (com l'alçada o el pes), el tipus de criatura (per exemple, que només afecti aberracions o drows) o l'alineament.",
 				"Quan inscriguis un glif, escull entre glif de conjur o runes explosives.",
@@ -9114,7 +9114,7 @@
 				}
 			],
 			"entries": [
-				"Toques una criatura voluntària. Un sol cop, abans que el conjur acabi, l'objectiu pot llençar {@dice d4} i afegir el resultat a una prova de característica a la seva elecció. Pot llençar el dau abans o després de conèixer el resultat de la prova. Fer això fa que el conjur acabi."
+				"Toques una criatura voluntària. Un sol cop, abans que el conjur acabi, l'objectiu pot llençar {@dice d4} i afegir el resultat a una prova de característica (capacitat) a la seva elecció. Pot llençar el dau abans o després de conèixer el resultat de la prova. Fer això fa que el conjur acabi."
 			],
 			"areaTags": [
 				"ST"
@@ -9422,7 +9422,7 @@
 			]
 		},
 		{
-			"name": "Terreny al·lucinatori",
+			"name": "Terreny al·lucinogen",
 			"source": "PHB",
 			"page": 249,
 			"srd": true,
@@ -9457,7 +9457,7 @@
 			],
 			"entries": [
 				"Canvies l'aparença del terreny natural dins d'un cub de 150 peus de costat dins del rang, fent que es vegi, soni i s'olori com un altre tipus de terreny natural. Pots fer que un camp obert o una carretera semblin un pantà, un turó, una fissura o un altre tipus de terreny difícil o infranquejable. De la mateixa manera, una tolla podria semblar un prat d'herba, un penya-segat o un barranc ple de roques. Les estructures construïdes, l'equipament i les criatures de dins de la zona no canvien d'aparença.",
-				"Les característiques tàctils del terreny no canvien, així que el més probable és que qualsevol criatura que entri dins l'àrea s'adoni de la il·lusió. Si la diferència no és òbvia tocant el terreny, una criatura que examini la il·lusió amb cura pot determinar que és irreal si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs. Si la supera, pot veure la il·lusió com si fos una imatge borrosa superposada al terreny real."
+				"Les característiques tàctils del terreny no canvien, així que el més probable és que qualsevol criatura que entri dins l'àrea s'adoni de la il·lusió. Si la diferència no és òbvia tocant el terreny, una criatura que examini la il·lusió amb cura pot determinar que és irreal si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica. Si la supera, pot veure la il·lusió com si fos una imatge borrosa superposada al terreny real."
 			],
 			"abilityCheck": [
 				"intelligence"
@@ -9723,7 +9723,7 @@
 			],
 			"entries": [
 				"Escull un objecte manufacturat de metall, com una arma de metall o una armadura mitjana o pesada de metall que puguis veure dins del rang. Fas que aquest objecte es posi roent. En llençar el conjur, qualsevol criatura en contacte físic amb l'objecte rep {@damage 2d8} de dany per foc. Fins que el conjur acabi, pots fer servir una acció addicional en cadascun dels teus torns per causar aquest dany de nou.",
-				"Si una criatura porta a sobre l'objecte i rep el dany, ha de superar una tirada de salvació de Constitució o deixar-lo anar, si pot. Si no el deixa anar o falla la tirada, té desavantatge en les tirades d'atac i proves de característica fins al començament del teu pròxim torn."
+				"Si una criatura porta a sobre l'objecte i rep el dany, ha de superar una tirada de salvació de Constitució o deixar-lo anar, si pot. Si no el deixa anar o falla la tirada, té desavantatge en les tirades d'atac i proves de característica (capacitat) fins al començament del teu pròxim torn."
 			],
 			"entriesHigherLevel": [
 				{
@@ -9943,7 +9943,7 @@
 				}
 			],
 			"entries": [
-				"Imposes una maledicció a una criatura que puguis veure dins del rang. Fins que el conjur acabi, rep {@damage 1d6} de dany necròtic addicional cada cop que sigui impactada per un dels teus atacs. A més a més, escull una característica quan llencis el conjur. L'objectiu té desavantatge en les proves de característica i tirades de salvació fetes amb la característica escollida.",
+				"Imposes una maledicció a una criatura que puguis veure dins del rang. Fins que el conjur acabi, rep {@damage 1d6} de dany necròtic addicional cada cop que sigui impactada per un dels teus atacs. A més a més, escull una característica quan llencis el conjur. L'objectiu té desavantatge en les proves de característica (capacitat) i tirades de salvació fetes amb la característica escollida.",
 				"Si els punts de vida de l'objectiu es veuen reduïts a 0 abans que el conjur acabi, pots fer servir una acció addicional en un torn posterior per transferir la maledicció a una nova criatura.",
 				"El conjur {@spell remove curse} fa que aquest conjur acabi immediatament."
 			],
@@ -11638,7 +11638,7 @@
 			]
 		},
 		{
-			"name": "Míssil màgic",
+			"name": "Projectil màgic",
 			"source": "PHB",
 			"page": 257,
 			"srd": true,
@@ -11827,7 +11827,7 @@
 			"entries": [
 				"Crees la imatge d'un objecte, una criatura o una altra mena de fenomen visible, les dimensions del qual no excedeixin les d'un cub de 20 peus de costat. La imatge apareix en un lloc que puguis veure dins del rang i hi roman fins que el conjur acabi. Sembla completament real, incloent-hi els sons, olors i temperatures apropiats al que representa. No pots crear prou calor o fred per fer dany per foc o per fred, ni crear un so prou fort per fer dany per tro ni ensordir ningú, ni cap olor que provoqués nàusees a una criatura (com la pudor d'una {@creature troglodyte||troglodyte's}).",
 				"Mentre estiguis dins del rang de la il·lusió, pots fer servir la teva acció per moure-la a un altre lloc dins del rang. En canviar-la de lloc, pots alterar-ne l'aparença de forma que els seus moviments semblin naturals. Per exemple, si crees la imatge d'una criatura i la mous, pots alterar-la de forma que sembli que estigui caminant. De forma similar, pots fer que la il·lusió produeixi diferents sons en determinants moments, fins i tot mantenir-hi una conversa, per exemple.",
-				"La interacció física amb la imatge revela que és una il·lusió, ja que les coses la travessen. Si una criatura empra la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs. Si la criatura descobreix que la imatge és una il·lusió, podrà veure-hi a través i les altres qualitats sensorials es tornen tènues per a aquesta criatura."
+				"La interacció física amb la imatge revela que és una il·lusió, ja que les coses la travessen. Si una criatura empra la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica. Si la criatura descobreix que la imatge és una il·lusió, podrà veure-hi a través i les altres qualitats sensorials es tornen tènues per a aquesta criatura."
 			],
 			"entriesHigherLevel": [
 				{
@@ -12443,7 +12443,7 @@
 				"Crees un so o una imatge d'un objecte, situat dins del rang i que hi roman fins que el conjur acabi. La il·lusió també acaba si llences el conjur de nou o fas servir la teva acció per acabar-lo.",
 				"Si crees un so, el seu volum pot estar entre el d'un xiuxiueig o un crit. Pot ser la teva veu, la d'una altra criatura, el rugit d'un lleó, un redoblament de tambors o qualsevol altre so de la teva elecció. Pot sonar en moments concrets o constantment mentre duri el conjur; tu esculls.",
 				"Si crees la imatge d'un objecte (com una cadira, empremtes enfangades o un petit cofre) no pot ser més gran que un cub de 5 peus de costat. La imatge no pot generar so, llum, olor o qualsevol altre efecte sensorial. La interacció física amb la imatge revela que és una il·lusió, ja que les coses la travessen.",
-				"Si una criatura fa servir la seva acció per examinar la imatge o el so, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) la CD de la qual equival a la teva salvació de conjurs. Si esbrina que és una il·lusió, el seu aspecte es torna tènue per a la criatura."
+				"Si una criatura fa servir la seva acció per examinar la imatge o el so, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) la CD de la qual equival a la teva salvació màgica. Si esbrina que és una il·lusió, el seu aspecte es torna tènue per a la criatura."
 			],
 			"abilityCheck": [
 				"intelligence"
@@ -12489,7 +12489,7 @@
 			]
 		},
 		{
-			"name": "Imatge emmirallada",
+			"name": "Imatge múltiple",
 			"source": "PHB",
 			"page": 260,
 			"srd": true,
@@ -13140,7 +13140,7 @@
 			],
 			"entries": [
 				"Un globus frígid d'energia glacial brota d'entre els teus dits cap a un punt de la teva elecció dins del rang, on explota ene una àrea esfèrica de 60 peus de radi. Cada criatura dins la zona ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 10d6} de dany per fred. Si la supera, rep la meitat del dany.",
-				"Si el globus colpeja una massa d'aigua o un líquid que sigui sobretot aigua (però no criatures fetes principalment d'aigua), el congela fins a una profunditat de 6 polzades en una àrea quadrada de 30 peus de costat. El gel dura 1 minut i les criatures que estiguessin nedant en la superfície de l'aigu congelada hi queden atrapades. Una criatura atrapada pot fer servir la seva acció per alliberar-se si supera una prova de Força amb CD igual a la teva salvació de conjurs.",
+				"Si el globus colpeja una massa d'aigua o un líquid que sigui sobretot aigua (però no criatures fetes principalment d'aigua), el congela fins a una profunditat de 6 polzades en una àrea quadrada de 30 peus de costat. El gel dura 1 minut i les criatures que estiguessin nedant en la superfície de l'aigu congelada hi queden atrapades. Una criatura atrapada pot fer servir la seva acció per alliberar-se si supera una prova de Força amb CD igual a la teva salvació màgica.",
 				"Pots no llençar la petita esfera en completar en llançament del conjur. En aquest cas, un petit globus de la mida d'una pedra fonda, fred al tacte, apareix a la teva mà. En qualsevol moment, tu o una criatura a qui entreguis el globus, pot llençar-lo amb la mà (fins a 40 peus de distància) o amb una fonda (fins al rang normal de la fonda). Es farà bocins amb l'impacte, amb el mateix efecte que llençar el conjur de forma normal. També pot dipositar el globus a terra sense que esclati. Després d'1 minut, si encara no ho ha fet, esclatarà."
 			],
 			"entriesHigherLevel": [
@@ -13401,7 +13401,7 @@
 			"entries": [
 				"Crees un fantasma il·lusori que penetra en la ment d'una criatura que puguis veure dins del rang. L'objectiu ha de realitzar una tirada de salvació d'Intel·ligència. Si la falla, crees fins que el conjur acabi un objecte, criatura o fenomen visible de la teva elecció que només l'objectiu pot veure. Té un aspecte fantasmal i la seva mida no pot ser més gran que un cub de 10 peus de costat. Aquest conjur no afecte morts vivents ni autòmats.",
 				"El fantasma pot emetre sons, alterar la temperatura i produir altres estímuls, tots ells visibles només per l'objectiu.",
-				"Si la criatura fa servir la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència({@skill Investigation}) la CD de la qual és la teva salvació de conjurs. Si supera la prova, l'objectiu s'adona que el fantasma és una il·lusió i el conjur acaba.",
+				"Si la criatura fa servir la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència({@skill Investigation}) la CD de la qual és la teva salvació màgica. Si supera la prova, l'objectiu s'adona que el fantasma és una il·lusió i el conjur acaba.",
 				"Mentre l'objectiu continuï afectat per aquest conjur, tracta el fantasma com si fos real. Racionalitzarà qualsevol resultat il·lògic producte de la interacció amb el fantasma. Per exemple, un objectiu d'aquest conjur que camini sobre un pont il·lusori que creua un abisme, caurà en el moment que faci el primer pas. Però si l'objectiu sobreviu a la caiguda, encara creurà que el pont existeix i inventarà una explicació per a la seva caiguda (va ser empès, va relliscar o potser una forta ventada el va llençar al buit).",
 				"L'objectiu afectat està tan convençut de l'existència real de la il·lusió que gins i tot pot arribar a rebre-hi mal. Un fantasma creat per semblar una criatura pot atacar l'objectiu. De la mateixa manera, un fantasma creat per semblar foc, un bassal d'àcid o lava podria cremar l'objectiu. Cada assalt, en el teu torn, el fantasma pot infligir {@damage 1d6} de dany psíquic a l'objectiu si es troba dins l'àrea ocupada pel fantasma o a 5 peus d'ell. Per a això, cal que la il·lusió sigui d'una criatura o perill que pugui causar dany de forma lògica, com per exemple atacant. L'objectiu rep el dany apropiat segons la il·lusió."
 			],
@@ -13647,7 +13647,7 @@
 			]
 		},
 		{
-			"name": "Desplaçament ente plans",
+			"name": "Desplaçament entre plans",
 			"source": "PHB",
 			"page": 266,
 			"srd": true,
@@ -14446,7 +14446,7 @@
 				"Crees dins del rang una il·lusió d'un objecte, una criatura o qualsevol altre fenomen visible, que s'activa quan es dona una condició específica. Fins llavors, la il·lusió és imperceptible. En llençar el conjur decideixes com es comporta i quins sons crea la il·lusió, que no pot ser més gran que un cub de 30 peus de costat. El comportament indicat pot durar fins a 5 minuts.",
 				"Quan la condició especificada ocorri, la il·lusió apareix de cop i actua segons el comportament demanat. Un cop l'actuació hagi acabat, la il·lusió desapareix i queda latent durant 10 minuts. Passat aquest temps, pot ser activada de nou.", 
 				"Les circumstàncies d'activació poden ser tan general o detallades com vulguis, però han d'estar basades en condicions visuals que ocorrin a 30 peus o menys de l'objecte. Per exemple, podries crear una il·lusió de tu mateix que aparegui i avisi aquells que intenten obrir una porta amb trampa o fer que la i·lusió només s'activi quan una criatura sigui la frase o paraula correcta.",
-				"La interacció física amb la imatge revela que és una il·lusió, ja que les coses la travessen. Si una criatura empra la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs. Si la criatura descobreix que la imatge és una il·lusió, podrà veure-hi a través i els sons que produeix li sonen buits."
+				"La interacció física amb la imatge revela que és una il·lusió, ja que les coses la travessen. Si una criatura empra la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica. Si la criatura descobreix que la imatge és una il·lusió, podrà veure-hi a través i els sons que produeix li sonen buits."
 			],
 			"abilityCheck": [
 				"intelligence"
@@ -14494,7 +14494,7 @@
 				"Crees una còpia il·lusòria de tu mateix que roman fins que el conjur acabi. Pots ferla aparèixer en qualsevol localització dins del rang que hagis vist abans, independentment dels obstacles que pugui haver-hi entre ella i la teva posició actual. La il·lusió es veu i sona com tu, però és intangible. El conjur acaba si aquesta rep qualsevol mena de dany.",
 				"Pots fer servir la teva acció per moure la il·lusió fins al doble de la teva velocitat i fer que parli, gesticuli o es comporti com vulguis. Imita les teves maneres perfectament.",
 				"Ets capaç de veure-hi a través i sentir-hi a través de la seva oïda com si estiguessis on ella es troba. En cadascun dels teus torns, com a acció addicional, pots passar dels seus sentits als teus o viceversa. Mentre estiguis fent servir els seus sentits, quedes {@condition blinded} i {@condition deafened} pel que fa als teus propis sentits.",
-				"La interacció física amb la imatge revela que és una il·lusió, ja que les coses la travessen. Si una criatura empra la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs. Si la criatura descobreix que la imatge és una il·lusió, podrà veure-hi a través i els sons que produeix li sonen buits."
+				"La interacció física amb la imatge revela que és una il·lusió, ja que les coses la travessen. Si una criatura empra la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica. Si la criatura descobreix que la imatge és una il·lusió, podrà veure-hi a través i els sons que produeix li sonen buits."
 			],
 			"conditionInflict": [
 				"blinded",
@@ -14729,7 +14729,7 @@
 				"Tornes a la vida una criatura morta, sempre que no porti morta més de 10 dies. Si l'ànima de la criatura té la llibertat i la voluntat de reunir-se amb el seu cos, aquesta torna a la vida amb 1 punt de vida.",
 				"Aquest conjur també neutralitza qualsevol verí i cura qualsevol malaltia no màgica que afligís la criatura en el moment de la seva mort. No obstant això, aquest conjur no elimina malalties màgiques, malediccions o efectes similars; si no s'eliminen abans del llançament d'aquest conjur, entren en acció quan la criatura torna a la vida. El conjur no pot tornar a la vida un mort vivent.",
 				"Totes les ferides letals queden tancades, però no es restableixen membres o parts del cos que faltin. Si la criatura no disposa de parts de cos o òrgans necessaris per a la supervivència (com el cap, per exemple), el conjur falla automàticament.",
-				"Tornar d'entre els morts és una dura experiència. L'objectiu té un penalitzador de -4 a totes les tirades d'atac, tirades de salvació i proves de característica. Cada cop que completi un descans llarg, aquest penalitzador es redueix 1 fins que desaparegui en arribar a 0."
+				"Tornar d'entre els morts és una dura experiència. L'objectiu té un penalitzador de -4 a totes les tirades d'atac, tirades de salvació i proves de característica (capacitat). Cada cop que completi un descans llarg, aquest penalitzador es redueix 1 fins que desaparegui en arribar a 0."
 			],
 			"affectsCreatureType": [
 				"aberration",
@@ -14844,7 +14844,7 @@
 			]
 		},
 		{
-			"name": "Raig de congelació",
+			"name": "Raig de gebre",
 			"source": "PHB",
 			"page": 271,
 			"srd": true,
@@ -14908,7 +14908,7 @@
 			]
 		},
 		{
-			"name": "Raig de malaltia",
+			"name": "Raig nauseabund",
 			"source": "PHB",
 			"page": 271,
 			"level": 1,
@@ -15330,8 +15330,8 @@
 				"Toques una criatura que porti morta menys d'un segle que no hagi mort per edat avançada i que no sigui un mort vivent. Si la seva ànima és lliure i així ho vol, l'objectiu torna a la vida amb tots els seus punts de vida.",
 				"Aquest conjur també neutralitza qualsevol verí i cura qualsevol malaltia no màgica que afligís la criatura en el moment de la seva mort. No obstant això, aquest conjur no elimina malalties màgiques, malediccions o efectes similars; si no s'eliminen abans del llançament d'aquest conjur, entren en acció quan la criatura torna a la vida. El conjur no pot tornar a la vida un mort vivent.",
 				"Totes les ferides letals queden tancades, però no es restableixen membres o parts del cos que faltin.",
-				"Tornar d'entre els morts és una dura experiència. L'objectiu té un penalitzador de -4 a totes les tirades d'atac, tirades de salvació i proves de característica. Cada cop que completi un descans llarg, aquest penalitzador es redueix 1 fins que desaparegui en arribar a 0.",
-				"Llençar aquest conjur per tornar a la vida una criatura que ha estat morta durant un any o més li suposa un gran esforç. Fins que completis un descans llarg, no pots llençar més conjurs i tens desavantatge en totes les tirades d'atac, proves de característica i tirades de salvació."
+				"Tornar d'entre els morts és una dura experiència. L'objectiu té un penalitzador de -4 a totes les tirades d'atac, tirades de salvació i proves de característica (capacitat). Cada cop que completi un descans llarg, aquest penalitzador es redueix 1 fins que desaparegui en arribar a 0.",
+				"Llençar aquest conjur per tornar a la vida una criatura que ha estat morta durant un any o més li suposa un gran esforç. Fins que completis un descans llarg, no pots llençar més conjurs i tens desavantatge en totes les tirades d'atac, proves de característica (capacitat) i tirades de salvació."
 			],
 			"affectsCreatureType": [
 				"undead"
@@ -15640,7 +15640,7 @@
 			]
 		},
 		{
-			"name": "Escorcollar",
+			"name": "Escodrinyar",
 			"source": "PHB",
 			"page": 273,
 			"srd": true,
@@ -15865,7 +15865,7 @@
 				"Aquest conjur et permet canviar l'aparença de qualsevol nombre de criatures que puguis veure dins del rang. A cadascuna d'elles li dones una aparença il·lusòria nova. Un objectiu no voluntari pot realitzar una tirada de salvació de Carisma. Si la supera, no es veurà afectat pel conjur.",
 				"El conjur disfressa l'aparença física, així com la vestimenta, armes, armadures i equipament. Pots fer que cada criatura sembli 1 peu més alta o més baixa i de complexió prima, grassa o intermèdia. No pots canviar el tipus del teu cos, així que has d'escollir una forma que tingui la mateixa configuració de membres. Pel que fa a la resta d'aspectes, queden a la teva elecció. Aquesta aparença es manté fins que el conjur acabi o fins que facis servir una acció per acabar-lo.",
 				"Els canvis realitzats per aquest conjur no aguanten una inspecció física. Per exemple, si fas servir aquest conjur per afegir un barret a la  vestimenta d'una criatura, els objectes travessen el barret i qualsevol que el toqui no sentiria res, o simplement notaria el seu cap i els teus cabells. Si fas servir aquest conjur perquè la criatura sembli més prima, la mà de qualsevol que intenti tocar-la xocarà amb ella en allò que sembla un espai lliure.",
-				"Per adonar-se que estàs disfressat, una criatura pot emprar la seva acció per inspeccionar la teva aparença i ha de superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs. Si la supera, s'adona que l'objectiu està disfressat."
+				"Per adonar-se que estàs disfressat, una criatura pot emprar la seva acció per inspeccionar la teva aparença i ha de superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica. Si la supera, s'adona que l'objectiu està disfressat."
 			],
 			"savingThrow": [
 				"charisma"
@@ -16211,7 +16211,7 @@
 			]
 		},
 		{
-			"name": "Subjecció electritzant",
+			"name": "Aferrament electritzant",
 			"source": "PHB",
 			"page": 275,
 			"srd": true,
@@ -16363,7 +16363,7 @@
 			"entries": [
 				"Crees una imatge d'un objecte, una criatura o un altre mena de fenomen visible, les dimensions dels quals no excedeixin les d'un cub de 15 peus de costat. La imatge apareix en un lloc que puguis veure dins del rang i s'hi manté fins que el conjur acabi. La imatge és només visual; no va acompanyada de so, olor ni cap efecte sensorial.",
 				"Mentre et trobis dins del rang de la il·lusió, pots fer servir la teva acció per moure-la de lloc dins del rang. En fer-ho, pots alterar-ne l'aparença de forma que els seus moviments semblin naturals. Per exemple, si crees la imatge d'una criatura i la mous, pots alterar-la de forma que sembli que estigui caminant.",
-				"La interacció física amb la imatge revela que és una il·lusió, ja que les coses la travessen. Si una criatura empra la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs. Si la criatura descobreix que la imatge és una il·lusió, podrà veure-hi a través."
+				"La interacció física amb la imatge revela que és una il·lusió, ja que les coses la travessen. Si una criatura empra la seva acció per examinar la imatge, pot determinar que és una il·lusió si supera una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica. Si la criatura descobreix que la imatge és una il·lusió, podrà veure-hi a través."
 			],
 			"abilityCheck": [
 				"intelligence"
@@ -16420,7 +16420,7 @@
 			]
 		},
 		{
-			"name": "Dormir",
+			"name": "Adormir",
 			"source": "PHB",
 			"page": 276,
 			"srd": true,
@@ -16528,7 +16528,7 @@
 			],
 			"entries": [
 				"Cau aiguaneu fins que el conjur acabi, cobrint un cilindre de 20 peus d'alçada i 40 peus de radi centrat en un punt de la teva elecció dins del rang. L'àrea es considera {@quickref Vision and Light|PHB|2||heavily obscured} i qualsevol mena de foc que hi hagi dins o hi entri, s'apaguen automàticament.",
-				"El terra es cobreix de gel lliscant, convertint la zona en {@quickref difficult terrain||3}. Quan una criatura entre dins l'àrea del conjur per primer cop en un torn, o quan hi comença el torn, ha de realitzar una tirada de salvació de Destresa amb CD igual a la teva salvació de conjurs. Si la falla, perd l'estat {@status concentration}."
+				"El terra es cobreix de gel lliscant, convertint la zona en {@quickref difficult terrain||3}. Quan una criatura entre dins l'àrea del conjur per primer cop en un torn, o quan hi comença el torn, ha de realitzar una tirada de salvació de Destresa amb CD igual a la teva salvació màgica. Si la falla, perd l'estat {@status concentration}."
 			],
 			"conditionInflict": [
 				"prone"
@@ -16647,7 +16647,7 @@
 			]
 		},
 		{
-			"name": "Parlar amb animals",
+			"name": "Parlar amb els animals",
 			"source": "PHB",
 			"page": 277,
 			"srd": true,
@@ -16860,7 +16860,7 @@
 			],
 			"entries": [
 				"Amb un tremolor, sorgeixen espines i punxes de terra en un radi de 20 peus al voltant d'un punt dins del rang. Fins que el conjur acabi, el terra de l'àrea es torna {@quickref difficult terrain||3}. Quan una criatura entra o es mou a través de l'àrea, rep {@damage 2d4} de dany perforant per cada 5 peus que es desplaci.",
-				"La transformació del terra queda camuflada de manera que sembla natural. Qualsevol criatura que no pugui veure l'àrea en el moment que es llença el conjur ha de superar una prova de Saviesa ({@skill Perception}) amb CD igual a la teva salvació de conjurs per adonar-se que el terreny és perillós abans d'entrar-hi."
+				"La transformació del terra queda camuflada de manera que sembla natural. Qualsevol criatura que no pugui veure l'àrea en el moment que es llença el conjur ha de superar una prova de Saviesa ({@skill Perception}) amb CD igual a la teva salvació màgica per adonar-se que el terreny és perillós abans d'entrar-hi."
 			],
 			"damageInflict": [
 				"piercing"
@@ -17028,7 +17028,7 @@
 				}
 			],
 			"entries": [
-				"El pròxim cop que impactis una criatura amb un atac fent servir una arma cos a cos abans que acabi el conjur, perfores el seu cos i la seva ment, i l'atac li infligeix {@damage 4d6} de dany psíquic addicional. L'objectiu ha de realitzar una tirada de salvació de Saviesa. Si la falla, fins al començament del teu pròxim torn té desavantatge en tirades d'atac i proves de característica i no pot dur a terme reaccions."
+				"El pròxim cop que impactis una criatura amb un atac fent servir una arma cos a cos abans que acabi el conjur, perfores el seu cos i la seva ment, i l'atac li infligeix {@damage 4d6} de dany psíquic addicional. L'objectiu ha de realitzar una tirada de salvació de Saviesa. Si la falla, fins al començament del teu pròxim torn té desavantatge en tirades d'atac i proves de característica (capacitat) i no pot dur a terme reaccions."
 			],
 			"damageInflict": [
 				"psychic"
@@ -17353,7 +17353,7 @@
 				}
 			],
 			"entries": [
-				"Un raig de llum brillant sorgeix de la teva mà en una línia recta de 60 peus de llargada i 10 peus d'amplada. Cada criatura que es trobi dins l'àrea del raig ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 6d8} de dany radiant i queda {@condition blinded} fins al teu pròxim torn. Si la supera, rep la meitat del dany i no queda {@condition blinded} per aquest conjur. Morts vivents i llimacs tenen desavantatge en aquesta tirada de salvació",
+				"Un raig de llum brillant sorgeix de la teva mà en una línia recta de 60 peus de llargada i 10 peus d'amplada. Cada criatura que es trobi dins l'àrea del raig ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 6d8} de dany radiant i queda {@condition blinded} fins al teu pròxim torn. Si la supera, rep la meitat del dany i no queda {@condition blinded} per aquest conjur. Morts vivents i llots tenen desavantatge en aquesta tirada de salvació",
 				"En cada torn, abans que el conjur acabi, pots crear una nova línia de llum radiant fent servir la teva acció.",
 				"Fins que el conjur acabi, una mota de llum pura brilla a la teva mà. Emet llum brillant en un radi de 30 peus i llum tènue 30 peus més enllà. Aquest llum es considera llum solar."
 			],
@@ -17405,7 +17405,7 @@
 				}
 			],
 			"entries": [
-				"Omples d'enlluernadora llum solar una zona esfèrica de 60 peus de radi al voltant d'un punt de la teva elecció. Cada criatura dins l'àrea ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 12d6} de dany radiant i queda {@condition blinded} durant 1 minut. Si la supera, rep la meitat del dany i no queda {@condition blinded} per aquest conjur. Morts vivents i llimacs tenen desavantatge en aquesta tirada de salvació",
+				"Omples d'enlluernadora llum solar una zona esfèrica de 60 peus de radi al voltant d'un punt de la teva elecció. Cada criatura dins l'àrea ha de realitzar una tirada de salvació de Constitució. Si la falla, rep {@damage 12d6} de dany radiant i queda {@condition blinded} durant 1 minut. Si la supera, rep la meitat del dany i no queda {@condition blinded} per aquest conjur. Morts vivents i llots tenen desavantatge en aquesta tirada de salvació",
 				"Una criatura {@condition blinded} per aquest conjur pot realitzar una altra tirada de salvació de Constitució al final de cadascun dels seus torns. Si la supera, deixarà d'estar {@condition blinded}.",
 				"Aquest conjur dissipa qualsevol foscor dins l'àrea producte d'un altre conjur."
 			],
@@ -17506,7 +17506,7 @@
 			],
 			"entries": [
 				"Quan llences aquest conjur, inscrius un glif nociu en una superfície (com una taula, una secció d'un mur o a terra) o dins d'un objecte que pugui tancar-se (com un llibre, un pergamí o un cofre del tresor), per amagar-hi el glif. Si esculls una superfície, el glif pot cobrir una superfície de 10 peus de diàmetre. Si la superfície o l'objecte és allunyat més de 10 peus del punt on vas llençar el conjur, aquest acaba sense activar-se i el glif es trenca.",
-				"El glif és gairebé invisible i cal superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació de conjurs per trobar-lo.",
+				"El glif és gairebé invisible i cal superar una prova d'Intel·ligència ({@skill Investigation}) amb CD igual a la teva salvació màgica per trobar-lo.",
 				"Decideixes què activa el glif quan llances el conjur. Per a glifs inscrits en una superfície, les activacions més típiques inclouen tocar o trepitjar el glif, retirar un objecte que el cobrís, apropar-se a una certa distància o manipular l'objecte que el té inscrit. Per a glifs inscrits en un objecte, les activacions més típiques inclouen obrir l'objecte, apropar-s'hi a una certa distància o veure o llegir el glif.",
 				"Pots precisar encara més les condicions d'activació, perquè el conjur només s'activi sota certes circumstàncies o segons unes certes característiques físiques concretes (com l'alçada o el pes), el tipus de criatura (per exemple, que només afecti aberracions o drows) o l'alineament. També pots crear certes condicions perquè algunes criatures no l'activin, com mitjançant una paraula clau.",
 				"Quan inscriguis un glif, escull entre una de les opcions que apareixen a continuació per al seu efecte. Un cop activat, el glif brilla, omplint de llum tènue una àrea esfèrica de 60 peus de radi durant 10 minuts, després dels quals el conjur acaba. Totes les criatures dins l'esfera quan el glif s'activa són objectius del seu efecte, de la mateixa manera que ho són aquelles que entrin dins l'esfera per primer cop o hi acabin el seu torn.",
@@ -17535,7 +17535,7 @@
 					"type": "entries",
 					"name": "Discòrdia",
 					"entries": [
-						"Cada objectiu ha de realitzar una tirada de salvació de Constitució. Si la falla, renyeix i discuteix amb altres criatures durant 1 minut. Durant aquest temps, és incapaç de comunicar-se apropiadament i té desavantatge en les tirades d'atac i proves de característica."
+						"Cada objectiu ha de realitzar una tirada de salvació de Constitució. Si la falla, renyeix i discuteix amb altres criatures durant 1 minut. Durant aquest temps, és incapaç de comunicar-se apropiadament i té desavantatge en les tirades d'atac i proves de característica (capacitat)."
 					]
 				},
 				{
@@ -17686,7 +17686,7 @@
 					"type": "entries",
 					"name": "Criatura",
 					"entries": [
-						"Pots intentar moure una criatura de mida Enorme o menor. Realitza una prova de característica amb la teva aptitud màgica enfrontada a una prova de Força de la criatura. Si guanyes la tirada enfrontada, mous l'objectiu fins a 30 peus en qualsevol direcció, incloent-hi cap amunt, sempre que estigui dins del rang. Fins al final del teu pròxim torn, la criatura queda {@condition restrained} per la teva telecinesi. Un objectiu elevat queda suspès a l'aire",
+						"Pots intentar moure una criatura de mida Enorme o menor. Realitza una prova de característica (capacitat) amb la teva aptitud màgica enfrontada a una prova de Força de la criatura. Si guanyes la tirada enfrontada, mous l'objectiu fins a 30 peus en qualsevol direcció, incloent-hi cap amunt, sempre que estigui dins del rang. Fins al final del teu pròxim torn, la criatura queda {@condition restrained} per la teva telecinesi. Un objectiu elevat queda suspès a l'aire",
 						"En assalts següents pots fer servir la teva acció per intentar mantenir agafada la criatura, repetint la tirada enfrontada."
 					]
 				},
@@ -17695,7 +17695,7 @@
 					"name": "Objecte",
 					"entries": [
 						"Pots intentar moure un objecte que pesi fins a 1000 lliures. Si ningú porta a sobre l'objecte, el mous automàticament fins a 30 peus en qualsevol direcció, sempre que estigui dins del rang.",
-						"En cas contrari, realitza una prova de característica amb la teva aptitud màgica enfrontada a una prova de Força de la criatura que porti a sobre l'objecte. Si guanyes la tirada, li treus l'objecte i el mous fins a 30 peus en qualsevol direcció, sempre que estigui dins del rang.",
+						"En cas contrari, realitza una prova de característica (capacitat) amb la teva aptitud màgica enfrontada a una prova de Força de la criatura que porti a sobre l'objecte. Si guanyes la tirada, li treus l'objecte i el mous fins a 30 peus en qualsevol direcció, sempre que estigui dins del rang.",
 						"Pots manipular de forma delicada i precisa un objecte amb la teva telecinesi per fer servir una eina, obrir una porta o recipient, retirar o col·locar un objecte en un recipient obert o vessar el contingut d'un vial."
 					]
 				}
@@ -18606,7 +18606,7 @@
 				"Un mur d'aigua brota d'un punt de la teva elecció dins del rang. Pots crear-lo amb fins a 300 peus de longitud, 300 peus d'alçada i 50 peus de gruix. El mur hi roman fins que el conjur acabi.",
 				"Quan apareix el mur, totes les criatures de la zona ha de realitzar una tirada de salvació de Força. Si la fallen, reben {@damage 6d10} de dany contundent. Si la superen, reben la meitat del dany.",
 				"Al principi de cadascun dels teus torns després de l'aparició del mur, aquest s'allunya 50 peus de tu, juntament amb qualsevol criatura que hi hagi al seu interior. Qualsevol criatura Enorme o més petita dins del mur o en un espai on entri el mur en moure's ha de realitzar una tirada de salvació de Força. Si la fallen, reben {@damage 5d10} de dany contundent. Una criatura només pot rebre dany d'aquesta manera un cop per torn. Al final de cada torna, l'alçada del mur es veu reduïda 50 peus i el dany que les criatures reben en els següents assalts queda reduït {@dice 1d10}. Quan el mur arribi a 0 peus d'alçada, el conjur acaba.",
-				"Una criatura atrapada en el mur pot moure's nedant. A causa de la força de l'onada, la criatura ha de realitzar una prova de Força ({@skill Athletics}) amb CD igual a la teva salvació de conjurs. Si la falla, no pot moure's en absolut. Una criatura que surti de l'àrea cau a terra."
+				"Una criatura atrapada en el mur pot moure's nedant. A causa de la força de l'onada, la criatura ha de realitzar una prova de Força ({@skill Athletics}) amb CD igual a la teva salvació màgica. Si la falla, no pot moure's en absolut. Una criatura que surti de l'àrea cau a terra."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -19118,7 +19118,7 @@
 			]
 		},
 		{
-			"name": "Respiració subaquàtica",
+			"name": "Respirar sota l'aigua",
 			"source": "PHB",
 			"page": 287,
 			"srd": true,
